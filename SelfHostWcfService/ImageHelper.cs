@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 
+
 namespace SelfHost
 {
     public class ImageHelper
@@ -26,7 +27,7 @@ namespace SelfHost
         /// <summary>
         /// Merges multiple TIFF files (including multipage TIFFs) into a single multipage TIFF file.
         /// </summary>
-        public static void MergeTiff(List<Image> tiffFiles,string outputFile)
+        public static string MergeTiff(List<Image> tiffFiles,string outputFile)
         {
             byte[] tiffMerge = null;
             using (var msMerge = new MemoryStream())
@@ -98,6 +99,7 @@ namespace SelfHost
             }
              
             System.IO.File.WriteAllBytes(outputFile, tiffMerge);
+            return Convert.ToBase64String(tiffMerge);
         }
     }
 
