@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ArianScannerApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ScannerController : ControllerBase
     {
         public SelfHost.IScannerService _scannerService;
@@ -16,6 +17,7 @@ namespace ArianScannerApi.Controllers
             _scannerService = scannerService;
         }
         [HttpGet]
+
         public string Get()
         {
             return _scannerService.GetScan();

@@ -67,6 +67,11 @@ namespace ArianScannerApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(x => x.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            /*.AllowCredentials()*/);
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
