@@ -13,6 +13,6 @@ namespace SelfHost
            ResponseFormat = WebMessageFormat.Json,
            UriTemplate = "GetScan")]
         //public string GetScan();
-        string GetScan();
+        object GetScan();
     }
 }

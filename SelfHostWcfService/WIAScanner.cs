@@ -88,37 +88,54 @@ namespace SelfHost
                 try
                 {
                     // scan image
+                    //WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
+                    //WIA.ImageFile image = (WIA.ImageFile)wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
+
                     WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
-                    WIA.ImageFile image = (WIA.ImageFile)wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
-
-                    // save to temp file
-                    string fileName = Path.GetTempFileName();
-                    File.Delete(fileName);
-                    image.SaveFile(fileName);
-                    image = null;
-                    // add file to output list
-                    images.Add(Image.FromFile(fileName));
-
-                    item = null;
-                    //determine if there are any more pages waiting
-                    WIA.Property documentHandlingSelect = null;
-                    WIA.Property documentHandlingStatus = null;
-                    foreach (WIA.Property prop in device.Properties)
+                    var tempRes = wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
+                    WIA.ImageFile image = null;
+                    if (tempRes != null)
                     {
-                        if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT)
-                            documentHandlingSelect = prop;
-                        if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_STATUS)
-                            documentHandlingStatus = prop;
+                        image = (WIA.ImageFile)tempRes;
                     }
-                    // assume there are no more pages
-                    hasMorePages = false;
-                    // may not exist on flatbed scanner but required for feeder
-                    if (documentHandlingSelect != null)
+
+
+                    if (image == null)
                     {
-                        // check for document feeder
-                        if ((Convert.ToUInt32(documentHandlingSelect.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER) != 0)
+
+                    }
+                    else
+                    {
+
+                        // save to temp file
+                        string fileName = Path.GetTempFileName();
+                        File.Delete(fileName);
+                        image.SaveFile(fileName);
+                        image = null;
+                        // add file to output list
+                        images.Add(Image.FromFile(fileName));
+
+                        item = null;
+                        //determine if there are any more pages waiting
+                        WIA.Property documentHandlingSelect = null;
+                        WIA.Property documentHandlingStatus = null;
+                        foreach (WIA.Property prop in device.Properties)
                         {
-                            hasMorePages = ((Convert.ToUInt32(documentHandlingStatus.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_STATUS.FEED_READY) != 0);
+                            if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT)
+                                documentHandlingSelect = prop;
+                            if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_STATUS)
+                                documentHandlingStatus = prop;
+                        }
+                        // assume there are no more pages
+                        hasMorePages = false;
+                        // may not exist on flatbed scanner but required for feeder
+                        if (documentHandlingSelect != null)
+                        {
+                            // check for document feeder
+                            if ((Convert.ToUInt32(documentHandlingSelect.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER) != 0)
+                            {
+                                hasMorePages = ((Convert.ToUInt32(documentHandlingStatus.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_STATUS.FEED_READY) != 0);
+                            }
                         }
                     }
                 }
