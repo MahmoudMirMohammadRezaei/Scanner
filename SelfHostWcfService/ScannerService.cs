@@ -17,7 +17,7 @@ namespace Arian.Core
 {
     public class ScannerService : IScannerService
     {
-        public object GetScan()
+        public string GetScan()
         {
             try
             {

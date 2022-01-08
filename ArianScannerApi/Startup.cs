@@ -44,10 +44,10 @@ namespace ArianScannerApi
             }
             //var result = ServiceOperationHelper.IsInstalledService("ArianScanner");
 
-            RunBatHelper.ExecuteCommand($"sc.exe create \"ArianScanner\" binPath= {exePath}");
+            //RunBatHelper.ExecuteCommand($"sc.exe create \"ArianScanner\" binPath= {exePath}");
 
-            RunBatHelper.ExecuteCommand($"sc start \"ArianScanner\"");
-            RunBatHelper.ExecuteCommand($"sc config \"ArianScanner\" start=auto");
+            //RunBatHelper.ExecuteCommand($"sc start \"ArianScanner\"");
+            //RunBatHelper.ExecuteCommand($"sc config \"ArianScanner\" start=auto");
 
             //RunBatHelper.ExecuteCommand($"Set-Service -Name ArianScanner -StartupType Automatic");
             //RunBatHelper.ExecuteCommand($"Set-Service -Name ArianScanner -Status Running -PassThru");

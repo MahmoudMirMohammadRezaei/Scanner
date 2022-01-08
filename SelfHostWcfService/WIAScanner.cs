@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Drawing;
+using WIA;
+using System.Threading;
 
 namespace SelfHost
 {
@@ -91,8 +93,12 @@ namespace SelfHost
                     //WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
                     //WIA.ImageFile image = (WIA.ImageFile)wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
 
+                    //SetDeviceIntProperty(ref device, 1048, 1);
                     WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
-                    var tempRes = wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
+                    //var tempRes = wiaCommonDialog.ShowItemProperties();
+                    Thread.Sleep(8000);
+                    var tempRes = wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, true);
+                    Thread.Sleep(8000);
                     WIA.ImageFile image = null;
                     if (tempRes != null)
                     {
@@ -166,5 +172,19 @@ namespace SelfHost
             }
             return devices;
         }
+
+        private static void SetDeviceIntProperty(ref Device device, int propertyID, int propertyValue)
+        {
+            foreach (Property p in device.Properties)
+            {
+                if (p.PropertyID == propertyID)
+                {
+                    object value = propertyValue;
+                    p.set_Value(ref value);
+                    break;
+                }
+            }
+        }
+
     }
 }
