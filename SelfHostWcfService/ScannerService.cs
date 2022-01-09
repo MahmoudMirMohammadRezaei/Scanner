@@ -35,10 +35,10 @@ namespace Arian.Core
                         return "koاسکنر انتخاب نشده است";
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
 
-                    throw;
+                    throw ex;
                 }
 
                 //get list of devices available
