@@ -32,16 +32,16 @@ namespace ArianScannerApi
             services.AddScoped<SelfHost.IScannerService, ScannerService>();
 
             var environment = Configuration["env:dev"];
-            string exePath = "";
+            //string exePath = "";
 
-            if (environment == true.ToString())
-            {
-                exePath = "D:\\ProjectRepo\\SelfHostWcfScannerService\\ArianScannerApi\\bin\\Debug\\netcoreapp3.1\\ArianScannerApi.exe";
-            }
-            else
-            {
-                exePath = "ArianScannerApi.exe";
-            }
+            //if (environment == true.ToString())
+            //{
+            //    exePath = "D:\\ProjectRepo\\SelfHostWcfScannerService\\ArianScannerApi\\bin\\Debug\\netcoreapp3.1\\ArianScannerApi.exe";
+            //}
+            //else
+            //{
+            //    exePath = "ArianScannerApi.exe";
+            //}
             //var result = ServiceOperationHelper.IsInstalledService("ArianScanner");
 
             //RunBatHelper.ExecuteCommand($"sc.exe create \"ArianScanner\" binPath= {exePath}");
