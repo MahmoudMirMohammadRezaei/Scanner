@@ -89,7 +89,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="SelfHostService_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="WIA">
