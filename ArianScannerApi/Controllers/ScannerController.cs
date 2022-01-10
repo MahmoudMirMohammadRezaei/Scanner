@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -10,11 +12,13 @@ namespace ArianScannerApi.Controllers
     {
         public SelfHost.IScannerService _scannerService;
         private readonly ILogger<ScannerController> _log;
+        private readonly IWebHostEnvironment _env;
 
-        public ScannerController(SelfHost.IScannerService scannerService, ILogger<ScannerController> log)
+        public ScannerController(SelfHost.IScannerService scannerService, ILogger<ScannerController> log, IWebHostEnvironment env)
         {
             _scannerService = scannerService;
             _log = log;
+            _env = env;
         }
 
         [HttpGet]
@@ -22,7 +26,8 @@ namespace ArianScannerApi.Controllers
         {
             try
             {
-                var res = _scannerService.GetScan();
+                string logPath = Path.Combine(_env.ContentRootPath, "Logs");
+                var res = _scannerService.GetScan(logPath);
                 _log.LogInformation("GetScan - Result: " + res);
                 return res;
             }

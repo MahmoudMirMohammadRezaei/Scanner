@@ -17,7 +17,22 @@ namespace Arian.Core
 {
     public class ScannerService : IScannerService
     {
-        public string GetScan()
+
+
+        public void writeToLog(string logPath, string s)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(Environment.NewLine);
+            sb.Append(s);
+            if (!Directory.Exists(logPath))
+            {
+                Directory.CreateDirectory(logPath);
+            }
+            string path = Path.Combine(logPath, "Logs2.log");
+            File.AppendAllText(path, sb.ToString());
+        }
+
+        public string GetScan(string logPath)
         {
             try
             {
@@ -29,6 +44,7 @@ namespace Arian.Core
                     if (temp != null)
                     {
                         deviceName = temp.DeviceID;
+                        writeToLog(logPath, "line 47 - deviceName: " + deviceName);
                     }
                     else
                     {
@@ -37,7 +53,11 @@ namespace Arian.Core
                 }
                 catch (Exception ex)
                 {
-
+                    if (ex.StackTrace != null)
+                    {
+                        writeToLog(logPath, "line 58 - ex.StackTrace: " + ex.StackTrace.ToString());
+                    }
+                    writeToLog(logPath, "line 60 - ex.Message: " + ex.Message);
                     throw ex;
                 }
 
@@ -66,10 +86,12 @@ namespace Arian.Core
 
                 }
 
-                List<System.Drawing.Image> images = WIAScanner.Scan(deviceName);
+                List<System.Drawing.Image> images = WIAScanner.Scan(deviceName, logPath);
+                writeToLog(logPath, "line 90 - images = WIAScanner.Scan(deviceName, logPath)");
                 var outputFile = Path.Combine(Path.GetTempPath(), @"convertedimage" + DateTime.Now.Ticks + ".tiff");
+                writeToLog(logPath, "line 92 - outputFile: " + outputFile);
                 var imagebase64 = ImageHelper.MergeTiff(images, outputFile);
-
+                writeToLog(logPath, "line 94 - imagebase64: " + imagebase64);
 
                 //test: save file
                 //var imgBase64 = ImageToBase64(Image.FromFile(outputFile), ImageFormat.Tiff);
@@ -86,6 +108,11 @@ namespace Arian.Core
             }
             catch (Exception exc)
             {
+                if (exc.StackTrace != null)
+                {
+                    writeToLog(logPath, "line 113 - exc.StackTrace: " + exc.StackTrace.ToString());
+                }
+                writeToLog(logPath, "line 115 - exc.Message: " + exc.Message);
                 return "ko" + exc.Message;
             }
         }

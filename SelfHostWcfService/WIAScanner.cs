@@ -4,6 +4,7 @@ using System.IO;
 using System.Drawing;
 using WIA;
 using System.Threading;
+using System.Text;
 
 namespace SelfHost
 {
@@ -36,13 +37,14 @@ namespace SelfHost
         /// Use scanner to scan an image (with user selecting the scanner from a dialog).
         /// </summary>
         /// <returns>Scanned images.</returns>
-        public static List<Image> Scan()
+        public static List<Image> Scan(string logPath)
         {
             WIA.ICommonDialog dialog = new WIA.CommonDialog();
             WIA.Device device = dialog.ShowSelectDevice(WIA.WiaDeviceType.UnspecifiedDeviceType, true, false);
             if (device != null)
             {
-                return Scan(device.DeviceID);
+                writeToLog(logPath, "line 88 - device.DeviceID: " + device.DeviceID);
+                return Scan(device.DeviceID, logPath);
             }
             else
             {
@@ -50,12 +52,27 @@ namespace SelfHost
             }
         }
 
+
+        public static void writeToLog(string logPath, string s)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(Environment.NewLine);
+            sb.Append(s);
+            if (!Directory.Exists(logPath))
+            {
+                Directory.CreateDirectory(logPath);
+            }
+            string path = Path.Combine(logPath, "Logs2.log");
+            File.AppendAllText(path, sb.ToString());
+        }
+
+
         /// <summary>
         /// Use scanner to scan an image (scanner is selected by its unique id).
         /// </summary>
         /// <param name="scannerName"></param>
         /// <returns>Scanned images.</returns>
-        public static List<Image> Scan(string scannerId)
+        public static List<Image> Scan(string scannerId, string logPath)
         {
             List<Image> images = new List<Image>();
             bool hasMorePages = true;
@@ -68,6 +85,7 @@ namespace SelfHost
                 {
                     if (info.DeviceID == scannerId)
                     {
+                        writeToLog(logPath, "line 88 - scannerId: " + scannerId);
                         // connect to scanner
                         device = info.Connect();
                         break;
@@ -76,10 +94,12 @@ namespace SelfHost
                 // device was not found
                 if (device == null)
                 {
+                    writeToLog(logPath, "line 97: device is null");
                     // enumerate available devices
                     string availableDevices = "";
                     foreach (WIA.DeviceInfo info in manager.DeviceInfos)
                     {
+                        writeToLog(logPath, "line 102 - info.DeviceID: " + info.DeviceID);
                         availableDevices += info.DeviceID + "\n";
                     }
 
@@ -87,10 +107,11 @@ namespace SelfHost
                     throw new Exception("The device with provided ID could not be found. Available Devices:\n" + availableDevices);
                 }
 
-                foreach (WIA.Item item in device.Items)
+                try
                 {
-                    try
+                    foreach (WIA.Item item in device.Items)
                     {
+
                         // scan image
                         //WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
                         //WIA.ImageFile image = (WIA.ImageFile)wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
@@ -112,6 +133,7 @@ namespace SelfHost
                         {
                             // save to temp file
                             string fileName = Path.GetTempFileName();
+                            writeToLog(logPath, "line 136 - fileName: " + fileName);
                             File.Delete(fileName);
                             image.SaveFile(fileName);
                             image = null;
@@ -141,15 +163,17 @@ namespace SelfHost
                                 }
                             }
                         }
+
                     }
-                    catch (Exception exc)
+                    Thread.Sleep(2000);
+                }
+                catch (Exception exc)
+                {
+                    if (images.Count > 0)
                     {
-                        if (images.Count > 0)
-                        {
-                            return images;
-                        }
-                        //throw exc;
+                        return images;
                     }
+                    //throw exc;
                 }
 
             }
