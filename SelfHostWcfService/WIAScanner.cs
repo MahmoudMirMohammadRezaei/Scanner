@@ -87,14 +87,11 @@ namespace SelfHost
         /// <returns>Scanned images.</returns>
         public static List<Image> Scan(string scannerId, string logPath)
         {
-            writeToLog(logPath, "جدید");
-
             List<Image> images = new List<Image>();
             bool hasMorePages = true;
             while (hasMorePages)
             {
                 hasMorePages = false;
-                WIA.Items items = null;
                 // select the correct scanner using the provided scannerId parameter
                 WIA.DeviceManager manager = new WIA.DeviceManager();
                 WIA.Device device = null;
@@ -105,14 +102,6 @@ namespace SelfHost
                         writeToLog(logPath, "line 101 - scannerId: " + scannerId);
                         // connect to scanner
                         device = info.Connect();
-
-                        var dialog = new CommonDialogClass();
-                        items = dialog.ShowSelectItems(device);
-
-                        //if (scannerId == "")
-                        //{
-                        //}
-                        //SetDeviceIntProperty(ref device, WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT, WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER);
                         break;
                     }
                 }
@@ -137,7 +126,7 @@ namespace SelfHost
                 try
                 {
                     WIA.Item item = null;
-                    foreach (WIA.Item item2 in items)
+                    foreach (WIA.Item item2 in device.Items)
                     {
                         item = item2;
 
@@ -196,6 +185,8 @@ namespace SelfHost
                         {
                             writeToLog(logPath, "line 193 - image is null");
                         }
+
+                        break;
                     }
                 }
                 catch (Exception exc)
