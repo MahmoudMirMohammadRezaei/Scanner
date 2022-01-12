@@ -87,10 +87,14 @@ namespace SelfHost
         /// <returns>Scanned images.</returns>
         public static List<Image> Scan(string scannerId, string logPath)
         {
+            writeToLog(logPath, "جدید");
+
             List<Image> images = new List<Image>();
             bool hasMorePages = true;
             while (hasMorePages)
             {
+                hasMorePages = false;
+
                 // select the correct scanner using the provided scannerId parameter
                 WIA.DeviceManager manager = new WIA.DeviceManager();
                 WIA.Device device = null;
@@ -98,14 +102,17 @@ namespace SelfHost
                 {
                     if (info.DeviceID == scannerId)
                     {
-                        writeToLog(logPath, "line 88 - scannerId: " + scannerId);
+                        writeToLog(logPath, "line 101 - scannerId: " + scannerId);
                         // connect to scanner
                         device = info.Connect();
+
+                        var dialog = new CommonDialogClass();
+                        WIA.Items items = dialog.ShowSelectItems(device);
 
                         //if (scannerId == "")
                         //{
                         //}
-                        SetDeviceIntProperty(ref device, WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT, WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER);
+                        //SetDeviceIntProperty(ref device, WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT, WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER);
                         break;
                     }
                 }
@@ -117,11 +124,13 @@ namespace SelfHost
                     string availableDevices = "";
                     foreach (WIA.DeviceInfo info in manager.DeviceInfos)
                     {
-                        writeToLog(logPath, "line 102 - info.DeviceID: " + info.DeviceID);
+                        writeToLog(logPath, "line 120 - info.DeviceID: " + info.DeviceID);
                         availableDevices += info.DeviceID + "\n";
                     }
 
                     // show error with available devices
+
+                    writeToLog(logPath, "line 126 - Cannot connect to scanner, please check your device and try again");
                     throw new Exception("The device with provided ID could not be found. Available Devices:\n" + availableDevices);
                 }
 
@@ -131,59 +140,61 @@ namespace SelfHost
                     foreach (WIA.Item item2 in device.Items)
                     {
                         item = item2;
-                        break;
-                    }
 
-                    // scan image
-                    //WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
-                    //WIA.ImageFile image = (WIA.ImageFile)wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
+                        // scan image
+                        //WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
+                        //WIA.ImageFile image = (WIA.ImageFile)wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
 
-                    //SetDeviceIntProperty(ref device, 1048, 1);
-                    WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
-                    //var tempRes = wiaCommonDialog.ShowItemProperties();
-                    Thread.Sleep(2000);
-                    var tempRes = wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, true);
-                    Thread.Sleep(2000);
-                    WIA.ImageFile image = null;
-                    if (tempRes != null)
-                    {
-                        image = (WIA.ImageFile)tempRes;
-                    }
-
-
-                    if (image != null)
-                    {
-                        // save to temp file
-                        string fileName = Path.GetTempFileName();
-                        writeToLog(logPath, "line 136 - fileName: " + fileName);
-                        File.Delete(fileName);
-                        image.SaveFile(fileName);
-                        image = null;
-                        // add file to output list
-                        images.Add(Image.FromFile(fileName));
-                    }
-
-
-                    //item = null;
-                    //determine if there are any more pages waiting
-                    WIA.Property documentHandlingSelect = null;
-                    WIA.Property documentHandlingStatus = null;
-                    foreach (WIA.Property prop in device.Properties)
-                    {
-                        if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT)
-                            documentHandlingSelect = prop;
-                        if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_STATUS)
-                            documentHandlingStatus = prop;
-                    }
-                    // assume there are no more pages
-                    hasMorePages = false;
-                    // may not exist on flatbed scanner but required for feeder
-                    if (documentHandlingSelect != null)
-                    {
-                        // check for document feeder
-                        if ((Convert.ToUInt32(documentHandlingSelect.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER) != 0)
+                        //SetDeviceIntProperty(ref device, 1048, 1);
+                        WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
+                        //var tempRes = wiaCommonDialog.ShowItemProperties();
+                        Thread.Sleep(2000);
+                        var tempRes = wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
+                        Thread.Sleep(2000);
+                        WIA.ImageFile image = null;
+                        if (tempRes != null)
                         {
-                            hasMorePages = ((Convert.ToUInt32(documentHandlingStatus.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_STATUS.FEED_READY) != 0);
+                            image = (WIA.ImageFile)tempRes;
+                        }
+
+                        if (image != null)
+                        {
+                            // save to temp file
+                            string fileName = Path.GetTempFileName();
+                            writeToLog(logPath, "line 160 - fileName: " + fileName);
+                            File.Delete(fileName);
+                            image.SaveFile(fileName);
+                            image = null;
+                            // add file to output list
+                            images.Add(Image.FromFile(fileName));
+
+
+                            //item = null;
+                            //determine if there are any more pages waiting
+                            WIA.Property documentHandlingSelect = null;
+                            WIA.Property documentHandlingStatus = null;
+                            foreach (WIA.Property prop in device.Properties)
+                            {
+                                if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT)
+                                    documentHandlingSelect = prop;
+                                if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_STATUS)
+                                    documentHandlingStatus = prop;
+                            }
+                            // assume there are no more pages
+
+                            // may not exist on flatbed scanner but required for feeder
+                            if (documentHandlingSelect != null)
+                            {
+                                // check for document feeder
+                                if ((Convert.ToUInt32(documentHandlingSelect.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER) != 0)
+                                {
+                                    hasMorePages = ((Convert.ToUInt32(documentHandlingStatus.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_STATUS.FEED_READY) != 0);
+                                }
+                            }
+                        }
+                        else
+                        {
+                            writeToLog(logPath, "line 193 - image is null");
                         }
                     }
                 }
