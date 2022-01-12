@@ -67,6 +67,19 @@ namespace SelfHost
         }
 
 
+        private static void SetDeviceIntProperty(ref Device device, uint propertyID, uint propertyValue)
+        {
+            foreach (Property p in device.Properties)
+            {
+                if (p.PropertyID == propertyID)
+                {
+                    object value = propertyValue;
+                    p.set_Value(ref value);
+                    break;
+                }
+            }
+        }
+
         /// <summary>
         /// Use scanner to scan an image (scanner is selected by its unique id).
         /// </summary>
@@ -88,6 +101,11 @@ namespace SelfHost
                         writeToLog(logPath, "line 88 - scannerId: " + scannerId);
                         // connect to scanner
                         device = info.Connect();
+
+                        //if (scannerId == "")
+                        //{
+                        //}
+                        SetDeviceIntProperty(ref device, WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT, WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER);
                         break;
                     }
                 }
