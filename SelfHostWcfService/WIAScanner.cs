@@ -94,7 +94,7 @@ namespace SelfHost
             while (hasMorePages)
             {
                 hasMorePages = false;
-
+                WIA.Items items = null;
                 // select the correct scanner using the provided scannerId parameter
                 WIA.DeviceManager manager = new WIA.DeviceManager();
                 WIA.Device device = null;
@@ -107,7 +107,7 @@ namespace SelfHost
                         device = info.Connect();
 
                         var dialog = new CommonDialogClass();
-                        WIA.Items items = dialog.ShowSelectItems(device);
+                        items = dialog.ShowSelectItems(device);
 
                         //if (scannerId == "")
                         //{
@@ -137,7 +137,7 @@ namespace SelfHost
                 try
                 {
                     WIA.Item item = null;
-                    foreach (WIA.Item item2 in device.Items)
+                    foreach (WIA.Item item2 in items)
                     {
                         item = item2;
 
