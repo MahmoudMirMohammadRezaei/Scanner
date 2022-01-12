@@ -125,68 +125,62 @@ namespace SelfHost
 
                 try
                 {
-                    WIA.Item item = null;
-                    foreach (WIA.Item item2 in device.Items)
+                    WIA.Item item = device.Items[1];
+
+                    // scan image
+                    //WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
+                    //WIA.ImageFile image = (WIA.ImageFile)wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
+
+                    //SetDeviceIntProperty(ref device, 1048, 1);
+                    WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
+                    //var tempRes = wiaCommonDialog.ShowItemProperties();
+                    Thread.Sleep(2000);
+                    var tempRes = wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
+                    Thread.Sleep(2000);
+                    WIA.ImageFile image = null;
+                    if (tempRes != null)
                     {
-                        item = item2;
+                        image = (WIA.ImageFile)tempRes;
+                    }
 
-                        // scan image
-                        //WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
-                        //WIA.ImageFile image = (WIA.ImageFile)wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
+                    if (image != null)
+                    {
+                        // save to temp file
+                        string fileName = Path.GetTempFileName();
+                        writeToLog(logPath, "line 160 - fileName: " + fileName);
+                        File.Delete(fileName);
+                        image.SaveFile(fileName);
+                        image = null;
+                        // add file to output list
+                        images.Add(Image.FromFile(fileName));
 
-                        //SetDeviceIntProperty(ref device, 1048, 1);
-                        WIA.ICommonDialog wiaCommonDialog = new WIA.CommonDialog();
-                        //var tempRes = wiaCommonDialog.ShowItemProperties();
-                        Thread.Sleep(2000);
-                        var tempRes = wiaCommonDialog.ShowTransfer(item, wiaFormatBMP, false);
-                        Thread.Sleep(2000);
-                        WIA.ImageFile image = null;
-                        if (tempRes != null)
+
+                        //item = null;
+                        //determine if there are any more pages waiting
+                        WIA.Property documentHandlingSelect = null;
+                        WIA.Property documentHandlingStatus = null;
+                        foreach (WIA.Property prop in device.Properties)
                         {
-                            image = (WIA.ImageFile)tempRes;
+                            if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT)
+                                documentHandlingSelect = prop;
+                            if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_STATUS)
+                                documentHandlingStatus = prop;
                         }
+                        // assume there are no more pages
 
-                        if (image != null)
+                        // may not exist on flatbed scanner but required for feeder
+                        if (documentHandlingSelect != null)
                         {
-                            // save to temp file
-                            string fileName = Path.GetTempFileName();
-                            writeToLog(logPath, "line 160 - fileName: " + fileName);
-                            File.Delete(fileName);
-                            image.SaveFile(fileName);
-                            image = null;
-                            // add file to output list
-                            images.Add(Image.FromFile(fileName));
-
-
-                            //item = null;
-                            //determine if there are any more pages waiting
-                            WIA.Property documentHandlingSelect = null;
-                            WIA.Property documentHandlingStatus = null;
-                            foreach (WIA.Property prop in device.Properties)
+                            // check for document feeder
+                            if ((Convert.ToUInt32(documentHandlingSelect.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER) != 0)
                             {
-                                if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_SELECT)
-                                    documentHandlingSelect = prop;
-                                if (prop.PropertyID == WIA_PROPERTIES.WIA_DPS_DOCUMENT_HANDLING_STATUS)
-                                    documentHandlingStatus = prop;
-                            }
-                            // assume there are no more pages
-
-                            // may not exist on flatbed scanner but required for feeder
-                            if (documentHandlingSelect != null)
-                            {
-                                // check for document feeder
-                                if ((Convert.ToUInt32(documentHandlingSelect.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_SELECT.FEEDER) != 0)
-                                {
-                                    hasMorePages = ((Convert.ToUInt32(documentHandlingStatus.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_STATUS.FEED_READY) != 0);
-                                }
+                                hasMorePages = ((Convert.ToUInt32(documentHandlingStatus.get_Value()) & WIA_DPS_DOCUMENT_HANDLING_STATUS.FEED_READY) != 0);
                             }
                         }
-                        else
-                        {
-                            writeToLog(logPath, "line 193 - image is null");
-                        }
-
-                        break;
+                    }
+                    else
+                    {
+                        writeToLog(logPath, "line 193 - image is null");
                     }
                 }
                 catch (Exception exc)
