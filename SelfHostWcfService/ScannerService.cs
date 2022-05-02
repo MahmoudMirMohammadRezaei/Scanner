@@ -64,7 +64,7 @@ namespace Arian.Core
                     return "koدستگاهی برای اسکن پیدا نشد!";
                 }
 
-                List<System.Drawing.Image> images = WIAScanner.Scan(deviceName, logPath);
+                List<System.Drawing.Image> images = WIAScanner.Scan(deviceName, "");
                 //writeToLog(logPath, "line 90 - images = WIAScanner.Scan(deviceName, logPath)");
                 var outputFile = Path.Combine(Path.GetTempPath(), @"convertedimage" + DateTime.Now.Ticks + ".tiff");
                 //writeToLog(logPath, "line 92 - outputFile: " + outputFile);

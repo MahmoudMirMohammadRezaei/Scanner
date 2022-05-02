@@ -37,14 +37,14 @@ namespace SelfHost
         /// Use scanner to scan an image (with user selecting the scanner from a dialog).
         /// </summary>
         /// <returns>Scanned images.</returns>
-        public static List<Image> Scan(string logPath)
+        public static List<Image> Scan()
         {
             WIA.ICommonDialog dialog = new WIA.CommonDialog();
             WIA.Device device = dialog.ShowSelectDevice(WIA.WiaDeviceType.UnspecifiedDeviceType, true, false);
             if (device != null)
             {
-                writeToLog(logPath, "line 88 - device.DeviceID: " + device.DeviceID);
-                return Scan(device.DeviceID, logPath);
+                //writeToLog(logPath, "line 88 - device.DeviceID: " + device.DeviceID);
+                return Scan(device.DeviceID, "");
             }
             else
             {
@@ -99,7 +99,7 @@ namespace SelfHost
                 {
                     if (info.DeviceID == scannerId)
                     {
-                        writeToLog(logPath, "line 101 - scannerId: " + scannerId);
+                        //writeToLog(logPath, "line 101 - scannerId: " + scannerId);
                         // connect to scanner
                         device = info.Connect();
                         break;
@@ -108,18 +108,18 @@ namespace SelfHost
                 // device was not found
                 if (device == null)
                 {
-                    writeToLog(logPath, "line 97: device is null");
+                    //writeToLog(logPath, "line 97: device is null");
                     // enumerate available devices
                     string availableDevices = "";
                     foreach (WIA.DeviceInfo info in manager.DeviceInfos)
                     {
-                        writeToLog(logPath, "line 120 - info.DeviceID: " + info.DeviceID);
+                        //writeToLog(logPath, "line 120 - info.DeviceID: " + info.DeviceID);
                         availableDevices += info.DeviceID + "\n";
                     }
 
                     // show error with available devices
 
-                    writeToLog(logPath, "line 126 - Cannot connect to scanner, please check your device and try again");
+                    //writeToLog(logPath, "line 126 - Cannot connect to scanner, please check your device and try again");
                     throw new Exception("The device with provided ID could not be found. Available Devices:\n" + availableDevices);
                 }
 
@@ -147,7 +147,7 @@ namespace SelfHost
                     {
                         // save to temp file
                         string fileName = Path.GetTempFileName();
-                        writeToLog(logPath, "line 160 - fileName: " + fileName);
+                        //writeToLog(logPath, "line 160 - fileName: " + fileName);
                         File.Delete(fileName);
                         image.SaveFile(fileName);
                         image = null;
@@ -178,10 +178,10 @@ namespace SelfHost
                             }
                         }
                     }
-                    else
-                    {
-                        writeToLog(logPath, "line 193 - image is null");
-                    }
+                    //else
+                    //{
+                    //    writeToLog(logPath, "line 193 - image is null");
+                    //}
                 }
                 catch (Exception exc)
                 {

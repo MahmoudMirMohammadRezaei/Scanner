@@ -27,8 +27,8 @@ namespace ArianScannerApi.Controllers
         {
             try
             {
-                string logPath = Path.Combine(_env.ContentRootPath, "Logs");
-                var res = _scannerService.GetScan(logPath);
+                //string logPath = Path.Combine(_env.ContentRootPath, "Logs");
+                var res = _scannerService.GetScan("");
                 //_log.LogInformation("GetScan - Result: " + res);
                 return res;
             }

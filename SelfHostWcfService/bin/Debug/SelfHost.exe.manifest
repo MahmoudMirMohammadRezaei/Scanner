@@ -49,19 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>6ZyW1OgGi44A3UVCIoG8FvyNIvQ=</dsig:DigestValue>
+        <dsig:DigestValue>PY/XCFtwh9BLeuC6koiB/1b3E/4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SelfHost.exe" size="13312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SelfHost.exe" size="12800">
       <assemblyIdentity name="SelfHost" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ycrpFmu9N5uIGYmZcBIbB1sA4g8=</dsig:DigestValue>
+        <dsig:DigestValue>R4bMk7wzKKnxVkIkvIpDvo/CFvc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
