@@ -12,6 +12,7 @@
 
 # Build results
 
+[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -19,6 +20,8 @@
 [Xx]86/
 [Bb]uild/
 bld/
+[Bb]in/
+[Oo]bj/
 
 [Oo]bj/
 
