@@ -74,7 +74,7 @@ namespace ArianScannerApi
 
             app.UseHttpsRedirection();
 
-            loggerFactory.AddFile("Logs/log-{Date}.txt");
+            //loggerFactory.AddFile("Logs/log-{Date}.txt");
 
             app.UseRouting();
 

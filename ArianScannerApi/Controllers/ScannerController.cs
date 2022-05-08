@@ -41,7 +41,7 @@ namespace ArianScannerApi.Controllers
                 //    if (string.IsNullOrEmpty(ex2.StackTrace))
                 //    {
                 //        _log.LogError("GetScan: " + ex2.Message);
-                        
+
                 //        if (ex2.InnerException != null)
                 //        {
                 //            var ex3 = ex2.InnerException;
@@ -88,7 +88,7 @@ namespace ArianScannerApi.Controllers
                 //        _log.LogError("GetScan: " + ex2.StackTrace.ToString());
                 //    }
                 //}
-                throw ex;
+                return "ko" + ex.Message;
             }
         }
 
