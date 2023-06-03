@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SelfHost.exe.manifest" size="4096">
+    <dependentAssembly dependencyType="install" codebase="SelfHost.exe.manifest" size="4727">
       <assemblyIdentity name="SelfHost.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>deXk75lPEqAryn5mkrDHCAnIq5EK4uNqOK4e4TjMMnU=</dsig:DigestValue>
+        <dsig:DigestValue>OnR/XrGeupu+lJVnKLqyap1A+v1E5j1sV9TJLDg6gBo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

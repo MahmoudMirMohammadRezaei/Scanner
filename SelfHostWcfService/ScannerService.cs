@@ -1,5 +1,7 @@
 ﻿//reflector -------------------------------------------------------------------------------
 
+using NTwain;
+using NTwain.Data;
 using SelfHost;
 using System;
 using System.Collections.Generic;
@@ -7,6 +9,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using WIA;
 
 namespace Arian.Core
@@ -118,5 +121,62 @@ namespace Arian.Core
                 return Convert.ToBase64String(ms.ToArray());
             }
         }
+
+        //static void ScanAndSave()
+        //{
+        //    string outputFolder = "ScannedImages"; // Change this to the desired output folder
+        //    Directory.CreateDirectory(outputFolder);
+
+
+        //    var session = new TwainSession(TWIdentity.CreateFromAssembly(DataGroups.Image, Assembly.GetEntryAssembly()));
+        //    //using (TwainSession session = new TwainSession(TWIdentity.CreateFromAssembly(DataGroups.Image, Assembly.GetEntryAssembly())))
+
+        //    try
+        //    {
+        //        session.OpenDSM();
+
+        //        var scanner = session.FirstOrDefault();
+        //        if (scanner == null)
+        //        {
+        //            Console.WriteLine("No scanner found.");
+        //            return;
+        //        }
+        //        session.TransferReady += (s, e) =>
+        //        {
+        //            Console.WriteLine("Transfer ready.");
+        //        };
+        //        session.DataTransferred += (s, e) =>
+        //        {
+        //            string outputFile = Path.Combine(outputFolder, $"scan_{DateTime.Now:yyyyMMdd_HHmmss_fff}.jpg"); // Change file format as needed
+        //            using (var fileStream = File.Create(outputFile))
+        //            {
+        //                e.GetNativeImageStream().CopyTo(fileStream);
+        //            }
+        //            Console.WriteLine($"Image saved to {outputFile}");
+        //        };
+        //        session.TransferError += (s, e) =>
+        //        {
+        //            Console.WriteLine("Transfer error.");
+        //        };
+        //        try
+        //        {
+        //            scanner.Open();
+        //            scanner.SetCapability(Cap.XferMech, (ushort)XferMech.Native);
+        //            scanner.SetCapability(Cap.IPixelType, (ushort)PixelType.RGB);
+        //            scanner.SetCapability(Cap.ICompression, (ushort)Compression.None);
+        //            scanner.SetCapability(Cap.IUnits, (ushort)Units.Inches);
+        //            scanner.SetCapability(Cap.IXResolution, 300); // Set resolution as needed
+        //            scanner.SetCapability(Cap.IYResolution, 300); // Set resolution as needed
+        //            while (scanner.AcquireModal() == ReturnCode.XferDone)
+        //            {
+        //                Console.WriteLine("Image acquired.");
+        //            }
+        //        }
+        //        finally
+        //        {
+        //            scanner.Close();
+        //        }
+        //    }
+
     }
 }

@@ -49,7 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DkOWxw21NBNlJS3vU2AbM8K+liuJZCsaMF3W8hOeA6A=</dsig:DigestValue>
+        <dsig:DigestValue>/+gwUjvSWAGSkn7+QGubIY/OeEbFCZIrs013AoByaUU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NTwain.dll" size="206848">
+      <assemblyIdentity name="NTwain" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qTPZJxMDmEWCZk/IypTtzDuJWlrSMebdUu7MnTty8F0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,7 +73,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gYoXyhFslq9TEhY7ozz5kWmBOaeuxwo8jpUYhA1/wiM=</dsig:DigestValue>
+        <dsig:DigestValue>nrV6m6iS0Zvg7yTOxQ6mhQnbZ9pdItOh2dbKtpaoiCQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
