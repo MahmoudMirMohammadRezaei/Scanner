@@ -87,6 +87,8 @@ namespace SelfHost
         /// <returns>Scanned images.</returns>
         public static List<Image> Scan(string scannerId, string logPath)
         {
+            int maxReTry = 5;
+
             List<Image> images = new List<Image>();
             int tryMorePagesCounter = 0;
             bool successScanImage = false;
@@ -191,7 +193,7 @@ namespace SelfHost
                         //    writeToLog(logPath, "line 193 - image is null");
                         //}
 
-                        if (hasMorePages == false && tryMorePagesCounter <= 100)
+                        if (hasMorePages == false && tryMorePagesCounter <= maxReTry)
                         {
                             hasMorePages = true;
                             tryMorePagesCounter++;
@@ -200,7 +202,7 @@ namespace SelfHost
                     }
                     catch (Exception exc)
                     {
-                        if (tryMorePagesCounter <= 100)
+                        if (tryMorePagesCounter <= maxReTry)
                         {
                             hasMorePages = true;
                             tryMorePagesCounter++;
@@ -217,7 +219,7 @@ namespace SelfHost
                 }
                 catch (Exception ex2)
                 {
-                    if (tryMorePagesCounter <= 100)
+                    if (tryMorePagesCounter <= maxReTry)
                     {
                         hasMorePages = true;
                         tryMorePagesCounter++;

@@ -13,7 +13,7 @@
         $("#get-scan").click(function (evt) {
             evt.preventDefault();
 
-            var url = 'http://localhost:18580/api/Scanner/';
+            var url = 'https://localhost:44340/api/Scanner/';
             $.get(url, function (data) {
                 $("#img-scanned").attr("src", "data:image/Jpeg;base64,  " + data.GetScanResult);
                 console.log('url:', url, 'response:', data);
