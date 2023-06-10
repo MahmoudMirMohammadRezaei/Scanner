@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package NAPS2.ImportExport.Images;
+
+import "Serialization/SerializedImage.proto";
+
+message ImageTransferData {
+    int32 processId = 1;
+    repeated NAPS2.Serialization.SerializedImage serializedImages = 2;
+}

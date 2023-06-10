@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>NAPS2</RootNamespace>
+        <AssemblyName>naps2</AssemblyName>
+        <ApplicationIcon>../NAPS2.Lib/Icons/favicon.ico</ApplicationIcon>
+
+        <SelfContained>true</SelfContained>
+        <PublishSingleFile>true</PublishSingleFile>
+        <PublishTrimmed>true</PublishTrimmed>
+
+        <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+
+        <Title>NAPS2 - Not Another PDF Scanner</Title>
+        <Product>NAPS2 - Not Another PDF Scanner</Product>
+    </PropertyGroup>
+
+    <Import Project="..\NAPS2.Setup\targets\CommonTargets.targets" />
+    <Import Project="..\NAPS2.Setup\targets\SdkUsers.targets" />
+
+    <ItemGroup>
+        <PackageReference Include="NAPS2.Pdfium.Binaries" Version="1.0.0" />
+        <PackageReference Include="NAPS2.Tesseract.Binaries" Version="1.0.5" />
+
+        <ProjectReference Include="..\NAPS2.Lib.Gtk\NAPS2.Lib.Gtk.csproj" />
+
+        <PackageReference Include="Eto.Platform.Gtk" Version="2.7.2" />
+        <!-- This shouldn't need a reference normally, but otherwise "dotnet restore" doesn't pick
+             it up, which breaks the flatpak build. -->
+        <PackageReference Include="Microsoft.NETCore.App" Version="2.1.*" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ContentWithTargetPath Include="..\NAPS2.Setup\appsettings.xml">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <Link>appsettings.xml</Link>
+            <TargetPath>appsettings.xml</TargetPath>
+        </ContentWithTargetPath>
+    </ItemGroup>
+</Project>

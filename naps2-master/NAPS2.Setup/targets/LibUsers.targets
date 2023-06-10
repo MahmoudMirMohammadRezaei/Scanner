@@ -1,0 +1,11 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <Import Project="SdkUsers.targets" />
+
+    <ItemGroup>
+        <Using Include="NAPS2.Config" />
+        <Using Include="NAPS2.Operation" />
+        <Using Include="NAPS2.Logging" />
+    </ItemGroup>
+    
+</Project>

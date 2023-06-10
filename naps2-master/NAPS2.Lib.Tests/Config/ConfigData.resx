@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OldProfile" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;ArrayOfExtendedScanSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ExtendedScanSettings&gt;
+    &lt;Device&gt;
+      &lt;ID&gt;test_id&lt;/ID&gt;
+      &lt;Name&gt;test_name&lt;/Name&gt;
+    &lt;/Device&gt;
+    &lt;DriverName&gt;wia&lt;/DriverName&gt;
+    &lt;DisplayName&gt;Test Profile&lt;/DisplayName&gt;
+    &lt;IconID&gt;0&lt;/IconID&gt;
+    &lt;MaxQuality&gt;false&lt;/MaxQuality&gt;
+    &lt;IsDefault&gt;false&lt;/IsDefault&gt;
+    &lt;Version&gt;1&lt;/Version&gt;
+    &lt;UseNativeUI&gt;false&lt;/UseNativeUI&gt;
+    &lt;AfterScanScale&gt;OneToOne&lt;/AfterScanScale&gt;
+    &lt;Brightness&gt;0&lt;/Brightness&gt;
+    &lt;Contrast&gt;0&lt;/Contrast&gt;
+    &lt;BitDepth&gt;C24Bit&lt;/BitDepth&gt;
+    &lt;PageAlign&gt;Left&lt;/PageAlign&gt;
+    &lt;PageSize&gt;Letter&lt;/PageSize&gt;
+    &lt;Resolution&gt;Dpi200&lt;/Resolution&gt;
+    &lt;PaperSource&gt;Glass&lt;/PaperSource&gt;
+  &lt;/ExtendedScanSettings&gt;
+&lt;/ArrayOfExtendedScanSettings&gt;</value>
+  </data>
+  <data name="OldTwainProfile" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;ArrayOfExtendedScanSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ExtendedScanSettings&gt;
+    &lt;Device&gt;
+      &lt;ID&gt;test_id&lt;/ID&gt;
+      &lt;Name&gt;test_name&lt;/Name&gt;
+    &lt;/Device&gt;
+    &lt;DriverName&gt;twain&lt;/DriverName&gt;
+    &lt;DisplayName&gt;Test Profile&lt;/DisplayName&gt;
+    &lt;IconID&gt;0&lt;/IconID&gt;
+    &lt;Version&gt;1&lt;/Version&gt;
+    &lt;UseNativeUI&gt;false&lt;/UseNativeUI&gt;
+  &lt;/ExtendedScanSettings&gt;
+&lt;/ArrayOfExtendedScanSettings&gt;</value>
+  </data>
+  <data name="SingleProfile" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;ArrayOfScanProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ScanProfile&gt;
+    &lt;Device&gt;
+      &lt;ID&gt;test_id&lt;/ID&gt;
+      &lt;Name&gt;test_name&lt;/Name&gt;
+    &lt;/Device&gt;
+    &lt;DriverName&gt;test_driver&lt;/DriverName&gt;
+    &lt;Version&gt;2&lt;/Version&gt;
+  &lt;/ScanProfile&gt;
+&lt;/ArrayOfScanProfile&gt;</value>
+  </data>
+  <data name="VeryOldProfile" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;ArrayOfScanSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ScanSettings xsi:type="ExtendedScanSettings"&gt;
+    &lt;Device&gt;
+      &lt;ID&gt;test_id&lt;/ID&gt;
+      &lt;Name&gt;test_name&lt;/Name&gt;
+      &lt;DriverName&gt;wia&lt;/DriverName&gt;
+    &lt;/Device&gt;
+    &lt;DisplayName&gt;Test Profile&lt;/DisplayName&gt;
+    &lt;IconID&gt;0&lt;/IconID&gt;
+    &lt;MaxQuality&gt;false&lt;/MaxQuality&gt;
+    &lt;IsDefault&gt;false&lt;/IsDefault&gt;
+    &lt;AfterScanScale&gt;OneToOne&lt;/AfterScanScale&gt;
+    &lt;Brightness&gt;0&lt;/Brightness&gt;
+    &lt;Contrast&gt;0&lt;/Contrast&gt;
+    &lt;BitDepth&gt;C24Bit&lt;/BitDepth&gt;
+    &lt;PageAlign&gt;Left&lt;/PageAlign&gt;
+    &lt;PageSize&gt;A5&lt;/PageSize&gt;
+    &lt;Resolution&gt;Dpi200&lt;/Resolution&gt;
+    &lt;PaperSource&gt;Glass&lt;/PaperSource&gt;
+  &lt;/ScanSettings&gt;
+&lt;/ArrayOfScanSettings&gt;</value>
+  </data>
+  <data name="OldUserConfig" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;UserConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Version&gt;2&lt;/Version&gt;
+  &lt;Culture&gt;en&lt;/Culture&gt;
+  &lt;FormStates&gt;
+    &lt;FormState&gt;
+      &lt;Name&gt;FDesktop&lt;/Name&gt;
+      &lt;Location&gt;
+        &lt;X&gt;300&lt;/X&gt;
+        &lt;Y&gt;300&lt;/Y&gt;
+      &lt;/Location&gt;
+      &lt;Size&gt;
+        &lt;Width&gt;1200&lt;/Width&gt;
+        &lt;Height&gt;450&lt;/Height&gt;
+      &lt;/Size&gt;
+      &lt;Maximized&gt;false&lt;/Maximized&gt;
+    &lt;/FormState&gt;
+  &lt;/FormStates&gt;
+  &lt;BackgroundOperations /&gt;
+  &lt;CheckForUpdates&gt;false&lt;/CheckForUpdates&gt;
+  &lt;LastUpdateCheckDate xsi:nil="true" /&gt;
+  &lt;FirstRunDate&gt;2022-01-01T12:00:00.0000000-07:00&lt;/FirstRunDate&gt;
+  &lt;LastDonatePromptDate&gt;2022-01-02T12:00:00.00000-07:00&lt;/LastDonatePromptDate&gt;
+  &lt;EnableOcr&gt;true&lt;/EnableOcr&gt;
+  &lt;OcrMode&gt;Best&lt;/OcrMode&gt;
+  &lt;OcrAfterScanning xsi:nil="true" /&gt;
+  &lt;LastImageExt&gt;jpg&lt;/LastImageExt&gt;
+  &lt;EmailSetup&gt;
+    &lt;ProviderType&gt;Gmail&lt;/ProviderType&gt;
+    &lt;SystemProviderName&gt;Hotmail&lt;/SystemProviderName&gt;
+    &lt;SmtpPort xsi:nil="true" /&gt;
+    &lt;SmtpTls&gt;false&lt;/SmtpTls&gt;
+  &lt;/EmailSetup&gt;
+  &lt;ThumbnailSize&gt;224&lt;/ThumbnailSize&gt;
+  &lt;LastBatchSettings&gt;
+    &lt;ProfileDisplayName&gt;test_name&lt;/ProfileDisplayName&gt;
+    &lt;ScanType&gt;MultipleWithPrompt&lt;/ScanType&gt;
+    &lt;ScanCount&gt;0&lt;/ScanCount&gt;
+    &lt;ScanIntervalSeconds&gt;0&lt;/ScanIntervalSeconds&gt;
+    &lt;OutputType&gt;Load&lt;/OutputType&gt;
+    &lt;SaveSeparator&gt;FilePerPage&lt;/SaveSeparator&gt;
+    &lt;SavePath /&gt;
+  &lt;/LastBatchSettings&gt;
+  &lt;DesktopToolStripDock&gt;Top&lt;/DesktopToolStripDock&gt;
+  &lt;CustomPageSizePresets /&gt;
+  &lt;SavedProxies /&gt;
+&lt;/UserConfig&gt;</value>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;AppConfig&gt;
+  &lt;DefaultCulture&gt;&lt;/DefaultCulture&gt;
+  &lt;StartupMessageTitle&gt;&lt;/StartupMessageTitle&gt;
+  &lt;StartupMessageText&gt;&lt;/StartupMessageText&gt;
+  &lt;StartupMessageIcon&gt;Information&lt;/StartupMessageIcon&gt;
+  &lt;SaveButtonDefaultAction&gt;SaveAll&lt;/SaveButtonDefaultAction&gt;
+  &lt;HideOcrButton&gt;false&lt;/HideOcrButton&gt;
+  &lt;HideImportButton&gt;false&lt;/HideImportButton&gt;
+  &lt;HideSavePdfButton&gt;false&lt;/HideSavePdfButton&gt;
+  &lt;HideSaveImagesButton&gt;false&lt;/HideSaveImagesButton&gt;
+  &lt;HideEmailButton&gt;false&lt;/HideEmailButton&gt;
+  &lt;HidePrintButton&gt;false&lt;/HidePrintButton&gt;
+  &lt;HideDonateButton&gt;false&lt;/HideDonateButton&gt;
+  &lt;DisableAutoSave&gt;false&lt;/DisableAutoSave&gt;
+  &lt;LockSystemProfiles&gt;false&lt;/LockSystemProfiles&gt;
+  &lt;LockUnspecifiedDevices&gt;false&lt;/LockUnspecifiedDevices&gt;
+  &lt;NoUserProfiles&gt;false&lt;/NoUserProfiles&gt;
+  &lt;AlwaysRememberDevice&gt;true&lt;/AlwaysRememberDevice&gt;
+  &lt;NoUpdatePrompt&gt;false&lt;/NoUpdatePrompt&gt;
+  &lt;DeleteAfterSaving&gt;false&lt;/DeleteAfterSaving&gt;
+  &lt;DisableSaveNotifications&gt;false&lt;/DisableSaveNotifications&gt;
+  &lt;SingleInstance&gt;false&lt;/SingleInstance&gt;
+  &lt;ComponentsPath&gt;&lt;/ComponentsPath&gt;
+  &lt;OcrTimeoutInSeconds&gt;600&lt;/OcrTimeoutInSeconds&gt;
+  &lt;OcrState&gt;UserConfig&lt;/OcrState&gt;
+  &lt;OcrDefaultLanguage&gt;&lt;/OcrDefaultLanguage&gt;
+  &lt;OcrDefaultMode&gt;Fast&lt;/OcrDefaultMode&gt;
+  &lt;OcrDefaultAfterScanning&gt;true&lt;/OcrDefaultAfterScanning&gt;
+  &lt;ForcePdfCompat&gt;PdfA1B&lt;/ForcePdfCompat&gt;
+  &lt;EventLogging&gt;None&lt;/EventLogging&gt;
+&lt;/AppConfig&gt;</value>
+  </data>
+  <data name="NewAppSettings" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;AppConfig&gt;
+  &lt;Version&gt;3&lt;/Version&gt;
+  &lt;DeleteAfterSaving mode="override"&gt;true&lt;/DeleteAfterSaving&gt;
+  &lt;SingleInstance mode="default"&gt;true&lt;/SingleInstance&gt;
+&lt;/AppConfig&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,1578 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: naps2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-19 21:51+0000\n"
+"PO-Revision-Date: 2023-04-22 05:32\n"
+"Last-Translator: \n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"X-Crowdin-Project: naps2\n"
+"X-Crowdin-Project-ID: 531762\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: templates.pot\n"
+"X-Crowdin-File-ID: 75\n"
+
+#: SettingsResources.resx$BitDepth_24Color$Message
+msgid "24-bit Color"
+msgstr "24bitové barvy"
+
+#: SettingsResources.resx$PageSize_A3$Message
+msgid "A3 (297x420 mm)"
+msgstr "A3 (297 × 420 mm)"
+
+#: SettingsResources.resx$PageSize_A4$Message
+msgid "A4 (210x297 mm)"
+msgstr "A4 (210 × 297 mm)"
+
+#: SettingsResources.resx$PageSize_A5$Message
+msgid "A5 (148x210 mm)"
+msgstr "A5 (148 × 210 mm)"
+
+#: UiStrings.resx$About$Message
+#: UiStrings.resx$AboutFormTitle$Message
+msgid "About"
+msgstr "O aplikaci"
+
+#: MiscResources.resx$AcquiringData$Message
+msgid "Acquiring data..."
+msgstr "Získávání dat..."
+
+#: UiStrings.resx$Advanced$Message
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: UiStrings.resx$AdvancedProfileFormTitle$Message
+msgid "Advanced Profile Settings"
+msgstr "Pokročilé nastavení profilu"
+
+#: MiscResources.resx$AllCount$Message
+msgid "All ({0})"
+msgstr "Vše ({0})"
+
+#: MiscResources.resx$FileTypeAllFiles$Message
+msgid "All Files"
+msgstr "Všechny soubory"
+
+#: UiStrings.resx$AllowAnnotations$Message
+msgid "Allow Annotations"
+msgstr "Povolit anotace"
+
+#: UiStrings.resx$AllowContentCopying$Message
+msgid "Allow Content Copying"
+msgstr "Povolit kopírování obsahu"
+
+#: UiStrings.resx$AllowContentCopyingForAccessibility$Message
+msgid "Allow Content Copying for Accessibility"
+msgstr "Povolit kopírování obsahu pro přístupnost"
+
+#: UiStrings.resx$AllowDocumentAssembly$Message
+msgid "Allow Document Assembly"
+msgstr "Povolit sestavení dokumentu"
+
+#: UiStrings.resx$AllowDocumentModification$Message
+msgid "Allow Document Modification"
+msgstr "Povolit úpravu dokumentu"
+
+#: UiStrings.resx$AllowFormFilling$Message
+msgid "Allow Form Filling"
+msgstr "Povolit vyplňování formuláře"
+
+#: UiStrings.resx$AllowFullQualityPrinting$Message
+msgid "Allow Full Quality Printing"
+msgstr "Povolit tisk v plné kvalitě"
+
+#: UiStrings.resx$AllowPrinting$Message
+msgid "Allow Printing"
+msgstr "Povolit tisk"
+
+#: UiStrings.resx$AltDeinterleave$Message
+msgid "Alternate Deinterleave"
+msgstr "Střídavé prokládání"
+
+#: UiStrings.resx$AltInterleave$Message
+msgid "Alternate Interleave"
+msgstr "Střídavé vložení listů"
+
+#: MiscResources.resx$PdfImportComponentNeeded$Message
+msgid "An additional component is needed to import this PDF file. Would you like to download it now?"
+msgstr "K importu tohoto PDF je nutná doplňující komponenta. Chcete ji teď stáhnout?"
+
+#: SdkResources.resx$OcrError$Message
+msgid "An error occurred running OCR."
+msgstr "Došlo k chybě při běhu OCR."
+
+#: MiscResources.resx$AuthError$Message
+msgid "An error occurred when trying to authorize."
+msgstr "Došlo k chybě při pokusu o autorizaci."
+
+#: MiscResources.resx$AutoSaveError$Message
+msgid "An error occurred when trying to auto save."
+msgstr "Při pokusu o automatické uložení došlo k chybě."
+
+#: MiscResources.resx$UpdateError$Message
+msgid "An error occurred when trying to install the update."
+msgstr "Při pokusu o aktualizaci došlo k chybě.."
+
+#: MiscResources.resx$ErrorSaving$Message
+msgid "An error occurred when trying to save the file."
+msgstr "Při pokusu o uložení souboru došlo k chybě."
+
+#: MiscResources.resx$ErrorEmailing$Message
+msgid "An error occurred when trying to send the email."
+msgstr "Došlo k chybě při pokusu o odeslání emailu."
+
+#: MiscResources.resx$EmailError$Message
+msgid "An error occurred while trying to send an email."
+msgstr "Při pokusu o odeslání e-mailu došlo k chybě."
+
+#: MiscResources.resx$UnknownDriverError$Message
+#: SdkResources.resx$UnknownDriverError$Message
+msgid "An error occurred with the scanning driver."
+msgstr "Došlo k chybě ovladače skeneru."
+
+#: MiscResources.resx$ExitWithActiveOperations$Message
+msgid "An operation is in progress. Are you sure you want to exit and cancel the operation?"
+msgstr "Probíhá operace. Určitě chcete odejít a přerušit tuto operaci?"
+
+#: MiscResources.resx$BatchError$Message
+msgid "An unknown error occurred during the batch scan."
+msgstr "Během dávkového skenování došlo k chybě."
+
+#: MiscResources.resx$UpdateAvailable$Message
+msgid "An update is available."
+msgstr "Je dostupná aktualizace."
+
+#: MiscResources.resx$OcrUpdateAvailable$Message
+msgid "An update to OCR is available."
+msgstr "Je k dispozici aktualizace OCR."
+
+#: UiStrings.resx$AppleDriver$Message
+msgid "Apple Driver"
+msgstr "Ovladač Apple"
+
+#: SettingsResources.resx$EmailProviderType_AppleMail$Message
+msgid "Apple Mail"
+msgstr ""
+
+#: UiStrings.resx$BrightnessContrastAfterScan$Message
+msgid "Apply brightness/contrast after scan"
+msgstr "Použít jas/kontrast po skenování"
+
+#: UiStrings.resx$ApplyToSelected$Message
+msgid "Apply to all {0} selected images"
+msgstr "Použít na všechny {0} vybrané obrázky"
+
+#: MiscResources.resx$ConfirmCancelBatch$Message
+msgid "Are you sure you want to cancel the batch scan?"
+msgstr "Určitě chcete přerušit dávkové skenování?"
+
+#: MiscResources.resx$ConfirmClearItems$Message
+msgid "Are you sure you want to clear {0} item(s)?"
+msgstr "Opravdu si přejete smazat položky {0}?"
+
+#: MiscResources.resx$ConfirmDelete$Message
+msgid "Are you sure you want to delete \"{0}\"?"
+msgstr "Opravdu chcete smazat \"{0}\"?"
+
+#: MiscResources.resx$ConfirmDeleteSingleProfile$Message
+msgid "Are you sure you want to delete the profile {0}?"
+msgstr "Jste si jisti, že chcete smazat profil {0}?"
+
+#: MiscResources.resx$ConfirmDeleteItems$Message
+msgid "Are you sure you want to delete {0} item(s)?"
+msgstr "Opravdu si přejete smazat položky {0}?"
+
+#: MiscResources.resx$ConfirmDeleteMultipleProfiles$Message
+msgid "Are you sure you want to delete {0} profiles?"
+msgstr "Jste si jisti, že chcete smazat profily {0}? "
+
+#: MiscResources.resx$ConfirmResetImages$Message
+msgid "Are you sure you want undo your changes to {0} image(s)?"
+msgstr "Jste si jisti, že chcete zrušit změny obrázků {0}?"
+
+#: UiStrings.resx$AttachmentNameLabel$Message
+msgid "Attachment Name:"
+msgstr "Název přílohy:"
+
+#: UiStrings.resx$AuthorLabel$Message
+msgid "Author:"
+msgstr "Autor:"
+
+#: UiStrings.resx$AuthorizeFormTitle$Message
+msgid "Authorize"
+msgstr "Autorizovat"
+
+#: SettingsResources.resx$TiffComp_Auto$Message
+msgid "Auto"
+msgstr "Auto"
+
+#: UiStrings.resx$AutoSaveSettings$Message
+#: UiStrings.resx$AutoSaveSettingsFormTitle$Message
+msgid "Auto Save Settings"
+msgstr "Nastavení automatického uložení"
+
+#: UiStrings.resx$AutoIncrementing1Digit$Message
+msgid "Auto-incrementing number (1 digits)"
+msgstr "Automatický přírůstek čísla (1 znak)"
+
+#: UiStrings.resx$AutoIncrementing2Digit$Message
+msgid "Auto-incrementing number (2 digits)"
+msgstr "Automatické zvyšování čísla (2 číslice)"
+
+#: UiStrings.resx$AutoIncrementing3Digit$Message
+msgid "Auto-incrementing number (3 digits)"
+msgstr "Automatické zvyšování čísla (3 číslice)"
+
+#: UiStrings.resx$AutoIncrementing4Digit$Message
+msgid "Auto-incrementing number (4 digits)"
+msgstr "Automatické zvyšování čísla (4 číslice)"
+
+#: UiStrings.resx$RunOcrAfterScanning$Message
+msgid "Automatically run OCR after scanning"
+msgstr "Po skenování automaticky spustit OCR"
+
+#: SettingsResources.resx$PageSize_B4$Message
+msgid "B4 (250x353 mm)"
+msgstr "B4 (250 × 353 mm)"
+
+#: SettingsResources.resx$PageSize_B5$Message
+msgid "B5 (176x250 mm)"
+msgstr "B5 (176 × 250 mm)"
+
+#: UiStrings.resx$BatchScan$Message
+#: UiStrings.resx$BatchScanFormTitle$Message
+msgid "Batch Scan"
+msgstr "Dávkové skenování"
+
+#: MiscResources.resx$BatchStatusCancelled$Message
+msgid "Batch cancelled."
+msgstr "Dávka byla přerušena."
+
+#: MiscResources.resx$BatchStatusComplete$Message
+msgid "Batch completed successfully."
+msgstr "Dávka byla úspěšně dokončena."
+
+#: MiscResources.resx$BatchStatusError$Message
+msgid "Batch scan stopped due to error."
+msgstr "Dávka byla zastavena kvůli chybě."
+
+#: SettingsResources.resx$OcrMode_Best$Message
+msgid "Best"
+msgstr "Nejlepší"
+
+#: UiStrings.resx$BitDepthLabel$Message
+msgid "Bit depth:"
+msgstr "Bitová hloubka:"
+
+#: MiscResources.resx$FileTypeBmp$Message
+msgid "Bitmap Files (*.bmp)"
+msgstr "Soubory Bitmap (*.bmp)"
+
+#: SettingsResources.resx$BitDepth_1BlackAndWhite$Message
+#: UiStrings.resx$BlackAndWhite$Message
+msgid "Black and White"
+msgstr "Černobíle"
+
+#: UiStrings.resx$BlankPages$Message
+msgid "Blank Pages"
+msgstr "Prázdné stránky"
+
+#: UiStrings.resx$BrightnessContrast$Message
+msgid "Brightness / Contrast"
+msgstr "Jas / Kontrast"
+
+#: UiStrings.resx$BrightnessLabel$Message
+msgid "Brightness:"
+msgstr "Jas:"
+
+#: SettingsResources.resx$TiffComp_Ccitt4$Message
+msgid "CCITT4"
+msgstr "CCITT4"
+
+#: MiscResources.resx$Cancel$Message
+#: UiStrings.resx$Cancel$Message
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: MiscResources.resx$CancelBatch$Message
+msgid "Cancel Batch"
+msgstr "Přerušit dávku"
+
+#: MiscResources.resx$BatchStatusCancelling$Message
+msgid "Cancelling...."
+msgstr "Ruší se...."
+
+#: SettingsResources.resx$HorizontalAlign_Center$Message
+msgid "Center"
+msgstr "Centrovat"
+
+#: UiStrings.resx$Change$Message
+msgid "Change"
+msgstr "Změnit"
+
+#: UiStrings.resx$CheckForUpdates$Message
+msgid "Check for updates"
+msgstr "Vyhledat aktualizace"
+
+#: MiscResources.resx$CheckingForUpdates$Message
+msgid "Checking..."
+msgstr "Vyhledávání..."
+
+#: UiStrings.resx$EmailProviderFormTitle$Message
+msgid "Choose Email Provider"
+msgstr "Vybrat poskytovatele mailu"
+
+#: MiscResources.resx$ChooseProfile$Message
+msgid "Choose Profile"
+msgstr "Vybrat profil"
+
+#: UiStrings.resx$ChooseDevice$Message
+msgid "Choose device"
+msgstr "Vybrat zařízení"
+
+#: MiscResources.resx$Clear$Message
+#: UiStrings.resx$Clear$Message
+msgid "Clear"
+msgstr "Vymazat"
+
+#: UiStrings.resx$ClearAll$Message
+msgid "Clear All"
+msgstr "Smazat vše"
+
+#: UiStrings.resx$ClearAfterSaving$Message
+msgid "Clear images after saving"
+msgstr "Vyčistit obrázky po skenování"
+
+#: MiscResources.resx$Close$Message
+msgid "Close"
+msgstr "Zavřít"
+
+#: UiStrings.resx$Compatibility$Message
+msgid "Compatibility"
+msgstr "Kompatibilita"
+
+#: UiStrings.resx$CompressionLabel$Message
+msgid "Compression:"
+msgstr "Komprese:"
+
+#: UiStrings.resx$ContrastLabel$Message
+msgid "Contrast:"
+msgstr "Kontrast:"
+
+#: UiStrings.resx$Copy$Message
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: MiscResources.resx$CopyProgress$Message
+msgid "Copy Progress"
+msgstr "Průběh kopírování"
+
+#: MiscResources.resx$Copying$Message
+msgid "Copying..."
+msgstr "Kopírování..."
+
+#: UiStrings.resx$CopyrightFormat$Message
+msgid "Copyright {0} NAPS2 Contributors"
+msgstr "Autorská práva {0} přispěvatelů NAPS2"
+
+#: UiStrings.resx$CoverageThreshold$Message
+msgid "Coverage Threshold"
+msgstr "Práh pokrytí"
+
+#: UiStrings.resx$Crop$Message
+msgid "Crop"
+msgstr "Ořez"
+
+#: UiStrings.resx$CropToPageSize$Message
+msgid "Crop to page size"
+msgstr "Oříznout na velikost stránky"
+
+#: MiscResources.resx$CustomPageSizeFormat$Message
+msgid "Custom ({0}x{1} {2})"
+msgstr "Vlastní ({0} × {1} {2})"
+
+#: UiStrings.resx$PageSizeFormTitle$Message
+msgid "Custom Page Size"
+msgstr "Vlastní velikost papíru"
+
+#: UiStrings.resx$CustomRotation$Message
+msgid "Custom Rotation"
+msgstr "Vlastní otočení"
+
+#: SettingsResources.resx$EmailProviderType_CustomSmtp$Message
+msgid "Custom SMTP"
+msgstr "Vlastní SMTP"
+
+#: SettingsResources.resx$PageSize_Custom$Message
+msgid "Custom..."
+msgstr "Vlastní..."
+
+#: UiStrings.resx$Day2Digit$Message
+msgid "Day (01-31)"
+msgstr "Den (01-31)"
+
+#: SettingsResources.resx$PdfCompat_Default$Message
+#: SettingsResources.resx$TwainImpl_Default$Message
+#: SettingsResources.resx$WiaVersion_Default$Message
+#: UiStrings.resx$Default$Message
+msgid "Default"
+msgstr "Výchozí"
+
+#: UiStrings.resx$DefaultFilePathLabel$Message
+msgid "Default File Path:"
+msgstr "Výchozí umístění souboru:"
+
+#: UiStrings.resx$Deinterleave$Message
+msgid "Deinterleave"
+msgstr "Prokládání"
+
+#: MiscResources.resx$Delete$Message
+#: UiStrings.resx$Delete$Message
+msgid "Delete"
+msgstr "Odstranit"
+
+#: UiStrings.resx$Deskew$Message
+msgid "Deskew"
+msgstr "Odstranit zešikmení"
+
+#: MiscResources.resx$AutoDeskewProgress$Message
+msgid "Deskew Progress"
+msgstr "Průběh odstraňování zešikmení"
+
+#: UiStrings.resx$DeskewScannedPages$Message
+msgid "Deskew scanned pages"
+msgstr "Odstranit zešikmení skenovaných stránek"
+
+#: MiscResources.resx$AutoDeskewing$Message
+msgid "Deskewing..."
+msgstr "Odstraňování zešikmení..."
+
+#: UiStrings.resx$DeviceLabel$Message
+msgid "Device:"
+msgstr "Zařízení:"
+
+#: UiStrings.resx$Dimensions$Message
+msgid "Dimensions"
+msgstr "Rozměry"
+
+#: UiStrings.resx$DisplayNameLabel$Message
+msgid "Display name:"
+msgstr "Zobrazovaný název:"
+
+#: UiStrings.resx$DocumentCorrection$Message
+msgid "Document Correction"
+msgstr "Korekce dokumentu"
+
+#: MiscResources.resx$Donate$Message
+#: UiStrings.resx$Donate$Message
+msgid "Donate"
+msgstr "Darovat"
+
+#: UiStrings.resx$Done$Message
+msgid "Done"
+msgstr "Hotovo"
+
+#: UiStrings.resx$Download$Message
+msgid "Download"
+msgstr "Stáhnout"
+
+#: MiscResources.resx$DownloadError$Message
+msgid "Download Error"
+msgstr "Chyba stahování"
+
+#: MiscResources.resx$DownloadNeeded$Message
+msgid "Download Needed"
+msgstr "Potřebné stažení"
+
+#: UiStrings.resx$DownloadProgressFormTitle$Message
+msgid "Download Progress"
+msgstr "Průběh stahování"
+
+#: SettingsResources.resx$Source_Duplex$Message
+msgid "Duplex"
+msgstr "Duplexní"
+
+#: UiStrings.resx$EsclDriver$Message
+msgid "ESCL Driver"
+msgstr ""
+
+#: UiStrings.resx$EsclNetworkDriver$Message
+msgid "ESCL Network Driver"
+msgstr ""
+
+#: UiStrings.resx$EsclUsbDriver$Message
+msgid "ESCL USB Driver"
+msgstr ""
+
+#: UiStrings.resx$Edit$Message
+msgid "Edit"
+msgstr "Upravit"
+
+#: UiStrings.resx$EmailAll$Message
+msgid "Email All"
+msgstr "Odeslat vše"
+
+#: UiStrings.resx$EmailAllAsPdf$Message
+msgid "Email All as PDF"
+msgstr "Odeslat vše jako PDF"
+
+#: MiscResources.resx$EmailPdf$Message
+#: UiStrings.resx$EmailPdf$Message
+msgid "Email PDF"
+msgstr "PDF e-mailem"
+
+#: MiscResources.resx$EmailPdfProgress$Message
+msgid "Email PDF Progress"
+msgstr "Průběh PDF e-mailem"
+
+#: UiStrings.resx$EmailSelected$Message
+msgid "Email Selected"
+msgstr "Odeslat vybrané"
+
+#: UiStrings.resx$EmailSelectedAsPdf$Message
+msgid "Email Selected as PDF"
+msgstr "Odeslat vybrané jako PDF"
+
+#: UiStrings.resx$EmailSettings$Message
+#: UiStrings.resx$EmailSettingsFormTitle$Message
+msgid "Email Settings"
+msgstr "Nastavení e-mailu"
+
+#: UiStrings.resx$EnableAutoSave$Message
+msgid "Enable Auto Save"
+msgstr "Povolit automatické ukládání"
+
+#: UiStrings.resx$EnableDebugLogging$Message
+msgid "Enable debug logging"
+msgstr ""
+
+#: UiStrings.resx$EncryptPdf$Message
+msgid "Encrypt PDF"
+msgstr "Zašifrovat PDF"
+
+#: UiStrings.resx$Encryption$Message
+msgid "Encryption"
+msgstr "Šifrování"
+
+#: MiscResources.resx$FileTypeEmf$Message
+msgid "Enhanced Windows MetaFile (*.emf)"
+msgstr "Rozšířený Windows MetaFile (*.emf)"
+
+#: MiscResources.resx$Error$Message
+#: UiStrings.resx$ErrorFormTitle$Message
+msgid "Error"
+msgstr "Chyba"
+
+#: MiscResources.resx$EstimatedDownloadSize$Message
+#: UiStrings.resx$EstimatedDownloadSize$Message
+msgid "Estimated download size: {0} MB"
+msgstr "Odhadovaná velikost stažení: {0} MB"
+
+#: MiscResources.resx$FileTypeExif$Message
+msgid "Exchangeable Image File (*.exif)"
+msgstr "Soubor ExIF (*.exif)"
+
+#: UiStrings.resx$ExcludeBlankPages$Message
+msgid "Exclude blank pages"
+msgstr "Vyloučit prázdné stránky"
+
+#: SettingsResources.resx$OcrMode_Fast$Message
+msgid "Fast"
+msgstr "Rychlý"
+
+#: SettingsResources.resx$Source_Feeder$Message
+msgid "Feeder"
+msgstr "Podavač"
+
+#: UiStrings.resx$FileNameLabel$Message
+msgid "File Name:"
+msgstr "Název souboru"
+
+#: UiStrings.resx$FilePathLabel$Message
+msgid "File Path:"
+msgstr "Cesta k souboru:"
+
+#: UiStrings.resx$Flip$Message
+msgid "Flip"
+msgstr "Překlopit"
+
+#: UiStrings.resx$FlipDuplexedPages$Message
+msgid "Flip duplexed pages"
+msgstr "Překlopit oboustranné stánky"
+
+#: UiStrings.resx$JpegQualityHelp$Message
+msgid "For high JPEG qualities (80+), also increase Image Quality in your profile for best results."
+msgstr "Pro nejlepší výsledky při vysokých kvalitách JPEG (80+) zvyšte ve svém profilu Kvalitu obrázku."
+
+#: MiscResources.resx$FileTypeGif$Message
+msgid "GIF File (*.gif)"
+msgstr "Soubor GIF (*.gif)"
+
+#: UiStrings.resx$GetMoreLanguages$Message
+msgid "Get more languages"
+msgstr "Instalovat více jazyků"
+
+#: SettingsResources.resx$Source_Glass$Message
+msgid "Glass"
+msgstr "Sklo"
+
+#: SettingsResources.resx$EmailProviderType_Gmail$Message
+msgid "Gmail"
+msgstr "Gmail"
+
+#: SettingsResources.resx$BitDepth_8Grayscale$Message
+msgid "Grayscale"
+msgstr "Stupně šedi"
+
+#: UiStrings.resx$HorizontalAlignLabel$Message
+msgid "Horizontal align:"
+msgstr "Překlopit vodorovně:"
+
+#: UiStrings.resx$Hour2Digit$Message
+msgid "Hour (0-23)"
+msgstr "Hodina (0-23)"
+
+#: UiStrings.resx$HueSaturation$Message
+msgid "Hue / Saturation"
+msgstr "Odstín / Sytost"
+
+#: UiStrings.resx$IconsFrom$Message
+msgid "Icons from:"
+msgstr "Použité ikony:"
+
+#: UiStrings.resx$Image$Message
+msgid "Image"
+msgstr "Obrázek"
+
+#: MiscResources.resx$FileTypeImageFiles$Message
+msgid "Image Files"
+msgstr "Soubory obrázků"
+
+#: UiStrings.resx$ImageQuality$Message
+msgid "Image Quality"
+msgstr "Kvalita obrázku"
+
+#: UiStrings.resx$ImageSettings$Message
+#: UiStrings.resx$ImageSettingsFormTitle$Message
+msgid "Image Settings"
+msgstr "Nastavení obrázku"
+
+#: MiscResources.resx$ImageSaved$Message
+msgid "Image saved."
+msgstr "Obrázek uložen."
+
+#: UiStrings.resx$Import$Message
+msgid "Import"
+msgstr "Importovat"
+
+#: MiscResources.resx$ImportProgress$Message
+msgid "Import Progress"
+msgstr "Průběh importu"
+
+#: MiscResources.resx$ImportingFormat$Message
+msgid "Importing {0}..."
+msgstr "Importuje se {0}..."
+
+#: MiscResources.resx$Importing$Message
+msgid "Importing..."
+msgstr "Importuje se..."
+
+#: MiscResources.resx$Install$Message
+msgid "Install {0}"
+msgstr "Instalovat {0}"
+
+#: MiscResources.resx$InstallComplete$Message
+msgid "Installation Complete"
+msgstr "Instalace dokončena"
+
+#: MiscResources.resx$InstallFailedTitle$Message
+msgid "Installation Failed"
+msgstr "Instalace selhala"
+
+#: MiscResources.resx$InstallCompletePromptRestart$Message
+msgid "Installation complete. Do you want to restart NAPS2 now?"
+msgstr "Instalace dokončena. Chcete nyní restartovat NAPS2?"
+
+#: MiscResources.resx$InstallFailed$Message
+msgid "Installation failed."
+msgstr "Instalace selhala."
+
+#: UiStrings.resx$Interleave$Message
+msgid "Interleave"
+msgstr "Vložit listy"
+
+#: MiscResources.resx$FileTypeJpeg$Message
+msgid "JPEG File (*.jpg, *.jpeg)"
+msgstr "Soubor JPEG (*.jpg, *.jpeg) "
+
+#: MiscResources.resx$FileTypeJp2$Message
+msgid "JPEG2000 File (*.jp2, *.jpx)"
+msgstr "Soubor JPEG2000 (*.jp2, *.jpx)"
+
+#: UiStrings.resx$JpegQuality$Message
+msgid "Jpeg Quality"
+msgstr "Kvalita JPEG"
+
+#: UiStrings.resx$KeywordsLabel$Message
+msgid "Keywords:"
+msgstr "Klíčová slova:"
+
+#: SettingsResources.resx$TiffComp_Lzw$Message
+msgid "LZW"
+msgstr "LZW"
+
+#: UiStrings.resx$Language$Message
+msgid "Language"
+msgstr "Jazyk"
+
+#: SettingsResources.resx$HorizontalAlign_Left$Message
+msgid "Left"
+msgstr "Vlevo"
+
+#: SettingsResources.resx$TwainImpl_Legacy$Message
+msgid "Legacy (native UI only)"
+msgstr "Legacy (pouze nativní UI)"
+
+#: UiStrings.resx$LoadIn$Message
+msgid "Load images into NAPS2"
+msgstr "Nahrát obrázky do NAPS2"
+
+#: UiStrings.resx$MakePdfsSearchable$Message
+msgid "Make PDFs searchable using OCR"
+msgstr "Umožnit prohledávání PDF pomocí OCR"
+
+#: UiStrings.resx$MaximumQuality$Message
+msgid "Maximum quality (large files)"
+msgstr "Nejlepší kvalita (velký soubor)"
+
+#: SettingsResources.resx$TwainImpl_MemXfer$Message
+msgid "Memory Transfer"
+msgstr "Přenos paměti,"
+
+#: UiStrings.resx$Metadata$Message
+msgid "Metadata"
+msgstr "Metadata"
+
+#: UiStrings.resx$Minute2Digit$Message
+msgid "Minute (00-59)"
+msgstr "Minuta (00-59)"
+
+#: UiStrings.resx$Month2Digit$Message
+msgid "Month (01-12)"
+msgstr "Měsíc (01-12)"
+
+#: UiStrings.resx$MoreInfo$Message
+msgid "More info"
+msgstr "Více informací"
+
+#: UiStrings.resx$MoveDown$Message
+msgid "Move Down"
+msgstr "Posunout níž"
+
+#: UiStrings.resx$MoveUp$Message
+msgid "Move Up"
+msgstr "Posunout výš"
+
+#: UiStrings.resx$MultipleScansDelay$Message
+msgid "Multiple scans (fixed delay between scans)"
+msgstr "Více skenů (fixní pauza mezi skeny)"
+
+#: UiStrings.resx$MultipleScansPrompt$Message
+msgid "Multiple scans (prompt between scans)"
+msgstr "Více skenů (oznámení mezi skeny)"
+
+#: MiscResources.resx$NAPS2$Message
+#: SdkResources.resx$NAPS2$Message
+#: UiStrings.resx$Naps2$Message
+msgid "NAPS2"
+msgstr "NAPS2"
+
+#: UiStrings.resx$Naps2TitleFormat$Message
+msgid "NAPS2 - {0}"
+msgstr "NAPS2 - {0}"
+
+#: MiscResources.resx$DonatePrompt$Message
+msgid "NAPS2 is completely free. Consider making a donation."
+msgstr "NAPS2 je zcela zdarma. Zvažte poskytnutí daru."
+
+#: UiStrings.resx$NameOptional$Message
+msgid "Name (optional)"
+msgstr "Název (volitelné)"
+
+#: MiscResources.resx$NameMissing$Message
+msgid "Name missing."
+msgstr "Název chybí."
+
+#: SettingsResources.resx$TwainImpl_NativeXfer$Message
+msgid "Native Transfer"
+msgstr "Nativní přenos"
+
+#: UiStrings.resx$New$Message
+msgid "New"
+msgstr "Nový"
+
+#: UiStrings.resx$NewProfile$Message
+msgid "New Profile"
+msgstr "Nový profil"
+
+#: UiStrings.resx$Next$Message
+msgid "Next"
+msgstr "Další"
+
+#: UiStrings.resx$BatchPromptFormTitle$Message
+msgid "Next Scan"
+msgstr "Další sken"
+
+#: MiscResources.resx$NoDeviceSelected$Message
+#: SdkResources.resx$NoDeviceSelected$Message
+msgid "No device selected."
+msgstr "Nebylo vybráno žádné zařízení."
+
+#: MiscResources.resx$NoPagesInFeeder$Message
+#: SdkResources.resx$NoPagesInFeeder$Message
+msgid "No pages are in the feeder."
+msgstr "V podavači nejsou žádné papíry."
+
+#: SettingsResources.resx$EmailProvider_NotSelected$Message
+msgid "No provider selected."
+msgstr "Nebyl vybrán poskytovatel."
+
+#: MiscResources.resx$NoDevicesFound$Message
+#: SdkResources.resx$NoDevicesFound$Message
+msgid "No scanning device was found."
+msgstr "Nenalezeno žádné skenovací zařízení."
+
+#: MiscResources.resx$NoUpdates$Message
+msgid "No updates available."
+msgstr "Nejsou dostupné aktualizace."
+
+#: SettingsResources.resx$TiffComp_None$Message
+msgid "None"
+msgstr "Žádný"
+
+#: UiStrings.resx$Naps2FullName$Message
+msgid "Not Another PDF Scanner"
+msgstr "Not Another PDF Scanner"
+
+#: UiStrings.resx$NotNow$Message
+msgid "Not Now"
+msgstr "Teď ne"
+
+#: UiStrings.resx$NumberOfScansLabel$Message
+msgid "Number of scans:"
+msgstr "Počet skenů:"
+
+#: UiStrings.resx$Ocr$Message
+msgid "OCR"
+msgstr "OCR"
+
+#: UiStrings.resx$OcrDownloadFormTitle$Message
+msgid "OCR Download"
+msgstr "Stažení OCR"
+
+#: MiscResources.resx$OcrProgress$Message
+msgid "OCR Progress"
+msgstr "Průběh OCR"
+
+#: UiStrings.resx$OcrSetupFormTitle$Message
+msgid "OCR Setup"
+msgstr "Nastavení OCR"
+
+#: UiStrings.resx$OcrLanguageLabel$Message
+msgid "OCR language:"
+msgstr "Jazyk OCR:"
+
+#: UiStrings.resx$OcrModeLabel$Message
+msgid "OCR mode:"
+msgstr "Mód OCR:"
+
+#: UiStrings.resx$OK$Message
+msgid "OK"
+msgstr "OK"
+
+#: UiStrings.resx$OffsetWidth$Message
+msgid "Offset width based on alignment (WIA)"
+msgstr "Šířka odsazení založená na zarovnání (WIA)"
+
+#: SettingsResources.resx$TwainImpl_OldDsm$Message
+msgid "Old DSM"
+msgstr "Staré DSM"
+
+#: UiStrings.resx$OneFilePerPage$Message
+msgid "One file per page"
+msgstr "Jeden soubor na stránku"
+
+#: UiStrings.resx$OneFilePerScan$Message
+msgid "One file per scan"
+msgstr "Jeden soubor na sken"
+
+#: MiscResources.resx$FilesCouldNotBeDownloaded$Message
+msgid "One or more files could not be downloaded."
+msgstr "Jeden nebo více souborů nelze stáhnout."
+
+#: UiStrings.resx$OpenFolder$Message
+msgid "Open Folder"
+msgstr "Otevřít složku"
+
+#: MiscResources.resx$ActiveOperations$Message
+msgid "Operation in Progress"
+msgstr "Probíhá operace"
+
+#: SettingsResources.resx$EmailProviderType_OutlookWeb$Message
+msgid "Outlook Web Access"
+msgstr "Outlook Web Access"
+
+#: UiStrings.resx$Output$Message
+msgid "Output"
+msgstr "Výstup"
+
+#: MiscResources.resx$OverwriteFile$Message
+msgid "Overwrite File"
+msgstr "Přepsat soubor"
+
+#: UiStrings.resx$OwnerPasswordLabel$Message
+msgid "Owner Password:"
+msgstr "Heslo vlastníka:"
+
+#: MiscResources.resx$FileTypePdf$Message
+msgid "PDF Document (*.pdf)"
+msgstr "PDF dokument (*.pdf)"
+
+#: UiStrings.resx$PdfSettings$Message
+#: UiStrings.resx$PdfSettingsFormTitle$Message
+msgid "PDF Settings"
+msgstr "Nastavení PDF"
+
+#: MiscResources.resx$PdfSaved$Message
+msgid "PDF saved."
+msgstr "PDF uloženo."
+
+#: SettingsResources.resx$PdfCompat_PdfA1B$Message
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: SettingsResources.resx$PdfCompat_PdfA2B$Message
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: SettingsResources.resx$PdfCompat_PdfA3B$Message
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: SettingsResources.resx$PdfCompat_PdfA3U$Message
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: MiscResources.resx$FileTypePng$Message
+msgid "PNG File (*.png)"
+msgstr "Soubor PNG (*.png)"
+
+#: UiStrings.resx$PageSizeLabel$Message
+msgid "Page size:"
+msgstr "Velikost stránky:"
+
+#: UiStrings.resx$PaperSourceLabel$Message
+msgid "Paper source:"
+msgstr "Zdroj papíru:"
+
+#: UiStrings.resx$PdfPasswordFormTitle$Message
+msgid "Password"
+msgstr "Heslo"
+
+#: UiStrings.resx$Paste$Message
+msgid "Paste"
+msgstr "Vložit"
+
+#: UiStrings.resx$Placeholders$Message
+#: UiStrings.resx$PlaceholdersFormTitle$Message
+msgid "Placeholders"
+msgstr "Zástupné znaky"
+
+#: UiStrings.resx$PostProcessing$Message
+msgid "Post-processing"
+msgstr "Následné zpracování"
+
+#: UiStrings.resx$PressStartWhenReady$Message
+msgid "Press Start when ready."
+msgstr "Až budete připraveni, stiskněte Start."
+
+#: UiStrings.resx$PreviewFormTitle$Message
+msgid "Preview"
+msgstr "Náhled"
+
+#: UiStrings.resx$PreviewLabel$Message
+msgid "Preview:"
+msgstr "Náhled:"
+
+#: UiStrings.resx$Previous$Message
+msgid "Previous"
+msgstr "Předchozí"
+
+#: MiscResources.resx$Print$Message
+#: UiStrings.resx$Print$Message
+msgid "Print"
+msgstr "Tisk"
+
+#: UiStrings.resx$EditProfileFormTitle$Message
+msgid "Profile Settings"
+msgstr "Nastavení profilu"
+
+#: UiStrings.resx$ProfileLabel$Message
+msgid "Profile:"
+msgstr "Profil:"
+
+#: UiStrings.resx$Profiles$Message
+#: UiStrings.resx$ProfilesFormTitle$Message
+msgid "Profiles"
+msgstr "Profily"
+
+#: UiStrings.resx$PromptForFilePath$Message
+msgid "Prompt for file path"
+msgstr "Výzva pro cestu k souboru"
+
+#: UiStrings.resx$Provider$Message
+msgid "Provider"
+msgstr "Poskytovatel"
+
+#: UiStrings.resx$ReadyForScan$Message
+msgid "Ready for scan {0}."
+msgstr "Připraven ke skenu {0}."
+
+#: UiStrings.resx$Recover$Message
+msgid "Recover"
+msgstr "Obnovit"
+
+#: UiStrings.resx$RecoverFormTitle$Message
+msgid "Recover Scanned Images"
+msgstr "Obnovit skenované obrázky"
+
+#: MiscResources.resx$Recovering$Message
+msgid "Recovering..."
+msgstr "Obnovuje se..."
+
+#: MiscResources.resx$RecoveryProgress$Message
+msgid "Recovery Progress"
+msgstr "Průběh obnovení"
+
+#: UiStrings.resx$RememberTheseSettings$Message
+msgid "Remember these settings"
+msgstr "Zapamatovat si tato nastavení"
+
+#: UiStrings.resx$Reorder$Message
+msgid "Reorder"
+msgstr "Seřadit"
+
+#: UiStrings.resx$Reset$Message
+msgid "Reset"
+msgstr "Resetovat"
+
+#: MiscResources.resx$ResetImage$Message
+msgid "Reset Image"
+msgstr "Resetovat obrázek"
+
+#: UiStrings.resx$ResolutionLabel$Message
+msgid "Resolution:"
+msgstr "Rozlišení:"
+
+#: UiStrings.resx$RestoreDefaults$Message
+msgid "Restore Defaults"
+msgstr "Obnovit výchozí"
+
+#: UiStrings.resx$Reverse$Message
+msgid "Reverse"
+msgstr "Obrátit"
+
+#: UiStrings.resx$ReverseAll$Message
+msgid "Reverse All"
+msgstr "Obrátit vše"
+
+#: UiStrings.resx$ReverseSelected$Message
+msgid "Reverse Selected"
+msgstr "Obrátit vybrané"
+
+#: UiStrings.resx$Revert$Message
+msgid "Revert"
+msgstr "Vrátit"
+
+#: SettingsResources.resx$HorizontalAlign_Right$Message
+msgid "Right"
+msgstr "Vpravo"
+
+#: UiStrings.resx$Rotate$Message
+msgid "Rotate"
+msgstr "Otočení"
+
+#: UiStrings.resx$RotateLeft$Message
+msgid "Rotate Left"
+msgstr "Otočit vlevo"
+
+#: UiStrings.resx$RotateRight$Message
+msgid "Rotate Right"
+msgstr "Otočit vpravo"
+
+#: UiStrings.resx$RunInBackground$Message
+msgid "Run in Background"
+msgstr "Spustit na pozadí"
+
+#: MiscResources.resx$RunningOcr$Message
+msgid "Running OCR..."
+msgstr "Spuštěno OCR..."
+
+#: UiStrings.resx$SaneDriver$Message
+msgid "SANE Driver"
+msgstr "SANE ovladač"
+
+#: UiStrings.resx$Save$Message
+msgid "Save"
+msgstr "Uložit"
+
+#: UiStrings.resx$SaveAll$Message
+msgid "Save All"
+msgstr "Uložit vše"
+
+#: UiStrings.resx$SaveAllAsImages$Message
+msgid "Save All as Images"
+msgstr "Uložit vše jako obrázky"
+
+#: UiStrings.resx$SaveAllAsPdf$Message
+msgid "Save All as PDF"
+msgstr "Uložit vše jako PDF"
+
+#: MiscResources.resx$SaveImages$Message
+#: UiStrings.resx$SaveImages$Message
+msgid "Save Images"
+msgstr "Uložit obrázek"
+
+#: MiscResources.resx$SaveImagesProgress$Message
+msgid "Save Images Progress"
+msgstr "Průběh ukládání obrázků"
+
+#: MiscResources.resx$SavePdf$Message
+#: UiStrings.resx$SavePdf$Message
+msgid "Save PDF"
+msgstr "Uložit PDF"
+
+#: MiscResources.resx$SavePdfProgress$Message
+msgid "Save PDF Progress"
+msgstr "Průběh ukládání PDF"
+
+#: UiStrings.resx$SaveSelected$Message
+msgid "Save Selected"
+msgstr "Uložit vybrané"
+
+#: UiStrings.resx$SaveSelectedAsImages$Message
+msgid "Save Selected as Images"
+msgstr "Uložit vybrané jako obrázky"
+
+#: UiStrings.resx$SaveSelectedAsPdf$Message
+msgid "Save Selected as PDF"
+msgstr "Uložit vybrané jako PDF"
+
+#: UiStrings.resx$SaveToSingleFile$Message
+msgid "Save to a single file"
+msgstr "Uložit do jednoho souboru"
+
+#: UiStrings.resx$SaveToMultipleFiles$Message
+msgid "Save to multiple files"
+msgstr "Uložit do více souborů"
+
+#: MiscResources.resx$BatchStatusSaving$Message
+msgid "Saving batch results..."
+msgstr "Ukládání výsledků dávky..."
+
+#: MiscResources.resx$SavingFormat$Message
+msgid "Saving {0}..."
+msgstr "Ukládá se {0}..."
+
+#: UiStrings.resx$ScaleWithWindow$Message
+msgid "Scale With Window"
+msgstr "Stupnice s oknem"
+
+#: UiStrings.resx$ScaleLabel$Message
+msgid "Scale:"
+msgstr "Měřítko:"
+
+#: MiscResources.resx$Scan$Message
+#: UiStrings.resx$Scan$Message
+msgid "Scan"
+msgstr "Skenovat"
+
+#: UiStrings.resx$ScanConfig$Message
+msgid "Scan Configuration"
+msgstr "Nastavení skenování"
+
+#: MiscResources.resx$ScannedImage$Message
+msgid "Scanned Image"
+msgstr "Naskenovaný obrázek"
+
+#: MiscResources.resx$ScanPageProgress$Message
+msgid "Scanning page {0}"
+msgstr "Skenuje se stránka {0}"
+
+#: MiscResources.resx$BatchStatusScanPage$Message
+msgid "Scanning page {0} (scan {1})..."
+msgstr "Skenuje se stránka {0} (sken {1})..."
+
+#: MiscResources.resx$BatchStatusPage$Message
+#: MiscResources.resx$ScanProgressPage$Message
+msgid "Scanning page {0}..."
+msgstr "Skenuje se stránka {0}..."
+
+#: UiStrings.resx$Second2Digit$Message
+msgid "Second (00-59)"
+msgstr "Sekunda (00-59)"
+
+#: UiStrings.resx$Select$Message
+msgid "Select"
+msgstr "Vybrat"
+
+#: UiStrings.resx$SelectAll$Message
+msgid "Select All"
+msgstr "Vybrat vše"
+
+#: UiStrings.resx$SelectSource$Message
+msgid "Select Source"
+msgstr "Vybrat zdroj"
+
+#: MiscResources.resx$SelectProfileBeforeScan$Message
+msgid "Select a profile before clicking Scan."
+msgstr "Vyberte profil před spuštěním skenování."
+
+#: UiStrings.resx$OcrSelectLanguageLabel$Message
+msgid "Select one or more languages:"
+msgstr "Vyberte jeden nebo více jazyků:"
+
+#: MiscResources.resx$SelectedCount$Message
+msgid "Selected ({0})"
+msgstr "Vybráno ({0})"
+
+#: UiStrings.resx$SeparateByPatchT$Message
+msgid "Separate files by Patch-T"
+msgstr "Oddělit soubory pomocí Patch-T"
+
+#: UiStrings.resx$SetDefault$Message
+msgid "Set Default"
+msgstr "Nastavit výchozí"
+
+#: UiStrings.resx$Sharpen$Message
+msgid "Sharpen"
+msgstr "Zaostřit"
+
+#: UiStrings.resx$Show$Message
+msgid "Show"
+msgstr "Ukázat"
+
+#: UiStrings.resx$SinglePageFiles$Message
+msgid "Single page files"
+msgstr "Jednostránkové soubory"
+
+#: UiStrings.resx$SingleScan$Message
+msgid "Single scan"
+msgstr "Jeden sken"
+
+#: UiStrings.resx$SkipSavePrompt$Message
+msgid "Skip save prompt"
+msgstr "Přeskočit dotaz na uložení"
+
+#: UiStrings.resx$Start$Message
+msgid "Start"
+msgstr "Start"
+
+#: UiStrings.resx$StretchToPageSize$Message
+msgid "Stretch to page size"
+msgstr "Roztáhnout na velikost stránky"
+
+#: UiStrings.resx$SubjectLabel$Message
+msgid "Subject:"
+msgstr "Předmět:"
+
+#: MiscResources.resx$FileTypeTiff$Message
+msgid "TIFF File (*.tiff, *.tif)"
+msgstr "Soubor TIFF (*.tiff, *.tif)"
+
+#: UiStrings.resx$TwainDriver$Message
+msgid "TWAIN Driver"
+msgstr "Ovladač TWAIN"
+
+#: UiStrings.resx$TechnicalDetails$Message
+msgid "Technical Details"
+msgstr "Technické detaily"
+
+#: MiscResources.resx$TesseractNotAvailable$Message
+#: SdkResources.resx$TesseractNotAvailable$Message
+msgid "The OCR engine is not available. Make sure to install the required package:"
+msgstr "OCR není dostupné. Ověřte instalaci požadovaného balíčku:"
+
+#: SdkResources.resx$OcrTimeout$Message
+msgid "The OCR operation timed out."
+msgstr "Vypršel časový limit operace OCR."
+
+#: MiscResources.resx$SaneNotAvailable$Message
+#: SdkResources.resx$SaneNotAvailable$Message
+msgid "The SANE driver is not available. Make sure to install the required packages:"
+msgstr "Ovladač SANE není dostupný. Ověřte instalaci požadovaných balíčků:"
+
+#: MiscResources.resx$ImportErrorCouldNot$Message
+#: SdkResources.resx$ImportErrorCouldNot$Message
+msgid "The file '{0}' could not be imported."
+msgstr "Soubor '{0}' nelze importovat."
+
+#: MiscResources.resx$ImportErrorNAPS2Pdf$Message
+msgid "The file '{0}' could not be imported. Only PDF files generated by NAPS2 can be imported."
+msgstr "Soubor '{0}' nelze importovat. Importovány mohou být poze soubory PDF vytvořené NAPS2."
+
+#: MiscResources.resx$FileInUse$Message
+msgid "The file could not be overwritten because it is currently in use."
+msgstr "Soubor nemůže být přepsán, protože je právě používán."
+
+#: MiscResources.resx$ConfirmOverwriteFile$Message
+msgid "The file {0} already exists. Do you want to overwrite it?"
+msgstr "Soubor {0} již existuje. Přejete si jej přepsat?"
+
+#: UiStrings.resx$EncryptedFilePrompt$Message
+msgid "The following file is encrypted and requires a password to open:"
+msgstr "Následující soubor je zašifrován a k otevření vyžaduje heslo:"
+
+#: MiscResources.resx$DevicePaperJam$Message
+#: SdkResources.resx$DevicePaperJam$Message
+msgid "The scanner has a paper jam."
+msgstr "Ve skeneru je zmuchlaný papír."
+
+#: MiscResources.resx$DeviceWarmingUp$Message
+#: SdkResources.resx$DeviceWarmingUp$Message
+msgid "The scanner is warming up."
+msgstr "Skener se rozehřívá."
+
+#: MiscResources.resx$DeviceCoverOpen$Message
+#: SdkResources.resx$DeviceCoverOpen$Message
+msgid "The scanner's cover is open."
+msgstr "Víko skeneru je otevřené."
+
+#: MiscResources.resx$DriverNotSupported$Message
+#: SdkResources.resx$DriverNotSupported$Message
+msgid "The selected driver is not supported on this system."
+msgstr "Vybraný ovladač není na tomto systému podporován."
+
+#: MiscResources.resx$DeviceNotFound$Message
+#: SdkResources.resx$DeviceNotFound$Message
+msgid "The selected scanner could not be found."
+msgstr "Vybraný skener nebyl nalezen."
+
+#: MiscResources.resx$NoFeederSupport$Message
+#: SdkResources.resx$NoFeederSupport$Message
+msgid "The selected scanner does not support using a feeder. If your scanner does have a feeder, try using a different driver."
+msgstr "Vybraný skener nepodporuje použití podavače. Pokud váš skener má podavač, zkuste použít jiný ovladač."
+
+#: MiscResources.resx$NoDuplexSupport$Message
+#: SdkResources.resx$NoDuplexSupport$Message
+msgid "The selected scanner does not support using duplex. If your scanner is supposed to support duplex, try using a different driver."
+msgstr "Vybraný skener nepodporuje použití oboustranný mód. Pokud by měl podporovat oboustranný mód, zkuste použít jiný ovladač."
+
+#: MiscResources.resx$DeviceBusy$Message
+#: SdkResources.resx$DeviceBusy$Message
+msgid "The selected scanner is busy."
+msgstr "Vybraný skener je zaneprázdněn."
+
+#: MiscResources.resx$DeviceOffline$Message
+#: SdkResources.resx$DeviceOffline$Message
+msgid "The selected scanner is offline."
+msgstr "Vybraný skener je vypnutý."
+
+#: SettingsResources.resx$EmailProviderType_Thunderbird$Message
+msgid "Thunderbird"
+msgstr ""
+
+#: UiStrings.resx$TiffOptions$Message
+msgid "Tiff Options"
+msgstr "Možnosti Tiff"
+
+#: UiStrings.resx$TimeBetweenScansLabel$Message
+msgid "Time between scans (seconds):"
+msgstr "Čas mezi skeny (vteřiny):"
+
+#: UiStrings.resx$TitleLabel$Message
+msgid "Title:"
+msgstr "Titul:"
+
+#: UiStrings.resx$Tools$Message
+msgid "Tools"
+msgstr "Nástroje"
+
+#: UiStrings.resx$TwainImplLabel$Message
+msgid "Twain Implementation:"
+msgstr "Implementace TWAIN:"
+
+#: SettingsResources.resx$PageSize_Legal$Message
+msgid "US Legal (8.5x14 in)"
+msgstr "US Legal (8,5 × 14 in)"
+
+#: SettingsResources.resx$PageSize_Letter$Message
+msgid "US Letter (8.5x11 in)"
+msgstr "US Letter (8.5 × 11 in)"
+
+#: MiscResources.resx$UnsavedChanges$Message
+msgid "Unsaved Changes"
+msgstr "Neuložené změny"
+
+#: MiscResources.resx$UpdateProgress$Message
+msgid "Update Progress"
+msgstr "Průběh aktualizace"
+
+#: MiscResources.resx$UpdateCheckDisabled$Message
+msgid "Update checking is disabled."
+msgstr "Kontrola aktualizací je vypnuta."
+
+#: MiscResources.resx$Updating$Message
+msgid "Updating..."
+msgstr "Aktualizace..."
+
+#: MiscResources.resx$UploadingEmail$Message
+msgid "Uploading email..."
+msgstr "Odesílání emailu..."
+
+#: UiStrings.resx$UseNativeUi$Message
+msgid "Use native UI"
+msgstr "Použít nativní rozhraní"
+
+#: UiStrings.resx$UsePredefinedSettings$Message
+msgid "Use predefined settings"
+msgstr "Použít výchozí nastavení"
+
+#: UiStrings.resx$UserPasswordLabel$Message
+msgid "User Password:"
+msgstr "Heslo uživatele:"
+
+#: UiStrings.resx$OcrDownloadSummaryText$Message
+msgid "Using OCR requires you to download each language you want to scan."
+msgstr "Pro použití OCR musíte stáhnout každý jazyk, který chcete skenovat."
+
+#: MiscResources.resx$Version$Message
+#: SdkResources.resx$Version$Message
+msgid "Version {0}"
+msgstr "Verze {0}"
+
+#: UiStrings.resx$View$Message
+msgid "View"
+msgstr "Zobrazení"
+
+#: UiStrings.resx$WiaDriver$Message
+msgid "WIA Driver"
+msgstr "Ovladač WIA"
+
+#: UiStrings.resx$WaitingForTwain$Message
+msgid "Waiting for TWAIN to complete..."
+msgstr "Čekání na dokončení TWAIN..."
+
+#: UiStrings.resx$WaitingForAuthorization$Message
+msgid "Waiting for authorization..."
+msgstr "Čekání na autorizaci..."
+
+#: MiscResources.resx$BatchStatusWaitingForScan$Message
+msgid "Waiting for scan {0}..."
+msgstr "Čekání na sken {0}..."
+
+#: UiStrings.resx$WhiteThreshold$Message
+msgid "White Threshold"
+msgstr "Práh bílé"
+
+#: UiStrings.resx$WiaVersionLabel$Message
+msgid "Wia Version:"
+msgstr "Wia verze:"
+
+#: UiStrings.resx$Year4Digit$Message
+msgid "Year"
+msgstr "Rok"
+
+#: UiStrings.resx$Year2Digit$Message
+msgid "Year (00-99)"
+msgstr "Rok (00-99)"
+
+#: MiscResources.resx$PdfNoPermissionToExtractContent$Message
+#: SdkResources.resx$PdfNoPermissionToExtractContent$Message
+msgid "You do not have permission to copy content from the file '{0}'."
+msgstr "Nemáte oprávnění kopírovat obsah ze souboru '{0}'."
+
+#: MiscResources.resx$DontHavePermission$Message
+msgid "You don't have permission to save files at this location."
+msgstr "Nemáte oprávnění zapisovat do tohoto umístění."
+
+#: MiscResources.resx$ExitWithUnsavedChanges$Message
+msgid "You have unsaved changes. Are you sure you want to exit and discard those changes?"
+msgstr "Máte neuložené změny. Jste si jisti, že chcete odejít a zahodit tyto změny?"
+
+#: UiStrings.resx$Zoom$Message
+msgid "Zoom"
+msgstr "Zvětšení"
+
+#: UiStrings.resx$ZoomActual$Message
+msgid "Zoom Actual"
+msgstr "Aktuální zvětšení"
+
+#: UiStrings.resx$ZoomIn$Message
+msgid "Zoom In"
+msgstr "Přiblížit"
+
+#: UiStrings.resx$ZoomOut$Message
+msgid "Zoom Out"
+msgstr "Oddálit"
+
+#: SettingsResources.resx$PageSizeUnit_Centimetre$Message
+msgid "cm"
+msgstr "cm"
+
+#: SettingsResources.resx$PageSizeUnit_Inch$Message
+msgid "in"
+msgstr "in"
+
+#: SettingsResources.resx$PageSizeUnit_Millimetre$Message
+msgid "mm"
+msgstr "mm"
+
+#: MiscResources.resx$OfN$Message
+msgid "of {0}"
+msgstr "z {0}"
+
+#: SettingsResources.resx$TwainImpl_X64$Message
+msgid "x64"
+msgstr "x64"
+
+#: MiscResources.resx$NamedPageSizeFormat$Message
+msgid "{0} ({1}x{2} {3})"
+msgstr "{0} ({1} × {2} {3})"
+
+#: MiscResources.resx$ProgressFormat$Message
+msgid "{0} / {1}"
+msgstr "{0} / {1}"
+
+#: MiscResources.resx$SizeProgress$Message
+msgid "{0} / {1} MB"
+msgstr "{0}/{1} MB"
+
+#: MiscResources.resx$FilesProgressFormat$Message
+msgid "{0} / {1} files"
+msgstr "{0}/{1} souborů"
+
+#: SettingsResources.resx$DpiFormat$Message
+msgid "{0} dpi"
+msgstr "{0} dpi"
+
+#: UiStrings.resx$RecoverPrompt$Message
+msgid "{0} image(s) scanned on {1} at {2} may not have been saved, and are recoverable. Do you want to recover them?"
+msgstr "{0} obrázků skenovaných na {1} v {2} možná nebylo uloženo a je možno je obnovit. Chcete je obnovit?"
+
+#: MiscResources.resx$ImagesSaved$Message
+msgid "{0} images saved."
+msgstr "{0} obrázků uloženo."
+
+#: MiscResources.resx$PdfStatus$Message
+#: UiStrings.resx$XOfY$Message
+msgid "{0} of {1}"
+msgstr "{0} z {1}"
+

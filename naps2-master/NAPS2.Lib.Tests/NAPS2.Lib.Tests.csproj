@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('Windows'))">net6;net462</TargetFrameworks>
+        <TargetFrameworks Condition="!$([MSBuild]::IsOSPlatform('Windows'))">net6</TargetFrameworks>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <RootNamespace>NAPS2.Lib.Tests</RootNamespace>
+    </PropertyGroup>
+
+    <Import Project="..\NAPS2.Setup\targets\CommonTargets.targets" />
+    <Import Project="..\NAPS2.Setup\targets\LibUsers.targets" />
+
+    <ItemGroup>
+        <Reference Include="PdfSharpCore">
+            <HintPath>..\NAPS2.Setup\lib\PdfSharpCore.dll</HintPath>
+        </Reference>
+
+        <ProjectReference Include="..\NAPS2.Lib\NAPS2.Lib.csproj" />
+        <ProjectReference Include="..\NAPS2.Sdk.Tests\NAPS2.Sdk.Tests.csproj" />
+
+        <PackageReference Include="NAPS2.Pdfium.Binaries" Version="1.0.0" />
+        <PackageReference Include="NAPS2.Tesseract.Binaries" Version="1.0.5" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
+        <PackageReference Include="Moq" Version="4.18.1" />
+        <PackageReference Include="xunit" Version="2.4.1" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Update="**/*.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+        </EmbeddedResource>
+    </ItemGroup>
+
+</Project>

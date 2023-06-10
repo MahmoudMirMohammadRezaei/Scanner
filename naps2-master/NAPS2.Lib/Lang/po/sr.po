@@ -1,0 +1,1578 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: naps2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-19 21:51+0000\n"
+"PO-Revision-Date: 2023-04-22 05:32\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Cyrillic)\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Crowdin-Project: naps2\n"
+"X-Crowdin-Project-ID: 531762\n"
+"X-Crowdin-Language: sr\n"
+"X-Crowdin-File: templates.pot\n"
+"X-Crowdin-File-ID: 75\n"
+
+#: SettingsResources.resx$BitDepth_24Color$Message
+msgid "24-bit Color"
+msgstr "24-битна Боја"
+
+#: SettingsResources.resx$PageSize_A3$Message
+msgid "A3 (297x420 mm)"
+msgstr ""
+
+#: SettingsResources.resx$PageSize_A4$Message
+msgid "A4 (210x297 mm)"
+msgstr ""
+
+#: SettingsResources.resx$PageSize_A5$Message
+msgid "A5 (148x210 mm)"
+msgstr ""
+
+#: UiStrings.resx$About$Message
+#: UiStrings.resx$AboutFormTitle$Message
+msgid "About"
+msgstr "О програму"
+
+#: MiscResources.resx$AcquiringData$Message
+msgid "Acquiring data..."
+msgstr "Прикупљам податке..."
+
+#: UiStrings.resx$Advanced$Message
+msgid "Advanced"
+msgstr "Напредне опције"
+
+#: UiStrings.resx$AdvancedProfileFormTitle$Message
+msgid "Advanced Profile Settings"
+msgstr "Напредне опције профила"
+
+#: MiscResources.resx$AllCount$Message
+msgid "All ({0})"
+msgstr "Све ({0})"
+
+#: MiscResources.resx$FileTypeAllFiles$Message
+msgid "All Files"
+msgstr "Све датотеке"
+
+#: UiStrings.resx$AllowAnnotations$Message
+msgid "Allow Annotations"
+msgstr "Дозволи анотације"
+
+#: UiStrings.resx$AllowContentCopying$Message
+msgid "Allow Content Copying"
+msgstr "Дозволи копирање садржаја"
+
+#: UiStrings.resx$AllowContentCopyingForAccessibility$Message
+msgid "Allow Content Copying for Accessibility"
+msgstr "Дозволи копирање садржаја ради доступности"
+
+#: UiStrings.resx$AllowDocumentAssembly$Message
+msgid "Allow Document Assembly"
+msgstr "Дозволи састављање документа (Assembly)"
+
+#: UiStrings.resx$AllowDocumentModification$Message
+msgid "Allow Document Modification"
+msgstr "Дозволи измене у документу"
+
+#: UiStrings.resx$AllowFormFilling$Message
+msgid "Allow Form Filling"
+msgstr "Дозволи попуњавање форми"
+
+#: UiStrings.resx$AllowFullQualityPrinting$Message
+msgid "Allow Full Quality Printing"
+msgstr "Дозволи штампу највишег квалитета"
+
+#: UiStrings.resx$AllowPrinting$Message
+msgid "Allow Printing"
+msgstr "Дозволи штампу"
+
+#: UiStrings.resx$AltDeinterleave$Message
+msgid "Alternate Deinterleave"
+msgstr "Измени неиспреплитаност"
+
+#: UiStrings.resx$AltInterleave$Message
+msgid "Alternate Interleave"
+msgstr "Измени испреплитаност"
+
+#: MiscResources.resx$PdfImportComponentNeeded$Message
+msgid "An additional component is needed to import this PDF file. Would you like to download it now?"
+msgstr ""
+
+#: SdkResources.resx$OcrError$Message
+msgid "An error occurred running OCR."
+msgstr ""
+
+#: MiscResources.resx$AuthError$Message
+msgid "An error occurred when trying to authorize."
+msgstr ""
+
+#: MiscResources.resx$AutoSaveError$Message
+msgid "An error occurred when trying to auto save."
+msgstr "Дошло је до грешке приликом аутоматског снимања."
+
+#: MiscResources.resx$UpdateError$Message
+msgid "An error occurred when trying to install the update."
+msgstr ""
+
+#: MiscResources.resx$ErrorSaving$Message
+msgid "An error occurred when trying to save the file."
+msgstr "Дошло је до грешке у покушају снимања датотеке."
+
+#: MiscResources.resx$ErrorEmailing$Message
+msgid "An error occurred when trying to send the email."
+msgstr ""
+
+#: MiscResources.resx$EmailError$Message
+msgid "An error occurred while trying to send an email."
+msgstr "Дошло је до грешке у покушају слања мејла.."
+
+#: MiscResources.resx$UnknownDriverError$Message
+#: SdkResources.resx$UnknownDriverError$Message
+msgid "An error occurred with the scanning driver."
+msgstr "Дошло је до грешке са дрajвером за скенер."
+
+#: MiscResources.resx$ExitWithActiveOperations$Message
+msgid "An operation is in progress. Are you sure you want to exit and cancel the operation?"
+msgstr ""
+
+#: MiscResources.resx$BatchError$Message
+msgid "An unknown error occurred during the batch scan."
+msgstr ""
+
+#: MiscResources.resx$UpdateAvailable$Message
+msgid "An update is available."
+msgstr ""
+
+#: MiscResources.resx$OcrUpdateAvailable$Message
+msgid "An update to OCR is available."
+msgstr "ажурирање софтвера за препознавање текста је доступно."
+
+#: UiStrings.resx$AppleDriver$Message
+msgid "Apple Driver"
+msgstr ""
+
+#: SettingsResources.resx$EmailProviderType_AppleMail$Message
+msgid "Apple Mail"
+msgstr ""
+
+#: UiStrings.resx$BrightnessContrastAfterScan$Message
+msgid "Apply brightness/contrast after scan"
+msgstr "Примени осветљење/контраст након скенирања"
+
+#: UiStrings.resx$ApplyToSelected$Message
+msgid "Apply to all {0} selected images"
+msgstr "Примени на свих {0} изабраних слика"
+
+#: MiscResources.resx$ConfirmCancelBatch$Message
+msgid "Are you sure you want to cancel the batch scan?"
+msgstr ""
+
+#: MiscResources.resx$ConfirmClearItems$Message
+msgid "Are you sure you want to clear {0} item(s)?"
+msgstr "Да ли сте сигурни да желите да уклоните следећи број датотека: {0}?"
+
+#: MiscResources.resx$ConfirmDelete$Message
+msgid "Are you sure you want to delete \"{0}\"?"
+msgstr ""
+
+#: MiscResources.resx$ConfirmDeleteSingleProfile$Message
+msgid "Are you sure you want to delete the profile {0}?"
+msgstr "Да ли сте сигурни да желите да обришете профил {0}?"
+
+#: MiscResources.resx$ConfirmDeleteItems$Message
+msgid "Are you sure you want to delete {0} item(s)?"
+msgstr "Да ли сте сигурни да желите да обришете следећи број датотека: {0}?"
+
+#: MiscResources.resx$ConfirmDeleteMultipleProfiles$Message
+msgid "Are you sure you want to delete {0} profiles?"
+msgstr "Да ли сте сигурни да желите да обришете {0} профила?"
+
+#: MiscResources.resx$ConfirmResetImages$Message
+msgid "Are you sure you want undo your changes to {0} image(s)?"
+msgstr "Да ли заиста желите да поништите промене на следећем броју слика: {0}"
+
+#: UiStrings.resx$AttachmentNameLabel$Message
+msgid "Attachment Name:"
+msgstr "Назив прилога:"
+
+#: UiStrings.resx$AuthorLabel$Message
+msgid "Author:"
+msgstr "Аутор:"
+
+#: UiStrings.resx$AuthorizeFormTitle$Message
+msgid "Authorize"
+msgstr ""
+
+#: SettingsResources.resx$TiffComp_Auto$Message
+msgid "Auto"
+msgstr ""
+
+#: UiStrings.resx$AutoSaveSettings$Message
+#: UiStrings.resx$AutoSaveSettingsFormTitle$Message
+msgid "Auto Save Settings"
+msgstr "Подешавања аутоматског снимања"
+
+#: UiStrings.resx$AutoIncrementing1Digit$Message
+msgid "Auto-incrementing number (1 digits)"
+msgstr ""
+
+#: UiStrings.resx$AutoIncrementing2Digit$Message
+msgid "Auto-incrementing number (2 digits)"
+msgstr "Аутоматско увећавање броја (2 цифре)"
+
+#: UiStrings.resx$AutoIncrementing3Digit$Message
+msgid "Auto-incrementing number (3 digits)"
+msgstr "Аутоматско увећавање броја (3 цифре)"
+
+#: UiStrings.resx$AutoIncrementing4Digit$Message
+msgid "Auto-incrementing number (4 digits)"
+msgstr "Аутоматско увећавање броја (4 цифре)"
+
+#: UiStrings.resx$RunOcrAfterScanning$Message
+msgid "Automatically run OCR after scanning"
+msgstr ""
+
+#: SettingsResources.resx$PageSize_B4$Message
+msgid "B4 (250x353 mm)"
+msgstr ""
+
+#: SettingsResources.resx$PageSize_B5$Message
+msgid "B5 (176x250 mm)"
+msgstr ""
+
+#: UiStrings.resx$BatchScan$Message
+#: UiStrings.resx$BatchScanFormTitle$Message
+msgid "Batch Scan"
+msgstr "Пакетно скенирање"
+
+#: MiscResources.resx$BatchStatusCancelled$Message
+msgid "Batch cancelled."
+msgstr "Пакетна обрада отказана."
+
+#: MiscResources.resx$BatchStatusComplete$Message
+msgid "Batch completed successfully."
+msgstr "Пакетна обрада успешно завршена."
+
+#: MiscResources.resx$BatchStatusError$Message
+msgid "Batch scan stopped due to error."
+msgstr "Пакетно скенирање заустављено услед грешке."
+
+#: SettingsResources.resx$OcrMode_Best$Message
+msgid "Best"
+msgstr ""
+
+#: UiStrings.resx$BitDepthLabel$Message
+msgid "Bit depth:"
+msgstr "Дубина битова:"
+
+#: MiscResources.resx$FileTypeBmp$Message
+msgid "Bitmap Files (*.bmp)"
+msgstr "Bitmap датотека (*.bmp)"
+
+#: SettingsResources.resx$BitDepth_1BlackAndWhite$Message
+#: UiStrings.resx$BlackAndWhite$Message
+msgid "Black and White"
+msgstr "Црно/бело"
+
+#: UiStrings.resx$BlankPages$Message
+msgid "Blank Pages"
+msgstr "Празне стране"
+
+#: UiStrings.resx$BrightnessContrast$Message
+msgid "Brightness / Contrast"
+msgstr ""
+
+#: UiStrings.resx$BrightnessLabel$Message
+msgid "Brightness:"
+msgstr "Осветљеност:"
+
+#: SettingsResources.resx$TiffComp_Ccitt4$Message
+msgid "CCITT4"
+msgstr ""
+
+#: MiscResources.resx$Cancel$Message
+#: UiStrings.resx$Cancel$Message
+msgid "Cancel"
+msgstr "Прекини"
+
+#: MiscResources.resx$CancelBatch$Message
+msgid "Cancel Batch"
+msgstr ""
+
+#: MiscResources.resx$BatchStatusCancelling$Message
+msgid "Cancelling...."
+msgstr "Прекид у току...."
+
+#: SettingsResources.resx$HorizontalAlign_Center$Message
+msgid "Center"
+msgstr "Центрирано"
+
+#: UiStrings.resx$Change$Message
+msgid "Change"
+msgstr ""
+
+#: UiStrings.resx$CheckForUpdates$Message
+msgid "Check for updates"
+msgstr ""
+
+#: MiscResources.resx$CheckingForUpdates$Message
+msgid "Checking..."
+msgstr ""
+
+#: UiStrings.resx$EmailProviderFormTitle$Message
+msgid "Choose Email Provider"
+msgstr ""
+
+#: MiscResources.resx$ChooseProfile$Message
+msgid "Choose Profile"
+msgstr "Одаберите профил"
+
+#: UiStrings.resx$ChooseDevice$Message
+msgid "Choose device"
+msgstr "Одаберите уређај"
+
+#: MiscResources.resx$Clear$Message
+#: UiStrings.resx$Clear$Message
+msgid "Clear"
+msgstr "Очисти"
+
+#: UiStrings.resx$ClearAll$Message
+msgid "Clear All"
+msgstr ""
+
+#: UiStrings.resx$ClearAfterSaving$Message
+msgid "Clear images after saving"
+msgstr "Очисти слике након снимања"
+
+#: MiscResources.resx$Close$Message
+msgid "Close"
+msgstr "Затвори"
+
+#: UiStrings.resx$Compatibility$Message
+msgid "Compatibility"
+msgstr "Компатибилност"
+
+#: UiStrings.resx$CompressionLabel$Message
+msgid "Compression:"
+msgstr ""
+
+#: UiStrings.resx$ContrastLabel$Message
+msgid "Contrast:"
+msgstr "Контраст:"
+
+#: UiStrings.resx$Copy$Message
+msgid "Copy"
+msgstr "Копирај"
+
+#: MiscResources.resx$CopyProgress$Message
+msgid "Copy Progress"
+msgstr "Копирање у току"
+
+#: MiscResources.resx$Copying$Message
+msgid "Copying..."
+msgstr "Копирање..."
+
+#: UiStrings.resx$CopyrightFormat$Message
+msgid "Copyright {0} NAPS2 Contributors"
+msgstr ""
+
+#: UiStrings.resx$CoverageThreshold$Message
+msgid "Coverage Threshold"
+msgstr "Гранична вредност покривености"
+
+#: UiStrings.resx$Crop$Message
+msgid "Crop"
+msgstr "Исеци"
+
+#: UiStrings.resx$CropToPageSize$Message
+msgid "Crop to page size"
+msgstr ""
+
+#: MiscResources.resx$CustomPageSizeFormat$Message
+msgid "Custom ({0}x{1} {2})"
+msgstr "Произвољно ({0}x{1} {2})"
+
+#: UiStrings.resx$PageSizeFormTitle$Message
+msgid "Custom Page Size"
+msgstr "Произвољна величина стране"
+
+#: UiStrings.resx$CustomRotation$Message
+msgid "Custom Rotation"
+msgstr "Произвољна ротација"
+
+#: SettingsResources.resx$EmailProviderType_CustomSmtp$Message
+msgid "Custom SMTP"
+msgstr ""
+
+#: SettingsResources.resx$PageSize_Custom$Message
+msgid "Custom..."
+msgstr "Произвољно..."
+
+#: UiStrings.resx$Day2Digit$Message
+msgid "Day (01-31)"
+msgstr "Дан (01-31)"
+
+#: SettingsResources.resx$PdfCompat_Default$Message
+#: SettingsResources.resx$TwainImpl_Default$Message
+#: SettingsResources.resx$WiaVersion_Default$Message
+#: UiStrings.resx$Default$Message
+msgid "Default"
+msgstr "Подразумевано"
+
+#: UiStrings.resx$DefaultFilePathLabel$Message
+msgid "Default File Path:"
+msgstr "подразумевани фајл:"
+
+#: UiStrings.resx$Deinterleave$Message
+msgid "Deinterleave"
+msgstr "Неукрштено"
+
+#: MiscResources.resx$Delete$Message
+#: UiStrings.resx$Delete$Message
+msgid "Delete"
+msgstr "Обриши"
+
+#: UiStrings.resx$Deskew$Message
+msgid "Deskew"
+msgstr ""
+
+#: MiscResources.resx$AutoDeskewProgress$Message
+msgid "Deskew Progress"
+msgstr ""
+
+#: UiStrings.resx$DeskewScannedPages$Message
+msgid "Deskew scanned pages"
+msgstr ""
+
+#: MiscResources.resx$AutoDeskewing$Message
+msgid "Deskewing..."
+msgstr ""
+
+#: UiStrings.resx$DeviceLabel$Message
+msgid "Device:"
+msgstr "Уређај:"
+
+#: UiStrings.resx$Dimensions$Message
+msgid "Dimensions"
+msgstr "димензије"
+
+#: UiStrings.resx$DisplayNameLabel$Message
+msgid "Display name:"
+msgstr "Име за приказ:"
+
+#: UiStrings.resx$DocumentCorrection$Message
+msgid "Document Correction"
+msgstr ""
+
+#: MiscResources.resx$Donate$Message
+#: UiStrings.resx$Donate$Message
+msgid "Donate"
+msgstr ""
+
+#: UiStrings.resx$Done$Message
+msgid "Done"
+msgstr "Готово"
+
+#: UiStrings.resx$Download$Message
+msgid "Download"
+msgstr "Преузми"
+
+#: MiscResources.resx$DownloadError$Message
+msgid "Download Error"
+msgstr "Грешка у преузимању"
+
+#: MiscResources.resx$DownloadNeeded$Message
+msgid "Download Needed"
+msgstr ""
+
+#: UiStrings.resx$DownloadProgressFormTitle$Message
+msgid "Download Progress"
+msgstr "Ток преузимања"
+
+#: SettingsResources.resx$Source_Duplex$Message
+msgid "Duplex"
+msgstr "Двострано"
+
+#: UiStrings.resx$EsclDriver$Message
+msgid "ESCL Driver"
+msgstr ""
+
+#: UiStrings.resx$EsclNetworkDriver$Message
+msgid "ESCL Network Driver"
+msgstr ""
+
+#: UiStrings.resx$EsclUsbDriver$Message
+msgid "ESCL USB Driver"
+msgstr ""
+
+#: UiStrings.resx$Edit$Message
+msgid "Edit"
+msgstr "Уреди"
+
+#: UiStrings.resx$EmailAll$Message
+msgid "Email All"
+msgstr ""
+
+#: UiStrings.resx$EmailAllAsPdf$Message
+msgid "Email All as PDF"
+msgstr ""
+
+#: MiscResources.resx$EmailPdf$Message
+#: UiStrings.resx$EmailPdf$Message
+msgid "Email PDF"
+msgstr "Пошаљи мејлом ПДФ"
+
+#: MiscResources.resx$EmailPdfProgress$Message
+msgid "Email PDF Progress"
+msgstr "Ток слања PDF е-маилом"
+
+#: UiStrings.resx$EmailSelected$Message
+msgid "Email Selected"
+msgstr ""
+
+#: UiStrings.resx$EmailSelectedAsPdf$Message
+msgid "Email Selected as PDF"
+msgstr ""
+
+#: UiStrings.resx$EmailSettings$Message
+#: UiStrings.resx$EmailSettingsFormTitle$Message
+msgid "Email Settings"
+msgstr "Е-маил подешавања"
+
+#: UiStrings.resx$EnableAutoSave$Message
+msgid "Enable Auto Save"
+msgstr "Омогући аутоматско снимање"
+
+#: UiStrings.resx$EnableDebugLogging$Message
+msgid "Enable debug logging"
+msgstr ""
+
+#: UiStrings.resx$EncryptPdf$Message
+msgid "Encrypt PDF"
+msgstr "Енкриптуј PDF"
+
+#: UiStrings.resx$Encryption$Message
+msgid "Encryption"
+msgstr "Енкрипција"
+
+#: MiscResources.resx$FileTypeEmf$Message
+msgid "Enhanced Windows MetaFile (*.emf)"
+msgstr "Побољшани Windows MetaFile (*.emf)"
+
+#: MiscResources.resx$Error$Message
+#: UiStrings.resx$ErrorFormTitle$Message
+msgid "Error"
+msgstr "Грешка"
+
+#: MiscResources.resx$EstimatedDownloadSize$Message
+#: UiStrings.resx$EstimatedDownloadSize$Message
+msgid "Estimated download size: {0} MB"
+msgstr "Процењена величина преузимања: {0} MB"
+
+#: MiscResources.resx$FileTypeExif$Message
+msgid "Exchangeable Image File (*.exif)"
+msgstr "Размењива слика (*.exif)"
+
+#: UiStrings.resx$ExcludeBlankPages$Message
+msgid "Exclude blank pages"
+msgstr "Изостави празне стране"
+
+#: SettingsResources.resx$OcrMode_Fast$Message
+msgid "Fast"
+msgstr ""
+
+#: SettingsResources.resx$Source_Feeder$Message
+msgid "Feeder"
+msgstr "Увлакач (Уметач)"
+
+#: UiStrings.resx$FileNameLabel$Message
+msgid "File Name:"
+msgstr "Назив датотеке"
+
+#: UiStrings.resx$FilePathLabel$Message
+msgid "File Path:"
+msgstr "Путања датотеке:"
+
+#: UiStrings.resx$Flip$Message
+msgid "Flip"
+msgstr "Окрени"
+
+#: UiStrings.resx$FlipDuplexedPages$Message
+msgid "Flip duplexed pages"
+msgstr "окрени дуплирану страну"
+
+#: UiStrings.resx$JpegQualityHelp$Message
+msgid "For high JPEG qualities (80+), also increase Image Quality in your profile for best results."
+msgstr ""
+
+#: MiscResources.resx$FileTypeGif$Message
+msgid "GIF File (*.gif)"
+msgstr "GIF датотека (*.gif)"
+
+#: UiStrings.resx$GetMoreLanguages$Message
+msgid "Get more languages"
+msgstr "Инсталирај више језика"
+
+#: SettingsResources.resx$Source_Glass$Message
+msgid "Glass"
+msgstr "Стакло (flatbed)"
+
+#: SettingsResources.resx$EmailProviderType_Gmail$Message
+msgid "Gmail"
+msgstr ""
+
+#: SettingsResources.resx$BitDepth_8Grayscale$Message
+msgid "Grayscale"
+msgstr "Нијансе сиве"
+
+#: UiStrings.resx$HorizontalAlignLabel$Message
+msgid "Horizontal align:"
+msgstr "Водоравно поравнање:"
+
+#: UiStrings.resx$Hour2Digit$Message
+msgid "Hour (0-23)"
+msgstr "Сат (0-23)"
+
+#: UiStrings.resx$HueSaturation$Message
+msgid "Hue / Saturation"
+msgstr ""
+
+#: UiStrings.resx$IconsFrom$Message
+msgid "Icons from:"
+msgstr "Иконице из:"
+
+#: UiStrings.resx$Image$Message
+msgid "Image"
+msgstr "Слика"
+
+#: MiscResources.resx$FileTypeImageFiles$Message
+msgid "Image Files"
+msgstr "Сликовне датотеке"
+
+#: UiStrings.resx$ImageQuality$Message
+msgid "Image Quality"
+msgstr "Квалитет слике"
+
+#: UiStrings.resx$ImageSettings$Message
+#: UiStrings.resx$ImageSettingsFormTitle$Message
+msgid "Image Settings"
+msgstr "Подешавање слике"
+
+#: MiscResources.resx$ImageSaved$Message
+msgid "Image saved."
+msgstr "скен сачуван."
+
+#: UiStrings.resx$Import$Message
+msgid "Import"
+msgstr "Увези"
+
+#: MiscResources.resx$ImportProgress$Message
+msgid "Import Progress"
+msgstr "Увоз у току"
+
+#: MiscResources.resx$ImportingFormat$Message
+msgid "Importing {0}..."
+msgstr "Увозим {0}..."
+
+#: MiscResources.resx$Importing$Message
+msgid "Importing..."
+msgstr "Увозим..."
+
+#: MiscResources.resx$Install$Message
+msgid "Install {0}"
+msgstr ""
+
+#: MiscResources.resx$InstallComplete$Message
+msgid "Installation Complete"
+msgstr "Инсталација завршена"
+
+#: MiscResources.resx$InstallFailedTitle$Message
+msgid "Installation Failed"
+msgstr "Инсталација није успела"
+
+#: MiscResources.resx$InstallCompletePromptRestart$Message
+msgid "Installation complete. Do you want to restart NAPS2 now?"
+msgstr "Инсталација успешна. Да ли желите рестарт апликације?"
+
+#: MiscResources.resx$InstallFailed$Message
+msgid "Installation failed."
+msgstr "Инсталација није успела."
+
+#: UiStrings.resx$Interleave$Message
+msgid "Interleave"
+msgstr "Укрштање"
+
+#: MiscResources.resx$FileTypeJpeg$Message
+msgid "JPEG File (*.jpg, *.jpeg)"
+msgstr "JPEG датотека (*.jpg, *.jpeg)"
+
+#: MiscResources.resx$FileTypeJp2$Message
+msgid "JPEG2000 File (*.jp2, *.jpx)"
+msgstr ""
+
+#: UiStrings.resx$JpegQuality$Message
+msgid "Jpeg Quality"
+msgstr "Jpeg квалитет"
+
+#: UiStrings.resx$KeywordsLabel$Message
+msgid "Keywords:"
+msgstr "Кључне речи:"
+
+#: SettingsResources.resx$TiffComp_Lzw$Message
+msgid "LZW"
+msgstr ""
+
+#: UiStrings.resx$Language$Message
+msgid "Language"
+msgstr "Језик (language)"
+
+#: SettingsResources.resx$HorizontalAlign_Left$Message
+msgid "Left"
+msgstr "Лево"
+
+#: SettingsResources.resx$TwainImpl_Legacy$Message
+msgid "Legacy (native UI only)"
+msgstr "Легат (изворни кориснички интерфејс)"
+
+#: UiStrings.resx$LoadIn$Message
+msgid "Load images into NAPS2"
+msgstr "Учитај слике у апликацију"
+
+#: UiStrings.resx$MakePdfsSearchable$Message
+msgid "Make PDFs searchable using OCR"
+msgstr "Учините PDF-ове претраживим користећи OCR"
+
+#: UiStrings.resx$MaximumQuality$Message
+msgid "Maximum quality (large files)"
+msgstr "Максимални квалитет (велике датотеке)"
+
+#: SettingsResources.resx$TwainImpl_MemXfer$Message
+msgid "Memory Transfer"
+msgstr ""
+
+#: UiStrings.resx$Metadata$Message
+msgid "Metadata"
+msgstr "Метаподаци"
+
+#: UiStrings.resx$Minute2Digit$Message
+msgid "Minute (00-59)"
+msgstr "Минут (00-59)"
+
+#: UiStrings.resx$Month2Digit$Message
+msgid "Month (01-12)"
+msgstr "Месец (01-12)"
+
+#: UiStrings.resx$MoreInfo$Message
+msgid "More info"
+msgstr "Више информација"
+
+#: UiStrings.resx$MoveDown$Message
+msgid "Move Down"
+msgstr "Помери доле"
+
+#: UiStrings.resx$MoveUp$Message
+msgid "Move Up"
+msgstr "Помери горе"
+
+#: UiStrings.resx$MultipleScansDelay$Message
+msgid "Multiple scans (fixed delay between scans)"
+msgstr "Вишеструко скенирање (фиксно кашњење између скенирања)"
+
+#: UiStrings.resx$MultipleScansPrompt$Message
+msgid "Multiple scans (prompt between scans)"
+msgstr "Вишеструко скенирање (питај између скенирања)"
+
+#: MiscResources.resx$NAPS2$Message
+#: SdkResources.resx$NAPS2$Message
+#: UiStrings.resx$Naps2$Message
+msgid "NAPS2"
+msgstr ""
+
+#: UiStrings.resx$Naps2TitleFormat$Message
+msgid "NAPS2 - {0}"
+msgstr ""
+
+#: MiscResources.resx$DonatePrompt$Message
+msgid "NAPS2 is completely free. Consider making a donation."
+msgstr ""
+
+#: UiStrings.resx$NameOptional$Message
+msgid "Name (optional)"
+msgstr "Име (опционално)"
+
+#: MiscResources.resx$NameMissing$Message
+msgid "Name missing."
+msgstr "Недостаје име."
+
+#: SettingsResources.resx$TwainImpl_NativeXfer$Message
+msgid "Native Transfer"
+msgstr ""
+
+#: UiStrings.resx$New$Message
+msgid "New"
+msgstr "Нови"
+
+#: UiStrings.resx$NewProfile$Message
+msgid "New Profile"
+msgstr "Нови профил"
+
+#: UiStrings.resx$Next$Message
+msgid "Next"
+msgstr "Следеће"
+
+#: UiStrings.resx$BatchPromptFormTitle$Message
+msgid "Next Scan"
+msgstr "Следећи скен"
+
+#: MiscResources.resx$NoDeviceSelected$Message
+#: SdkResources.resx$NoDeviceSelected$Message
+msgid "No device selected."
+msgstr "Уређај није одабран."
+
+#: MiscResources.resx$NoPagesInFeeder$Message
+#: SdkResources.resx$NoPagesInFeeder$Message
+msgid "No pages are in the feeder."
+msgstr "Нема листова у увлакачу."
+
+#: SettingsResources.resx$EmailProvider_NotSelected$Message
+msgid "No provider selected."
+msgstr ""
+
+#: MiscResources.resx$NoDevicesFound$Message
+#: SdkResources.resx$NoDevicesFound$Message
+msgid "No scanning device was found."
+msgstr "Уређај за скенирање није пронађен."
+
+#: MiscResources.resx$NoUpdates$Message
+msgid "No updates available."
+msgstr ""
+
+#: SettingsResources.resx$TiffComp_None$Message
+msgid "None"
+msgstr ""
+
+#: UiStrings.resx$Naps2FullName$Message
+msgid "Not Another PDF Scanner"
+msgstr ""
+
+#: UiStrings.resx$NotNow$Message
+msgid "Not Now"
+msgstr "Не сада"
+
+#: UiStrings.resx$NumberOfScansLabel$Message
+msgid "Number of scans:"
+msgstr "Број скенова:"
+
+#: UiStrings.resx$Ocr$Message
+msgid "OCR"
+msgstr ""
+
+#: UiStrings.resx$OcrDownloadFormTitle$Message
+msgid "OCR Download"
+msgstr "Преузми OCR"
+
+#: MiscResources.resx$OcrProgress$Message
+msgid "OCR Progress"
+msgstr ""
+
+#: UiStrings.resx$OcrSetupFormTitle$Message
+msgid "OCR Setup"
+msgstr "Подеси OCR"
+
+#: UiStrings.resx$OcrLanguageLabel$Message
+msgid "OCR language:"
+msgstr "OCR језик:"
+
+#: UiStrings.resx$OcrModeLabel$Message
+msgid "OCR mode:"
+msgstr ""
+
+#: UiStrings.resx$OK$Message
+msgid "OK"
+msgstr "У реду"
+
+#: UiStrings.resx$OffsetWidth$Message
+msgid "Offset width based on alignment (WIA)"
+msgstr ""
+
+#: SettingsResources.resx$TwainImpl_OldDsm$Message
+msgid "Old DSM"
+msgstr ""
+
+#: UiStrings.resx$OneFilePerPage$Message
+msgid "One file per page"
+msgstr "Свака страна је засебна датотека"
+
+#: UiStrings.resx$OneFilePerScan$Message
+msgid "One file per scan"
+msgstr "Сваки скен је засебна датотека"
+
+#: MiscResources.resx$FilesCouldNotBeDownloaded$Message
+msgid "One or more files could not be downloaded."
+msgstr "Једна или више датотека није могло бити преузето."
+
+#: UiStrings.resx$OpenFolder$Message
+msgid "Open Folder"
+msgstr "Отвори фолдер"
+
+#: MiscResources.resx$ActiveOperations$Message
+msgid "Operation in Progress"
+msgstr ""
+
+#: SettingsResources.resx$EmailProviderType_OutlookWeb$Message
+msgid "Outlook Web Access"
+msgstr ""
+
+#: UiStrings.resx$Output$Message
+msgid "Output"
+msgstr "Излазни резултат"
+
+#: MiscResources.resx$OverwriteFile$Message
+msgid "Overwrite File"
+msgstr "Преснимити датотеку?"
+
+#: UiStrings.resx$OwnerPasswordLabel$Message
+msgid "Owner Password:"
+msgstr "Лозинка власника:"
+
+#: MiscResources.resx$FileTypePdf$Message
+msgid "PDF Document (*.pdf)"
+msgstr "ПДФ документ"
+
+#: UiStrings.resx$PdfSettings$Message
+#: UiStrings.resx$PdfSettingsFormTitle$Message
+msgid "PDF Settings"
+msgstr "PDF подешавања"
+
+#: MiscResources.resx$PdfSaved$Message
+msgid "PDF saved."
+msgstr "ПДФ сачуван."
+
+#: SettingsResources.resx$PdfCompat_PdfA1B$Message
+msgid "PDF/A-1b"
+msgstr ""
+
+#: SettingsResources.resx$PdfCompat_PdfA2B$Message
+msgid "PDF/A-2b"
+msgstr ""
+
+#: SettingsResources.resx$PdfCompat_PdfA3B$Message
+msgid "PDF/A-3b"
+msgstr ""
+
+#: SettingsResources.resx$PdfCompat_PdfA3U$Message
+msgid "PDF/A-3u"
+msgstr ""
+
+#: MiscResources.resx$FileTypePng$Message
+msgid "PNG File (*.png)"
+msgstr "PNG датотека (*.png)"
+
+#: UiStrings.resx$PageSizeLabel$Message
+msgid "Page size:"
+msgstr "Величина странице:"
+
+#: UiStrings.resx$PaperSourceLabel$Message
+msgid "Paper source:"
+msgstr "извор папира:"
+
+#: UiStrings.resx$PdfPasswordFormTitle$Message
+msgid "Password"
+msgstr "Лозинка"
+
+#: UiStrings.resx$Paste$Message
+msgid "Paste"
+msgstr "Налепи"
+
+#: UiStrings.resx$Placeholders$Message
+#: UiStrings.resx$PlaceholdersFormTitle$Message
+msgid "Placeholders"
+msgstr "Алокатор дужине и формата датотеке"
+
+#: UiStrings.resx$PostProcessing$Message
+msgid "Post-processing"
+msgstr ""
+
+#: UiStrings.resx$PressStartWhenReady$Message
+msgid "Press Start when ready."
+msgstr "Притисни Старт када си спреман."
+
+#: UiStrings.resx$PreviewFormTitle$Message
+msgid "Preview"
+msgstr "Преглед"
+
+#: UiStrings.resx$PreviewLabel$Message
+msgid "Preview:"
+msgstr "Преглед:"
+
+#: UiStrings.resx$Previous$Message
+msgid "Previous"
+msgstr "Претходни"
+
+#: MiscResources.resx$Print$Message
+#: UiStrings.resx$Print$Message
+msgid "Print"
+msgstr "Штампај"
+
+#: UiStrings.resx$EditProfileFormTitle$Message
+msgid "Profile Settings"
+msgstr "Поставке профила"
+
+#: UiStrings.resx$ProfileLabel$Message
+msgid "Profile:"
+msgstr ""
+
+#: UiStrings.resx$Profiles$Message
+#: UiStrings.resx$ProfilesFormTitle$Message
+msgid "Profiles"
+msgstr "Профили"
+
+#: UiStrings.resx$PromptForFilePath$Message
+msgid "Prompt for file path"
+msgstr ""
+
+#: UiStrings.resx$Provider$Message
+msgid "Provider"
+msgstr ""
+
+#: UiStrings.resx$ReadyForScan$Message
+msgid "Ready for scan {0}."
+msgstr "Спреман за скенирање {0}."
+
+#: UiStrings.resx$Recover$Message
+msgid "Recover"
+msgstr "Опорави"
+
+#: UiStrings.resx$RecoverFormTitle$Message
+msgid "Recover Scanned Images"
+msgstr "Опорави скениране слике"
+
+#: MiscResources.resx$Recovering$Message
+msgid "Recovering..."
+msgstr "Опорављање..."
+
+#: MiscResources.resx$RecoveryProgress$Message
+msgid "Recovery Progress"
+msgstr "Ток опоравка"
+
+#: UiStrings.resx$RememberTheseSettings$Message
+msgid "Remember these settings"
+msgstr "Запамти ова подешавања"
+
+#: UiStrings.resx$Reorder$Message
+msgid "Reorder"
+msgstr "Ресортирај"
+
+#: UiStrings.resx$Reset$Message
+msgid "Reset"
+msgstr "Ресет"
+
+#: MiscResources.resx$ResetImage$Message
+msgid "Reset Image"
+msgstr "Ресет слике"
+
+#: UiStrings.resx$ResolutionLabel$Message
+msgid "Resolution:"
+msgstr "Резолуција:"
+
+#: UiStrings.resx$RestoreDefaults$Message
+msgid "Restore Defaults"
+msgstr "Врати на подразумевана подешавања"
+
+#: UiStrings.resx$Reverse$Message
+msgid "Reverse"
+msgstr "Уназад"
+
+#: UiStrings.resx$ReverseAll$Message
+msgid "Reverse All"
+msgstr ""
+
+#: UiStrings.resx$ReverseSelected$Message
+msgid "Reverse Selected"
+msgstr ""
+
+#: UiStrings.resx$Revert$Message
+msgid "Revert"
+msgstr "Врати"
+
+#: SettingsResources.resx$HorizontalAlign_Right$Message
+msgid "Right"
+msgstr "Десно"
+
+#: UiStrings.resx$Rotate$Message
+msgid "Rotate"
+msgstr "Ротирај"
+
+#: UiStrings.resx$RotateLeft$Message
+msgid "Rotate Left"
+msgstr "Ротирај лево"
+
+#: UiStrings.resx$RotateRight$Message
+msgid "Rotate Right"
+msgstr "Ротирај десно"
+
+#: UiStrings.resx$RunInBackground$Message
+msgid "Run in Background"
+msgstr ""
+
+#: MiscResources.resx$RunningOcr$Message
+msgid "Running OCR..."
+msgstr ""
+
+#: UiStrings.resx$SaneDriver$Message
+msgid "SANE Driver"
+msgstr ""
+
+#: UiStrings.resx$Save$Message
+msgid "Save"
+msgstr ""
+
+#: UiStrings.resx$SaveAll$Message
+msgid "Save All"
+msgstr ""
+
+#: UiStrings.resx$SaveAllAsImages$Message
+msgid "Save All as Images"
+msgstr ""
+
+#: UiStrings.resx$SaveAllAsPdf$Message
+msgid "Save All as PDF"
+msgstr ""
+
+#: MiscResources.resx$SaveImages$Message
+#: UiStrings.resx$SaveImages$Message
+msgid "Save Images"
+msgstr "Сними слике"
+
+#: MiscResources.resx$SaveImagesProgress$Message
+msgid "Save Images Progress"
+msgstr "Ток снимања слике"
+
+#: MiscResources.resx$SavePdf$Message
+#: UiStrings.resx$SavePdf$Message
+msgid "Save PDF"
+msgstr "Сними PDF"
+
+#: MiscResources.resx$SavePdfProgress$Message
+msgid "Save PDF Progress"
+msgstr "Ток снимања PDF"
+
+#: UiStrings.resx$SaveSelected$Message
+msgid "Save Selected"
+msgstr ""
+
+#: UiStrings.resx$SaveSelectedAsImages$Message
+msgid "Save Selected as Images"
+msgstr ""
+
+#: UiStrings.resx$SaveSelectedAsPdf$Message
+msgid "Save Selected as PDF"
+msgstr ""
+
+#: UiStrings.resx$SaveToSingleFile$Message
+msgid "Save to a single file"
+msgstr "Сними као једну датотеку"
+
+#: UiStrings.resx$SaveToMultipleFiles$Message
+msgid "Save to multiple files"
+msgstr "Сними као више датотека"
+
+#: MiscResources.resx$BatchStatusSaving$Message
+msgid "Saving batch results..."
+msgstr "Снимање резултата пакетног скенирања..."
+
+#: MiscResources.resx$SavingFormat$Message
+msgid "Saving {0}..."
+msgstr "Снимање {0}..."
+
+#: UiStrings.resx$ScaleWithWindow$Message
+msgid "Scale With Window"
+msgstr "Скалирај са величином прозора"
+
+#: UiStrings.resx$ScaleLabel$Message
+msgid "Scale:"
+msgstr "Размер:"
+
+#: MiscResources.resx$Scan$Message
+#: UiStrings.resx$Scan$Message
+msgid "Scan"
+msgstr "Скенирај"
+
+#: UiStrings.resx$ScanConfig$Message
+msgid "Scan Configuration"
+msgstr "Конфигурација скенирања"
+
+#: MiscResources.resx$ScannedImage$Message
+msgid "Scanned Image"
+msgstr "Скенирана слика"
+
+#: MiscResources.resx$ScanPageProgress$Message
+msgid "Scanning page {0}"
+msgstr "Скенирање стране {0}"
+
+#: MiscResources.resx$BatchStatusScanPage$Message
+msgid "Scanning page {0} (scan {1})..."
+msgstr "Скенирање стране {0} (скен {1})..."
+
+#: MiscResources.resx$BatchStatusPage$Message
+#: MiscResources.resx$ScanProgressPage$Message
+msgid "Scanning page {0}..."
+msgstr "Скенирање стране {0}..."
+
+#: UiStrings.resx$Second2Digit$Message
+msgid "Second (00-59)"
+msgstr "Секунде (00-59)"
+
+#: UiStrings.resx$Select$Message
+msgid "Select"
+msgstr "Изабери"
+
+#: UiStrings.resx$SelectAll$Message
+msgid "Select All"
+msgstr "Изабери све"
+
+#: UiStrings.resx$SelectSource$Message
+msgid "Select Source"
+msgstr "Одабери извор"
+
+#: MiscResources.resx$SelectProfileBeforeScan$Message
+msgid "Select a profile before clicking Scan."
+msgstr "Изаберите профил пре него кликнете дугме за скенирање."
+
+#: UiStrings.resx$OcrSelectLanguageLabel$Message
+msgid "Select one or more languages:"
+msgstr "Изаберите један или више језика:"
+
+#: MiscResources.resx$SelectedCount$Message
+msgid "Selected ({0})"
+msgstr "Одабрано ({0})"
+
+#: UiStrings.resx$SeparateByPatchT$Message
+msgid "Separate files by Patch-T"
+msgstr ""
+
+#: UiStrings.resx$SetDefault$Message
+msgid "Set Default"
+msgstr "Постави као подразумевано"
+
+#: UiStrings.resx$Sharpen$Message
+msgid "Sharpen"
+msgstr ""
+
+#: UiStrings.resx$Show$Message
+msgid "Show"
+msgstr "Покажи"
+
+#: UiStrings.resx$SinglePageFiles$Message
+msgid "Single page files"
+msgstr ""
+
+#: UiStrings.resx$SingleScan$Message
+msgid "Single scan"
+msgstr "Појединачни скен"
+
+#: UiStrings.resx$SkipSavePrompt$Message
+msgid "Skip save prompt"
+msgstr ""
+
+#: UiStrings.resx$Start$Message
+msgid "Start"
+msgstr "Старт"
+
+#: UiStrings.resx$StretchToPageSize$Message
+msgid "Stretch to page size"
+msgstr ""
+
+#: UiStrings.resx$SubjectLabel$Message
+msgid "Subject:"
+msgstr "Тема:"
+
+#: MiscResources.resx$FileTypeTiff$Message
+msgid "TIFF File (*.tiff, *.tif)"
+msgstr "TIFF датотека (*.tiff, *tif)"
+
+#: UiStrings.resx$TwainDriver$Message
+msgid "TWAIN Driver"
+msgstr "ТWАИН Драјвер"
+
+#: UiStrings.resx$TechnicalDetails$Message
+msgid "Technical Details"
+msgstr "технички детаљи"
+
+#: MiscResources.resx$TesseractNotAvailable$Message
+#: SdkResources.resx$TesseractNotAvailable$Message
+msgid "The OCR engine is not available. Make sure to install the required package:"
+msgstr ""
+
+#: SdkResources.resx$OcrTimeout$Message
+msgid "The OCR operation timed out."
+msgstr ""
+
+#: MiscResources.resx$SaneNotAvailable$Message
+#: SdkResources.resx$SaneNotAvailable$Message
+msgid "The SANE driver is not available. Make sure to install the required packages:"
+msgstr ""
+
+#: MiscResources.resx$ImportErrorCouldNot$Message
+#: SdkResources.resx$ImportErrorCouldNot$Message
+msgid "The file '{0}' could not be imported."
+msgstr "Датотека '{0}' није могла бити увезена."
+
+#: MiscResources.resx$ImportErrorNAPS2Pdf$Message
+msgid "The file '{0}' could not be imported. Only PDF files generated by NAPS2 can be imported."
+msgstr "Датотека '{0}' није могла бити увезена. Само ПДФ датотеке генерисане од стране ове апликације могу бити увезене."
+
+#: MiscResources.resx$FileInUse$Message
+msgid "The file could not be overwritten because it is currently in use."
+msgstr "Фајл не може бити преписан, јер је тренутно у употреби."
+
+#: MiscResources.resx$ConfirmOverwriteFile$Message
+msgid "The file {0} already exists. Do you want to overwrite it?"
+msgstr "Датотека {0} већ постоји. Да ли желите да је преснимите?"
+
+#: UiStrings.resx$EncryptedFilePrompt$Message
+msgid "The following file is encrypted and requires a password to open:"
+msgstr ""
+
+#: MiscResources.resx$DevicePaperJam$Message
+#: SdkResources.resx$DevicePaperJam$Message
+msgid "The scanner has a paper jam."
+msgstr "заглављен папир у скенеру."
+
+#: MiscResources.resx$DeviceWarmingUp$Message
+#: SdkResources.resx$DeviceWarmingUp$Message
+msgid "The scanner is warming up."
+msgstr "Скенер се загрева."
+
+#: MiscResources.resx$DeviceCoverOpen$Message
+#: SdkResources.resx$DeviceCoverOpen$Message
+msgid "The scanner's cover is open."
+msgstr "Поклопац скенера је отворен."
+
+#: MiscResources.resx$DriverNotSupported$Message
+#: SdkResources.resx$DriverNotSupported$Message
+msgid "The selected driver is not supported on this system."
+msgstr ""
+
+#: MiscResources.resx$DeviceNotFound$Message
+#: SdkResources.resx$DeviceNotFound$Message
+msgid "The selected scanner could not be found."
+msgstr "Одабрани скенер није пронађен."
+
+#: MiscResources.resx$NoFeederSupport$Message
+#: SdkResources.resx$NoFeederSupport$Message
+msgid "The selected scanner does not support using a feeder. If your scanner does have a feeder, try using a different driver."
+msgstr "Одабрани скенер не подржава коришћење увлакача. Ако ваш скенер нема увлакач, покушајте да инсталирате други драјвер."
+
+#: MiscResources.resx$NoDuplexSupport$Message
+#: SdkResources.resx$NoDuplexSupport$Message
+msgid "The selected scanner does not support using duplex. If your scanner is supposed to support duplex, try using a different driver."
+msgstr "Одабрани скенер не подржава двострано скенирање. Ако ваш скенер нема дуплексер, покушајте да инсталирате други драјвер."
+
+#: MiscResources.resx$DeviceBusy$Message
+#: SdkResources.resx$DeviceBusy$Message
+msgid "The selected scanner is busy."
+msgstr ""
+
+#: MiscResources.resx$DeviceOffline$Message
+#: SdkResources.resx$DeviceOffline$Message
+msgid "The selected scanner is offline."
+msgstr "Одабрани скенер није укључен."
+
+#: SettingsResources.resx$EmailProviderType_Thunderbird$Message
+msgid "Thunderbird"
+msgstr ""
+
+#: UiStrings.resx$TiffOptions$Message
+msgid "Tiff Options"
+msgstr ""
+
+#: UiStrings.resx$TimeBetweenScansLabel$Message
+msgid "Time between scans (seconds):"
+msgstr "Време између скенова (секунде):"
+
+#: UiStrings.resx$TitleLabel$Message
+msgid "Title:"
+msgstr "Наслов:"
+
+#: UiStrings.resx$Tools$Message
+msgid "Tools"
+msgstr ""
+
+#: UiStrings.resx$TwainImplLabel$Message
+msgid "Twain Implementation:"
+msgstr "Увођење TWAIN-a:"
+
+#: SettingsResources.resx$PageSize_Legal$Message
+msgid "US Legal (8.5x14 in)"
+msgstr ""
+
+#: SettingsResources.resx$PageSize_Letter$Message
+msgid "US Letter (8.5x11 in)"
+msgstr ""
+
+#: MiscResources.resx$UnsavedChanges$Message
+msgid "Unsaved Changes"
+msgstr "Неснимљене промене"
+
+#: MiscResources.resx$UpdateProgress$Message
+msgid "Update Progress"
+msgstr ""
+
+#: MiscResources.resx$UpdateCheckDisabled$Message
+msgid "Update checking is disabled."
+msgstr ""
+
+#: MiscResources.resx$Updating$Message
+msgid "Updating..."
+msgstr ""
+
+#: MiscResources.resx$UploadingEmail$Message
+msgid "Uploading email..."
+msgstr ""
+
+#: UiStrings.resx$UseNativeUi$Message
+msgid "Use native UI"
+msgstr "Користи изворни кориснички интерфејс"
+
+#: UiStrings.resx$UsePredefinedSettings$Message
+msgid "Use predefined settings"
+msgstr "Користи предефинисане поставке"
+
+#: UiStrings.resx$UserPasswordLabel$Message
+msgid "User Password:"
+msgstr "Корисничка лозинка:"
+
+#: UiStrings.resx$OcrDownloadSummaryText$Message
+msgid "Using OCR requires you to download each language you want to scan."
+msgstr "Коришћење ОЦР-а захтева да преузмете сваки језик који желите да скенирате."
+
+#: MiscResources.resx$Version$Message
+#: SdkResources.resx$Version$Message
+msgid "Version {0}"
+msgstr "Верзија {0}"
+
+#: UiStrings.resx$View$Message
+msgid "View"
+msgstr "Поглед"
+
+#: UiStrings.resx$WiaDriver$Message
+msgid "WIA Driver"
+msgstr "WIA Драјвер"
+
+#: UiStrings.resx$WaitingForTwain$Message
+msgid "Waiting for TWAIN to complete..."
+msgstr "Чекам да TWAIN заврши..."
+
+#: UiStrings.resx$WaitingForAuthorization$Message
+msgid "Waiting for authorization..."
+msgstr ""
+
+#: MiscResources.resx$BatchStatusWaitingForScan$Message
+msgid "Waiting for scan {0}..."
+msgstr "Чекам скенирање {0}..."
+
+#: UiStrings.resx$WhiteThreshold$Message
+msgid "White Threshold"
+msgstr "Гранична вредност белог"
+
+#: UiStrings.resx$WiaVersionLabel$Message
+msgid "Wia Version:"
+msgstr ""
+
+#: UiStrings.resx$Year4Digit$Message
+msgid "Year"
+msgstr "Година"
+
+#: UiStrings.resx$Year2Digit$Message
+msgid "Year (00-99)"
+msgstr "Година (00-99)"
+
+#: MiscResources.resx$PdfNoPermissionToExtractContent$Message
+#: SdkResources.resx$PdfNoPermissionToExtractContent$Message
+msgid "You do not have permission to copy content from the file '{0}'."
+msgstr "Није вам допуштено да копирате садржај датотеке '{0}'."
+
+#: MiscResources.resx$DontHavePermission$Message
+msgid "You don't have permission to save files at this location."
+msgstr "Немате допуштења да снимите датотеке на ову локацију."
+
+#: MiscResources.resx$ExitWithUnsavedChanges$Message
+msgid "You have unsaved changes. Are you sure you want to exit and discard those changes?"
+msgstr "Промене нису снимљене. Да ли сте сигурни да желите да напустите програм и одбаците промене?"
+
+#: UiStrings.resx$Zoom$Message
+msgid "Zoom"
+msgstr "Uvećaj/Umanji"
+
+#: UiStrings.resx$ZoomActual$Message
+msgid "Zoom Actual"
+msgstr "Увећај на праву величину"
+
+#: UiStrings.resx$ZoomIn$Message
+msgid "Zoom In"
+msgstr "Увеличај"
+
+#: UiStrings.resx$ZoomOut$Message
+msgid "Zoom Out"
+msgstr "Смањи"
+
+#: SettingsResources.resx$PageSizeUnit_Centimetre$Message
+msgid "cm"
+msgstr ""
+
+#: SettingsResources.resx$PageSizeUnit_Inch$Message
+msgid "in"
+msgstr ""
+
+#: SettingsResources.resx$PageSizeUnit_Millimetre$Message
+msgid "mm"
+msgstr ""
+
+#: MiscResources.resx$OfN$Message
+msgid "of {0}"
+msgstr "од {0}"
+
+#: SettingsResources.resx$TwainImpl_X64$Message
+msgid "x64"
+msgstr ""
+
+#: MiscResources.resx$NamedPageSizeFormat$Message
+msgid "{0} ({1}x{2} {3})"
+msgstr ""
+
+#: MiscResources.resx$ProgressFormat$Message
+msgid "{0} / {1}"
+msgstr ""
+
+#: MiscResources.resx$SizeProgress$Message
+msgid "{0} / {1} MB"
+msgstr ""
+
+#: MiscResources.resx$FilesProgressFormat$Message
+msgid "{0} / {1} files"
+msgstr "{0} / {1} датотека"
+
+#: SettingsResources.resx$DpiFormat$Message
+msgid "{0} dpi"
+msgstr ""
+
+#: UiStrings.resx$RecoverPrompt$Message
+msgid "{0} image(s) scanned on {1} at {2} may not have been saved, and are recoverable. Do you want to recover them?"
+msgstr "{0} слика скенираних на {1} на {2} можда није сачувано, и могу поново да се креирају. Да ли желите да их креирате поново?"
+
+#: MiscResources.resx$ImagesSaved$Message
+msgid "{0} images saved."
+msgstr ""
+
+#: MiscResources.resx$PdfStatus$Message
+#: UiStrings.resx$XOfY$Message
+msgid "{0} of {1}"
+msgstr "{0} од {1}"
+

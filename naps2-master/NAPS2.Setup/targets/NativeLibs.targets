@@ -1,0 +1,14 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup>
+        <ContentWithTargetPath Include="..\NAPS2.Setup\lib\win64\twaindsm.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>lib\win64\twaindsm.dll</Link>
+            <TargetPath>_win64\twaindsm.dll</TargetPath>
+        </ContentWithTargetPath>
+        <ContentWithTargetPath Include="..\NAPS2.Setup\lib\win32\twaindsm.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>lib\win32\twaindsm.dll</Link>
+            <TargetPath>_win32\twaindsm.dll</TargetPath>
+        </ContentWithTargetPath>
+    </ItemGroup>
+</Project>

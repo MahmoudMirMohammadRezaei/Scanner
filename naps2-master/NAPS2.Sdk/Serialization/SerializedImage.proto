@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+package NAPS2.Serialization;
+
+message SerializedImage {
+	bool transferOwnership = 1;
+	oneof image {
+		string filePath = 2;
+		bytes fileContent = 3;
+	}
+	SerializedImageMetadata metadata = 4;
+	bytes thumbnail = 5;
+	string barcodeDetectionXml = 6;
+	string renderedFilePath = 7;
+	string typeHint = 8;
+}
+
+message SerializedImageMetadata {
+	string transformListXml = 1;
+	enum BitDepth {
+		Color = 0;
+		Grayscale = 1;
+		BlackAndWhite = 2;
+	}
+	BitDepth bitDepth = 2;
+	bool lossless = 3;
+}

@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('Linux'))">net6;net462</TargetFrameworks>
+    <TargetFrameworks Condition="!$([MSBuild]::IsOSPlatform('Linux'))">net6;net6-macos10.15;net462</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>NAPS2</RootNamespace>
+
+    <Configurations>Debug;Release;DebugLang</Configurations>
+
+    <Title>NAPS2.Sdk</Title>
+    <Product>NAPS2.Sdk</Product>
+    <Description>NAPS2.Sdk is a fully-featured scanning library, supporting WIA, TWAIN, SANE, and ESCL scanners on Windows, Mac, and Linux.</Description>
+    <PackageTags>naps2 sdk scanner wia twain sane escl</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <TargetFrameworks>net6;net462</TargetFrameworks>
+  </PropertyGroup>
+
+  <Import Project="..\NAPS2.Setup\targets\CommonTargets.targets" />
+  <Import Project="..\NAPS2.Setup\targets\SdkUsers.targets" />
+  <Import Project="..\NAPS2.Setup\targets\SdkPackageTargets.targets" />
+
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net6-macos10.15'">
+    <DefineConstants>MAC</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(AddDebugConstant)' == '1'">
+    <DefineConstants>$(DefineConstants);DEBUG</DefineConstants>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.3" />
+    <PackageReference Include="SharpZipLib" Version="1.3.3" />
+    <PackageReference Include="SixLabors.Fonts" Version="1.0.0-beta18" />
+    <Reference Include="PdfSharpCore">
+      <HintPath>..\NAPS2.Setup\lib\PdfSharpCore.dll</HintPath>
+    </Reference>
+    <!-- TODO: Switch back to the official nuget if https://github.com/soukoku/ntwain/pull/35 gets merged -->
+    <Reference Include="NTwain" Condition="'$(TargetFramework)' != 'net6-macos10.15'">
+      <HintPath>..\NAPS2.Setup\lib\NTwain.dll</HintPath>
+    </Reference>
+    
+    <PackageReference Include="Grpc.Tools" Version="2.47.0" PrivateAssets="all" />
+    <PackageReference Include="GrpcDotNetNamedPipes" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" Condition="'$(TargetFramework)' != 'net6-macos10.15'" />
+    <PackageReference Include="NAPS2.Wia" Version="2.0.2" Condition="'$(TargetFramework)' != 'net6-macos10.15'" />
+    <!-- Hide compatibility warnings for NTwain as it will only be actually used on Windows. -->
+    <!-- TODO: Does this actually work if we build a net6 framework-dependent app and try to use Twain? -->
+<!--    <PackageReference Include="NTwain" Version="3.7.1" NoWarn="NU1701" Condition="'$(TargetFramework)' != 'net6-macos10.15'" />-->
+    <PackageReference Include="Nullable" Version="1.2.0" Condition="'$(TargetFramework)' == 'net462'" />
+    <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
+    <PackageReference Include="System.Resources.Extensions" Version="6.0.0" />
+    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="6.0.0" />
+    <PackageReference Include="ZXing.Net" Version="0.16.8" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>NAPS2.Sdk.Tests</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>NAPS2.Lib</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>NAPS2.Lib.Tests</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>NAPS2.Lib.WinForms</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>NAPS2.Lib.Mac</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>NAPS2.Lib.Gtk</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>NAPS2.App.Tests</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>DynamicProxyGenAssembly2</_Parameter1>
+    </AssemblyAttribute>
+    
+    <Protobuf Include="**/*.proto" Access="Public" />
+  </ItemGroup>
+  
+  <ItemGroup>
+<!--    <ProjectReference Include="..\NAPS2.Escl.Client\NAPS2.Escl.Client.csproj" />-->
+<!--    <ProjectReference Include="..\NAPS2.Escl.Server\NAPS2.Escl.Server.csproj" />-->
+    <ProjectReference Include="..\NAPS2.Images\NAPS2.Images.csproj" />
+    <ProjectReference Include="..\NAPS2.Internals\NAPS2.Internals.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <EmbeddedResource Remove="Lang\Resources\SdkResources.*.resx" Condition="'$(Configuration)' == 'Debug'" />
+    <EmbeddedResource Include="Lang\Resources\SdkResources.fr.resx" Condition="'$(Configuration)' == 'Debug'" />
+    <EmbeddedResource Include="Lang\Resources\SdkResources.he.resx" Condition="'$(Configuration)' == 'Debug'" />
+    <EmbeddedResource Include="Lang\Resources\SdkResources.pt-BR.resx" Condition="'$(Configuration)' == 'Debug'" />
+    <EmbeddedResource Update="Lang\Resources\SdkResources.*.resx">
+      <DependentUpon>SdkResources.resx</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Update="**/*.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+
+  </ItemGroup>
+  
+</Project>

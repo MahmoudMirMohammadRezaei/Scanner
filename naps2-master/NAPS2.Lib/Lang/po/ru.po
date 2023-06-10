@@ -1,0 +1,1578 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: naps2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-19 21:51+0000\n"
+"PO-Revision-Date: 2023-04-22 05:32\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: naps2\n"
+"X-Crowdin-Project-ID: 531762\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: templates.pot\n"
+"X-Crowdin-File-ID: 75\n"
+
+#: SettingsResources.resx$BitDepth_24Color$Message
+msgid "24-bit Color"
+msgstr "Цветной, 24 бит/пикс."
+
+#: SettingsResources.resx$PageSize_A3$Message
+msgid "A3 (297x420 mm)"
+msgstr "A3 (297x420 мм)"
+
+#: SettingsResources.resx$PageSize_A4$Message
+msgid "A4 (210x297 mm)"
+msgstr "A4 (210x297 мм)"
+
+#: SettingsResources.resx$PageSize_A5$Message
+msgid "A5 (148x210 mm)"
+msgstr "A5 (148x210 мм)"
+
+#: UiStrings.resx$About$Message
+#: UiStrings.resx$AboutFormTitle$Message
+msgid "About"
+msgstr "О программе"
+
+#: MiscResources.resx$AcquiringData$Message
+msgid "Acquiring data..."
+msgstr "Получение данных..."
+
+#: UiStrings.resx$Advanced$Message
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: UiStrings.resx$AdvancedProfileFormTitle$Message
+msgid "Advanced Profile Settings"
+msgstr "Расширенные настройки профиля"
+
+#: MiscResources.resx$AllCount$Message
+msgid "All ({0})"
+msgstr "Все ({0})"
+
+#: MiscResources.resx$FileTypeAllFiles$Message
+msgid "All Files"
+msgstr "Все файлы"
+
+#: UiStrings.resx$AllowAnnotations$Message
+msgid "Allow Annotations"
+msgstr "Разрешить примечания"
+
+#: UiStrings.resx$AllowContentCopying$Message
+msgid "Allow Content Copying"
+msgstr "Разрешить копирование содержимого"
+
+#: UiStrings.resx$AllowContentCopyingForAccessibility$Message
+msgid "Allow Content Copying for Accessibility"
+msgstr "Разрешить копирование содержимого средствами для людей с ограниченными возможностями"
+
+#: UiStrings.resx$AllowDocumentAssembly$Message
+msgid "Allow Document Assembly"
+msgstr "Разрешить сборку документа"
+
+#: UiStrings.resx$AllowDocumentModification$Message
+msgid "Allow Document Modification"
+msgstr "Разрешить изменение документа"
+
+#: UiStrings.resx$AllowFormFilling$Message
+msgid "Allow Form Filling"
+msgstr "Разрешить заполнение форм"
+
+#: UiStrings.resx$AllowFullQualityPrinting$Message
+msgid "Allow Full Quality Printing"
+msgstr "Разрешить печать в полном качестве"
+
+#: UiStrings.resx$AllowPrinting$Message
+msgid "Allow Printing"
+msgstr "Разрешить печать"
+
+#: UiStrings.resx$AltDeinterleave$Message
+msgid "Alternate Deinterleave"
+msgstr "Альтернативное устранение чередования"
+
+#: UiStrings.resx$AltInterleave$Message
+msgid "Alternate Interleave"
+msgstr "Альтернативное чередование"
+
+#: MiscResources.resx$PdfImportComponentNeeded$Message
+msgid "An additional component is needed to import this PDF file. Would you like to download it now?"
+msgstr "Для импорта этого PDF файла необходим доп. компонент. Загрузить его сейчас?"
+
+#: SdkResources.resx$OcrError$Message
+msgid "An error occurred running OCR."
+msgstr "При распознавании текста произошла ошибка."
+
+#: MiscResources.resx$AuthError$Message
+msgid "An error occurred when trying to authorize."
+msgstr "При попытке авторизации произошла ошибка."
+
+#: MiscResources.resx$AutoSaveError$Message
+msgid "An error occurred when trying to auto save."
+msgstr "Ошибка при попытке автосохранения файла."
+
+#: MiscResources.resx$UpdateError$Message
+msgid "An error occurred when trying to install the update."
+msgstr "Произошла ошибка во время установки обновления."
+
+#: MiscResources.resx$ErrorSaving$Message
+msgid "An error occurred when trying to save the file."
+msgstr "Ошибка при сохранении файла."
+
+#: MiscResources.resx$ErrorEmailing$Message
+msgid "An error occurred when trying to send the email."
+msgstr "Произошла ошибка во время отправки письма."
+
+#: MiscResources.resx$EmailError$Message
+msgid "An error occurred while trying to send an email."
+msgstr "Ошибка при отправке электронной почты."
+
+#: MiscResources.resx$UnknownDriverError$Message
+#: SdkResources.resx$UnknownDriverError$Message
+msgid "An error occurred with the scanning driver."
+msgstr "Ошибка драйвера сканирования."
+
+#: MiscResources.resx$ExitWithActiveOperations$Message
+msgid "An operation is in progress. Are you sure you want to exit and cancel the operation?"
+msgstr "Уже выполняется операция. Вы уверены, что хотите выйти и отменить операцию?"
+
+#: MiscResources.resx$BatchError$Message
+msgid "An unknown error occurred during the batch scan."
+msgstr "Произошла неизвестная ошибка при пакетном сканировании."
+
+#: MiscResources.resx$UpdateAvailable$Message
+msgid "An update is available."
+msgstr "Доступно обновление."
+
+#: MiscResources.resx$OcrUpdateAvailable$Message
+msgid "An update to OCR is available."
+msgstr "Доступно обновление средства распознавания текста (OCR)."
+
+#: UiStrings.resx$AppleDriver$Message
+msgid "Apple Driver"
+msgstr "Драйвер Apple"
+
+#: SettingsResources.resx$EmailProviderType_AppleMail$Message
+msgid "Apple Mail"
+msgstr ""
+
+#: UiStrings.resx$BrightnessContrastAfterScan$Message
+msgid "Apply brightness/contrast after scan"
+msgstr "Применить яркость/контраст после сканирования"
+
+#: UiStrings.resx$ApplyToSelected$Message
+msgid "Apply to all {0} selected images"
+msgstr "Применить ко всем {0} выбранным изображениям"
+
+#: MiscResources.resx$ConfirmCancelBatch$Message
+msgid "Are you sure you want to cancel the batch scan?"
+msgstr "Отменить пакетное сканирование?"
+
+#: MiscResources.resx$ConfirmClearItems$Message
+msgid "Are you sure you want to clear {0} item(s)?"
+msgstr "Вы действительно хотите очистить эти объекты ({0} шт.)?"
+
+#: MiscResources.resx$ConfirmDelete$Message
+msgid "Are you sure you want to delete \"{0}\"?"
+msgstr "Вы действительно хотите удалить эти ({0} шт.)?"
+
+#: MiscResources.resx$ConfirmDeleteSingleProfile$Message
+msgid "Are you sure you want to delete the profile {0}?"
+msgstr "Вы действительно хотите удалить профиль {0}?"
+
+#: MiscResources.resx$ConfirmDeleteItems$Message
+msgid "Are you sure you want to delete {0} item(s)?"
+msgstr "Вы действительно хотите удалить эти объекты ({0} шт.)?"
+
+#: MiscResources.resx$ConfirmDeleteMultipleProfiles$Message
+msgid "Are you sure you want to delete {0} profiles?"
+msgstr "Вы действительно хотите удалить выбранные профили ({0} шт.)?"
+
+#: MiscResources.resx$ConfirmResetImages$Message
+msgid "Are you sure you want undo your changes to {0} image(s)?"
+msgstr "Вы действительно хотите отменить изменения в изображениях ({0} шт.)?"
+
+#: UiStrings.resx$AttachmentNameLabel$Message
+msgid "Attachment Name:"
+msgstr "Имя вложения:"
+
+#: UiStrings.resx$AuthorLabel$Message
+msgid "Author:"
+msgstr "Автор:"
+
+#: UiStrings.resx$AuthorizeFormTitle$Message
+msgid "Authorize"
+msgstr "Авторизация"
+
+#: SettingsResources.resx$TiffComp_Auto$Message
+msgid "Auto"
+msgstr "Автоопределение"
+
+#: UiStrings.resx$AutoSaveSettings$Message
+#: UiStrings.resx$AutoSaveSettingsFormTitle$Message
+msgid "Auto Save Settings"
+msgstr "Параметры автосохранения"
+
+#: UiStrings.resx$AutoIncrementing1Digit$Message
+msgid "Auto-incrementing number (1 digits)"
+msgstr "Автоувеличение номера (1 цифра)"
+
+#: UiStrings.resx$AutoIncrementing2Digit$Message
+msgid "Auto-incrementing number (2 digits)"
+msgstr "Автоувеличение номера (2 цифры)"
+
+#: UiStrings.resx$AutoIncrementing3Digit$Message
+msgid "Auto-incrementing number (3 digits)"
+msgstr "Автоувеличение номера (3 цифры)"
+
+#: UiStrings.resx$AutoIncrementing4Digit$Message
+msgid "Auto-incrementing number (4 digits)"
+msgstr "Автоувеличение номера (4 цифры)"
+
+#: UiStrings.resx$RunOcrAfterScanning$Message
+msgid "Automatically run OCR after scanning"
+msgstr "Автоматически запустить распознавание текста (OCR) после сканирования"
+
+#: SettingsResources.resx$PageSize_B4$Message
+msgid "B4 (250x353 mm)"
+msgstr "B4 (250x353 мм)"
+
+#: SettingsResources.resx$PageSize_B5$Message
+msgid "B5 (176x250 mm)"
+msgstr "B5 (176x250 мм)"
+
+#: UiStrings.resx$BatchScan$Message
+#: UiStrings.resx$BatchScanFormTitle$Message
+msgid "Batch Scan"
+msgstr "Пакетное сканирование"
+
+#: MiscResources.resx$BatchStatusCancelled$Message
+msgid "Batch cancelled."
+msgstr "Обработка отменена."
+
+#: MiscResources.resx$BatchStatusComplete$Message
+msgid "Batch completed successfully."
+msgstr "Пакетное сканирование завершено."
+
+#: MiscResources.resx$BatchStatusError$Message
+msgid "Batch scan stopped due to error."
+msgstr "Пакетное сканирование остановлено вследствие ошибки."
+
+#: SettingsResources.resx$OcrMode_Best$Message
+msgid "Best"
+msgstr "Лучшее"
+
+#: UiStrings.resx$BitDepthLabel$Message
+msgid "Bit depth:"
+msgstr "Глубина цвета:"
+
+#: MiscResources.resx$FileTypeBmp$Message
+msgid "Bitmap Files (*.bmp)"
+msgstr "Bitmap-файлы (*.bmp)"
+
+#: SettingsResources.resx$BitDepth_1BlackAndWhite$Message
+#: UiStrings.resx$BlackAndWhite$Message
+msgid "Black and White"
+msgstr "Чёрно-белое"
+
+#: UiStrings.resx$BlankPages$Message
+msgid "Blank Pages"
+msgstr "Чистые страницы"
+
+#: UiStrings.resx$BrightnessContrast$Message
+msgid "Brightness / Contrast"
+msgstr "Яркость / Контрастность"
+
+#: UiStrings.resx$BrightnessLabel$Message
+msgid "Brightness:"
+msgstr "Яркость:"
+
+#: SettingsResources.resx$TiffComp_Ccitt4$Message
+msgid "CCITT4"
+msgstr "CCITT4"
+
+#: MiscResources.resx$Cancel$Message
+#: UiStrings.resx$Cancel$Message
+msgid "Cancel"
+msgstr "Отмена"
+
+#: MiscResources.resx$CancelBatch$Message
+msgid "Cancel Batch"
+msgstr "Отменить пакетное сканирование"
+
+#: MiscResources.resx$BatchStatusCancelling$Message
+msgid "Cancelling...."
+msgstr "Отмена…...."
+
+#: SettingsResources.resx$HorizontalAlign_Center$Message
+msgid "Center"
+msgstr "Центрировать"
+
+#: UiStrings.resx$Change$Message
+msgid "Change"
+msgstr "Изменить"
+
+#: UiStrings.resx$CheckForUpdates$Message
+msgid "Check for updates"
+msgstr "Проверять наличие обновлений"
+
+#: MiscResources.resx$CheckingForUpdates$Message
+msgid "Checking..."
+msgstr "Проверка..."
+
+#: UiStrings.resx$EmailProviderFormTitle$Message
+msgid "Choose Email Provider"
+msgstr "Выбрать поставщика эл. почты"
+
+#: MiscResources.resx$ChooseProfile$Message
+msgid "Choose Profile"
+msgstr "Выбор профиля"
+
+#: UiStrings.resx$ChooseDevice$Message
+msgid "Choose device"
+msgstr "Выбор сканера"
+
+#: MiscResources.resx$Clear$Message
+#: UiStrings.resx$Clear$Message
+msgid "Clear"
+msgstr "Очистить"
+
+#: UiStrings.resx$ClearAll$Message
+msgid "Clear All"
+msgstr "Очистить всё"
+
+#: UiStrings.resx$ClearAfterSaving$Message
+msgid "Clear images after saving"
+msgstr "Очистить картинки после сохранения"
+
+#: MiscResources.resx$Close$Message
+msgid "Close"
+msgstr "Закрыть"
+
+#: UiStrings.resx$Compatibility$Message
+msgid "Compatibility"
+msgstr "Совместимость"
+
+#: UiStrings.resx$CompressionLabel$Message
+msgid "Compression:"
+msgstr "Сжатие:"
+
+#: UiStrings.resx$ContrastLabel$Message
+msgid "Contrast:"
+msgstr "Контраст:"
+
+#: UiStrings.resx$Copy$Message
+msgid "Copy"
+msgstr "Копия"
+
+#: MiscResources.resx$CopyProgress$Message
+msgid "Copy Progress"
+msgstr "Копирование…"
+
+#: MiscResources.resx$Copying$Message
+msgid "Copying..."
+msgstr "Копирование..."
+
+#: UiStrings.resx$CopyrightFormat$Message
+msgid "Copyright {0} NAPS2 Contributors"
+msgstr "Авторские права защищены {0} Контрибьюторы NAPS2"
+
+#: UiStrings.resx$CoverageThreshold$Message
+msgid "Coverage Threshold"
+msgstr "Порог покрытия"
+
+#: UiStrings.resx$Crop$Message
+msgid "Crop"
+msgstr "Обрезать"
+
+#: UiStrings.resx$CropToPageSize$Message
+msgid "Crop to page size"
+msgstr "Обрезать до размера страницы"
+
+#: MiscResources.resx$CustomPageSizeFormat$Message
+msgid "Custom ({0}x{1} {2})"
+msgstr "Другой ({0}x{1} {2})"
+
+#: UiStrings.resx$PageSizeFormTitle$Message
+msgid "Custom Page Size"
+msgstr "Другой размер страницы"
+
+#: UiStrings.resx$CustomRotation$Message
+msgid "Custom Rotation"
+msgstr "Другой поворот"
+
+#: SettingsResources.resx$EmailProviderType_CustomSmtp$Message
+msgid "Custom SMTP"
+msgstr "Свой SMTP сервер"
+
+#: SettingsResources.resx$PageSize_Custom$Message
+msgid "Custom..."
+msgstr "Другой..."
+
+#: UiStrings.resx$Day2Digit$Message
+msgid "Day (01-31)"
+msgstr "День (0-31)"
+
+#: SettingsResources.resx$PdfCompat_Default$Message
+#: SettingsResources.resx$TwainImpl_Default$Message
+#: SettingsResources.resx$WiaVersion_Default$Message
+#: UiStrings.resx$Default$Message
+msgid "Default"
+msgstr "По умолчанию"
+
+#: UiStrings.resx$DefaultFilePathLabel$Message
+msgid "Default File Path:"
+msgstr "Путь к файлу:"
+
+#: UiStrings.resx$Deinterleave$Message
+msgid "Deinterleave"
+msgstr "Дечередование"
+
+#: MiscResources.resx$Delete$Message
+#: UiStrings.resx$Delete$Message
+msgid "Delete"
+msgstr "Удалить"
+
+#: UiStrings.resx$Deskew$Message
+msgid "Deskew"
+msgstr "Устранение перекоса"
+
+#: MiscResources.resx$AutoDeskewProgress$Message
+msgid "Deskew Progress"
+msgstr "Выравниваем..."
+
+#: UiStrings.resx$DeskewScannedPages$Message
+msgid "Deskew scanned pages"
+msgstr "Выровнять отсканированные страницы"
+
+#: MiscResources.resx$AutoDeskewing$Message
+msgid "Deskewing..."
+msgstr "Выравнивание..."
+
+#: UiStrings.resx$DeviceLabel$Message
+msgid "Device:"
+msgstr "Устройство:"
+
+#: UiStrings.resx$Dimensions$Message
+msgid "Dimensions"
+msgstr "Размеры"
+
+#: UiStrings.resx$DisplayNameLabel$Message
+msgid "Display name:"
+msgstr "Отображаемое имя:"
+
+#: UiStrings.resx$DocumentCorrection$Message
+msgid "Document Correction"
+msgstr "Коррекция документа"
+
+#: MiscResources.resx$Donate$Message
+#: UiStrings.resx$Donate$Message
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: UiStrings.resx$Done$Message
+msgid "Done"
+msgstr "Готово"
+
+#: UiStrings.resx$Download$Message
+msgid "Download"
+msgstr "Загрузка"
+
+#: MiscResources.resx$DownloadError$Message
+msgid "Download Error"
+msgstr "Ошибка загрузки"
+
+#: MiscResources.resx$DownloadNeeded$Message
+msgid "Download Needed"
+msgstr "Необходимо скачать"
+
+#: UiStrings.resx$DownloadProgressFormTitle$Message
+msgid "Download Progress"
+msgstr "Загрузка..."
+
+#: SettingsResources.resx$Source_Duplex$Message
+msgid "Duplex"
+msgstr "Двустороннее сканирование"
+
+#: UiStrings.resx$EsclDriver$Message
+msgid "ESCL Driver"
+msgstr "Драйвер ESCL"
+
+#: UiStrings.resx$EsclNetworkDriver$Message
+msgid "ESCL Network Driver"
+msgstr "Сетевой драйвер ESCL"
+
+#: UiStrings.resx$EsclUsbDriver$Message
+msgid "ESCL USB Driver"
+msgstr "USB-драйвер ESCL"
+
+#: UiStrings.resx$Edit$Message
+msgid "Edit"
+msgstr "Правка"
+
+#: UiStrings.resx$EmailAll$Message
+msgid "Email All"
+msgstr "Отправить всё"
+
+#: UiStrings.resx$EmailAllAsPdf$Message
+msgid "Email All as PDF"
+msgstr "Отправить всё как PDF"
+
+#: MiscResources.resx$EmailPdf$Message
+#: UiStrings.resx$EmailPdf$Message
+msgid "Email PDF"
+msgstr "Отправить PDF почтой"
+
+#: MiscResources.resx$EmailPdfProgress$Message
+msgid "Email PDF Progress"
+msgstr "Процесс сохранения в PDF и отправки e-mail"
+
+#: UiStrings.resx$EmailSelected$Message
+msgid "Email Selected"
+msgstr "Отправить отмеченные"
+
+#: UiStrings.resx$EmailSelectedAsPdf$Message
+msgid "Email Selected as PDF"
+msgstr "Отправить отмеченные как PDF"
+
+#: UiStrings.resx$EmailSettings$Message
+#: UiStrings.resx$EmailSettingsFormTitle$Message
+msgid "Email Settings"
+msgstr "Параметры эл. почты"
+
+#: UiStrings.resx$EnableAutoSave$Message
+msgid "Enable Auto Save"
+msgstr "Включить автосохранение"
+
+#: UiStrings.resx$EnableDebugLogging$Message
+msgid "Enable debug logging"
+msgstr ""
+
+#: UiStrings.resx$EncryptPdf$Message
+msgid "Encrypt PDF"
+msgstr "Зашифровать PDF"
+
+#: UiStrings.resx$Encryption$Message
+msgid "Encryption"
+msgstr "Шифрование"
+
+#: MiscResources.resx$FileTypeEmf$Message
+msgid "Enhanced Windows MetaFile (*.emf)"
+msgstr "Расширенный метафайл (*.emf)"
+
+#: MiscResources.resx$Error$Message
+#: UiStrings.resx$ErrorFormTitle$Message
+msgid "Error"
+msgstr "Ошибка"
+
+#: MiscResources.resx$EstimatedDownloadSize$Message
+#: UiStrings.resx$EstimatedDownloadSize$Message
+msgid "Estimated download size: {0} MB"
+msgstr "Примерный размер загрузки: {0} МБ"
+
+#: MiscResources.resx$FileTypeExif$Message
+msgid "Exchangeable Image File (*.exif)"
+msgstr "Файл метаданных (*.exif)"
+
+#: UiStrings.resx$ExcludeBlankPages$Message
+msgid "Exclude blank pages"
+msgstr "Исключить пустые страницы"
+
+#: SettingsResources.resx$OcrMode_Fast$Message
+msgid "Fast"
+msgstr "Быстрое"
+
+#: SettingsResources.resx$Source_Feeder$Message
+msgid "Feeder"
+msgstr "Устройство подачи"
+
+#: UiStrings.resx$FileNameLabel$Message
+msgid "File Name:"
+msgstr "Имя файла:"
+
+#: UiStrings.resx$FilePathLabel$Message
+msgid "File Path:"
+msgstr "Путь к файлу:"
+
+#: UiStrings.resx$Flip$Message
+msgid "Flip"
+msgstr "Отразить"
+
+#: UiStrings.resx$FlipDuplexedPages$Message
+msgid "Flip duplexed pages"
+msgstr "Развернуть дуплексные страницы"
+
+#: UiStrings.resx$JpegQualityHelp$Message
+msgid "For high JPEG qualities (80+), also increase Image Quality in your profile for best results."
+msgstr "При высоком качестве JPEG (80+) рекомендуется увеличить параметр \"Максимальное качество\" в настройках профиля для получения наилучших результатов сканирования.."
+
+#: MiscResources.resx$FileTypeGif$Message
+msgid "GIF File (*.gif)"
+msgstr "Файл GIF (*.gif)"
+
+#: UiStrings.resx$GetMoreLanguages$Message
+msgid "Get more languages"
+msgstr "Установить другие языки"
+
+#: SettingsResources.resx$Source_Glass$Message
+msgid "Glass"
+msgstr "Со стекла"
+
+#: SettingsResources.resx$EmailProviderType_Gmail$Message
+msgid "Gmail"
+msgstr "Gmail"
+
+#: SettingsResources.resx$BitDepth_8Grayscale$Message
+msgid "Grayscale"
+msgstr "Оттенки серого"
+
+#: UiStrings.resx$HorizontalAlignLabel$Message
+msgid "Horizontal align:"
+msgstr "Горизонтальное выравнивание:"
+
+#: UiStrings.resx$Hour2Digit$Message
+msgid "Hour (0-23)"
+msgstr "Час (0-23)"
+
+#: UiStrings.resx$HueSaturation$Message
+msgid "Hue / Saturation"
+msgstr "Оттенок / Насыщенность"
+
+#: UiStrings.resx$IconsFrom$Message
+msgid "Icons from:"
+msgstr "Значки из:"
+
+#: UiStrings.resx$Image$Message
+msgid "Image"
+msgstr "Изображение"
+
+#: MiscResources.resx$FileTypeImageFiles$Message
+msgid "Image Files"
+msgstr "Изображения"
+
+#: UiStrings.resx$ImageQuality$Message
+msgid "Image Quality"
+msgstr "Качество изображения"
+
+#: UiStrings.resx$ImageSettings$Message
+#: UiStrings.resx$ImageSettingsFormTitle$Message
+msgid "Image Settings"
+msgstr "Настройки изображения"
+
+#: MiscResources.resx$ImageSaved$Message
+msgid "Image saved."
+msgstr "Изображение сохранено."
+
+#: UiStrings.resx$Import$Message
+msgid "Import"
+msgstr "Импорт"
+
+#: MiscResources.resx$ImportProgress$Message
+msgid "Import Progress"
+msgstr "Процесс импорта"
+
+#: MiscResources.resx$ImportingFormat$Message
+msgid "Importing {0}..."
+msgstr "Импортируется \"{0}\"..."
+
+#: MiscResources.resx$Importing$Message
+msgid "Importing..."
+msgstr "Импортирование..."
+
+#: MiscResources.resx$Install$Message
+msgid "Install {0}"
+msgstr "Установить {0}"
+
+#: MiscResources.resx$InstallComplete$Message
+msgid "Installation Complete"
+msgstr "Установка завершена"
+
+#: MiscResources.resx$InstallFailedTitle$Message
+msgid "Installation Failed"
+msgstr "Ошибка при установке"
+
+#: MiscResources.resx$InstallCompletePromptRestart$Message
+msgid "Installation complete. Do you want to restart NAPS2 now?"
+msgstr "Установка завершена. Перезапустить NAPS2?"
+
+#: MiscResources.resx$InstallFailed$Message
+msgid "Installation failed."
+msgstr "Ошибка при установке."
+
+#: UiStrings.resx$Interleave$Message
+msgid "Interleave"
+msgstr "Чередовать"
+
+#: MiscResources.resx$FileTypeJpeg$Message
+msgid "JPEG File (*.jpg, *.jpeg)"
+msgstr "Файл JPEG (*.jpg, *.jpeg)"
+
+#: MiscResources.resx$FileTypeJp2$Message
+msgid "JPEG2000 File (*.jp2, *.jpx)"
+msgstr "Файл JPEG2000 (*.jp2, *.jpx)"
+
+#: UiStrings.resx$JpegQuality$Message
+msgid "Jpeg Quality"
+msgstr "Качество JPEG"
+
+#: UiStrings.resx$KeywordsLabel$Message
+msgid "Keywords:"
+msgstr "Ключевые слова:"
+
+#: SettingsResources.resx$TiffComp_Lzw$Message
+msgid "LZW"
+msgstr "LZW"
+
+#: UiStrings.resx$Language$Message
+msgid "Language"
+msgstr "Язык"
+
+#: SettingsResources.resx$HorizontalAlign_Left$Message
+msgid "Left"
+msgstr "Повернуть влево"
+
+#: SettingsResources.resx$TwainImpl_Legacy$Message
+msgid "Legacy (native UI only)"
+msgstr "Устаревшая (только нативный UI)"
+
+#: UiStrings.resx$LoadIn$Message
+msgid "Load images into NAPS2"
+msgstr "Загрузить изображения в NAPS2"
+
+#: UiStrings.resx$MakePdfsSearchable$Message
+msgid "Make PDFs searchable using OCR"
+msgstr "Создать PDF с возможностью поиска текста"
+
+#: UiStrings.resx$MaximumQuality$Message
+msgid "Maximum quality (large files)"
+msgstr "Максимальное качество (большой размер)"
+
+#: SettingsResources.resx$TwainImpl_MemXfer$Message
+msgid "Memory Transfer"
+msgstr "Передача через память"
+
+#: UiStrings.resx$Metadata$Message
+msgid "Metadata"
+msgstr "Метаданные"
+
+#: UiStrings.resx$Minute2Digit$Message
+msgid "Minute (00-59)"
+msgstr "Минута (00-59)"
+
+#: UiStrings.resx$Month2Digit$Message
+msgid "Month (01-12)"
+msgstr "Месяц (01-12)"
+
+#: UiStrings.resx$MoreInfo$Message
+msgid "More info"
+msgstr "Дополнительно"
+
+#: UiStrings.resx$MoveDown$Message
+msgid "Move Down"
+msgstr "Переместить ниже"
+
+#: UiStrings.resx$MoveUp$Message
+msgid "Move Up"
+msgstr "Переместить выше"
+
+#: UiStrings.resx$MultipleScansDelay$Message
+msgid "Multiple scans (fixed delay between scans)"
+msgstr "Многостраничное сканирование (с задержкой по времени)"
+
+#: UiStrings.resx$MultipleScansPrompt$Message
+msgid "Multiple scans (prompt between scans)"
+msgstr "Многостраничное сканирование (запрос перед каждым сканированием)"
+
+#: MiscResources.resx$NAPS2$Message
+#: SdkResources.resx$NAPS2$Message
+#: UiStrings.resx$Naps2$Message
+msgid "NAPS2"
+msgstr "NAPS2"
+
+#: UiStrings.resx$Naps2TitleFormat$Message
+msgid "NAPS2 - {0}"
+msgstr "NAPS2 - {0}"
+
+#: MiscResources.resx$DonatePrompt$Message
+msgid "NAPS2 is completely free. Consider making a donation."
+msgstr "NAPS2 - бесплатная программа, однако Вы можете пожертвовать деньги на развитие проекта."
+
+#: UiStrings.resx$NameOptional$Message
+msgid "Name (optional)"
+msgstr "Имя (опционально)"
+
+#: MiscResources.resx$NameMissing$Message
+msgid "Name missing."
+msgstr "Не указано имя."
+
+#: SettingsResources.resx$TwainImpl_NativeXfer$Message
+msgid "Native Transfer"
+msgstr "Нативная передача"
+
+#: UiStrings.resx$New$Message
+msgid "New"
+msgstr "Новый"
+
+#: UiStrings.resx$NewProfile$Message
+msgid "New Profile"
+msgstr "Новый профиль"
+
+#: UiStrings.resx$Next$Message
+msgid "Next"
+msgstr "Далее"
+
+#: UiStrings.resx$BatchPromptFormTitle$Message
+msgid "Next Scan"
+msgstr "Сканировать"
+
+#: MiscResources.resx$NoDeviceSelected$Message
+#: SdkResources.resx$NoDeviceSelected$Message
+msgid "No device selected."
+msgstr "Не выбран сканер."
+
+#: MiscResources.resx$NoPagesInFeeder$Message
+#: SdkResources.resx$NoPagesInFeeder$Message
+msgid "No pages are in the feeder."
+msgstr "В податчике нет листов."
+
+#: SettingsResources.resx$EmailProvider_NotSelected$Message
+msgid "No provider selected."
+msgstr "Поставщик эл. почты не выбран."
+
+#: MiscResources.resx$NoDevicesFound$Message
+#: SdkResources.resx$NoDevicesFound$Message
+msgid "No scanning device was found."
+msgstr "Сканеры не найдены."
+
+#: MiscResources.resx$NoUpdates$Message
+msgid "No updates available."
+msgstr "Нет доступных обновлений."
+
+#: SettingsResources.resx$TiffComp_None$Message
+msgid "None"
+msgstr "Нет"
+
+#: UiStrings.resx$Naps2FullName$Message
+msgid "Not Another PDF Scanner"
+msgstr "Not Another PDF Scanner"
+
+#: UiStrings.resx$NotNow$Message
+msgid "Not Now"
+msgstr "Не сейчас"
+
+#: UiStrings.resx$NumberOfScansLabel$Message
+msgid "Number of scans:"
+msgstr "Количество страниц:"
+
+#: UiStrings.resx$Ocr$Message
+msgid "OCR"
+msgstr "Распознавание"
+
+#: UiStrings.resx$OcrDownloadFormTitle$Message
+msgid "OCR Download"
+msgstr "Загрузка файлов для распознавания текста"
+
+#: MiscResources.resx$OcrProgress$Message
+msgid "OCR Progress"
+msgstr "Идет распознавание текста (OCR)"
+
+#: UiStrings.resx$OcrSetupFormTitle$Message
+msgid "OCR Setup"
+msgstr "Настройка распознавания"
+
+#: UiStrings.resx$OcrLanguageLabel$Message
+msgid "OCR language:"
+msgstr "Язык распознавания:"
+
+#: UiStrings.resx$OcrModeLabel$Message
+msgid "OCR mode:"
+msgstr "Режим распознавания текста (OCR):"
+
+#: UiStrings.resx$OK$Message
+msgid "OK"
+msgstr "ОК"
+
+#: UiStrings.resx$OffsetWidth$Message
+msgid "Offset width based on alignment (WIA)"
+msgstr "Смещение ширины при выравнивании (WIA)"
+
+#: SettingsResources.resx$TwainImpl_OldDsm$Message
+msgid "Old DSM"
+msgstr "Старый DSM"
+
+#: UiStrings.resx$OneFilePerPage$Message
+msgid "One file per page"
+msgstr "Один файл на страницу"
+
+#: UiStrings.resx$OneFilePerScan$Message
+msgid "One file per scan"
+msgstr "Один файл на сканирование"
+
+#: MiscResources.resx$FilesCouldNotBeDownloaded$Message
+msgid "One or more files could not be downloaded."
+msgstr "Не удалось загрузить некоторые файлы."
+
+#: UiStrings.resx$OpenFolder$Message
+msgid "Open Folder"
+msgstr "Открыть папку"
+
+#: MiscResources.resx$ActiveOperations$Message
+msgid "Operation in Progress"
+msgstr "Операция в процессе"
+
+#: SettingsResources.resx$EmailProviderType_OutlookWeb$Message
+msgid "Outlook Web Access"
+msgstr "Outlook Web Access"
+
+#: UiStrings.resx$Output$Message
+msgid "Output"
+msgstr "Вывод"
+
+#: MiscResources.resx$OverwriteFile$Message
+msgid "Overwrite File"
+msgstr "Перезаписать файл"
+
+#: UiStrings.resx$OwnerPasswordLabel$Message
+msgid "Owner Password:"
+msgstr "Пароль владельца:"
+
+#: MiscResources.resx$FileTypePdf$Message
+msgid "PDF Document (*.pdf)"
+msgstr "Документ PDF (*.pdf)"
+
+#: UiStrings.resx$PdfSettings$Message
+#: UiStrings.resx$PdfSettingsFormTitle$Message
+msgid "PDF Settings"
+msgstr "Настройки PDF"
+
+#: MiscResources.resx$PdfSaved$Message
+msgid "PDF saved."
+msgstr "PDF сохранен."
+
+#: SettingsResources.resx$PdfCompat_PdfA1B$Message
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: SettingsResources.resx$PdfCompat_PdfA2B$Message
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: SettingsResources.resx$PdfCompat_PdfA3B$Message
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: SettingsResources.resx$PdfCompat_PdfA3U$Message
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: MiscResources.resx$FileTypePng$Message
+msgid "PNG File (*.png)"
+msgstr "Файл PNG (*.png)"
+
+#: UiStrings.resx$PageSizeLabel$Message
+msgid "Page size:"
+msgstr "Размер страницы:"
+
+#: UiStrings.resx$PaperSourceLabel$Message
+msgid "Paper source:"
+msgstr "Источник бумаги:"
+
+#: UiStrings.resx$PdfPasswordFormTitle$Message
+msgid "Password"
+msgstr "Пароль"
+
+#: UiStrings.resx$Paste$Message
+msgid "Paste"
+msgstr "Вставить"
+
+#: UiStrings.resx$Placeholders$Message
+#: UiStrings.resx$PlaceholdersFormTitle$Message
+msgid "Placeholders"
+msgstr "Поля для заполнения"
+
+#: UiStrings.resx$PostProcessing$Message
+msgid "Post-processing"
+msgstr "Постобработка"
+
+#: UiStrings.resx$PressStartWhenReady$Message
+msgid "Press Start when ready."
+msgstr "Нажмите «Запустить», чтобы начать."
+
+#: UiStrings.resx$PreviewFormTitle$Message
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: UiStrings.resx$PreviewLabel$Message
+msgid "Preview:"
+msgstr "Предпросмотр:"
+
+#: UiStrings.resx$Previous$Message
+msgid "Previous"
+msgstr "Предыдущие"
+
+#: MiscResources.resx$Print$Message
+#: UiStrings.resx$Print$Message
+msgid "Print"
+msgstr "Печать"
+
+#: UiStrings.resx$EditProfileFormTitle$Message
+msgid "Profile Settings"
+msgstr "Настройки профиля"
+
+#: UiStrings.resx$ProfileLabel$Message
+msgid "Profile:"
+msgstr "Профили:"
+
+#: UiStrings.resx$Profiles$Message
+#: UiStrings.resx$ProfilesFormTitle$Message
+msgid "Profiles"
+msgstr "Профили"
+
+#: UiStrings.resx$PromptForFilePath$Message
+msgid "Prompt for file path"
+msgstr "Запрашивать путь сохранения"
+
+#: UiStrings.resx$Provider$Message
+msgid "Provider"
+msgstr "Провайдер"
+
+#: UiStrings.resx$ReadyForScan$Message
+msgid "Ready for scan {0}."
+msgstr "Готов сканировать {0}."
+
+#: UiStrings.resx$Recover$Message
+msgid "Recover"
+msgstr "Восстановить"
+
+#: UiStrings.resx$RecoverFormTitle$Message
+msgid "Recover Scanned Images"
+msgstr "Восстановить отсканированные изображения"
+
+#: MiscResources.resx$Recovering$Message
+msgid "Recovering..."
+msgstr "Восстановление..."
+
+#: MiscResources.resx$RecoveryProgress$Message
+msgid "Recovery Progress"
+msgstr "Процесс восстановления"
+
+#: UiStrings.resx$RememberTheseSettings$Message
+msgid "Remember these settings"
+msgstr "Запомнить эти настройки"
+
+#: UiStrings.resx$Reorder$Message
+msgid "Reorder"
+msgstr "Изменить порядок"
+
+#: UiStrings.resx$Reset$Message
+msgid "Reset"
+msgstr "Сброс"
+
+#: MiscResources.resx$ResetImage$Message
+msgid "Reset Image"
+msgstr "Сброс изображения"
+
+#: UiStrings.resx$ResolutionLabel$Message
+msgid "Resolution:"
+msgstr "Разрешение:"
+
+#: UiStrings.resx$RestoreDefaults$Message
+msgid "Restore Defaults"
+msgstr "Восстановить по умолчанию"
+
+#: UiStrings.resx$Reverse$Message
+msgid "Reverse"
+msgstr "В обратном порядке"
+
+#: UiStrings.resx$ReverseAll$Message
+msgid "Reverse All"
+msgstr "Обратить всё"
+
+#: UiStrings.resx$ReverseSelected$Message
+msgid "Reverse Selected"
+msgstr "Обратить выделенное"
+
+#: UiStrings.resx$Revert$Message
+msgid "Revert"
+msgstr "Вернуть"
+
+#: SettingsResources.resx$HorizontalAlign_Right$Message
+msgid "Right"
+msgstr "Вправо"
+
+#: UiStrings.resx$Rotate$Message
+msgid "Rotate"
+msgstr "Повернуть"
+
+#: UiStrings.resx$RotateLeft$Message
+msgid "Rotate Left"
+msgstr "Повернуть влево"
+
+#: UiStrings.resx$RotateRight$Message
+msgid "Rotate Right"
+msgstr "Повернуть вправо"
+
+#: UiStrings.resx$RunInBackground$Message
+msgid "Run in Background"
+msgstr "Запустить в фоновом режиме"
+
+#: MiscResources.resx$RunningOcr$Message
+msgid "Running OCR..."
+msgstr "Идет распознавание текста (OCR)..."
+
+#: UiStrings.resx$SaneDriver$Message
+msgid "SANE Driver"
+msgstr "Драйвер SANE"
+
+#: UiStrings.resx$Save$Message
+msgid "Save"
+msgstr "Сохранить"
+
+#: UiStrings.resx$SaveAll$Message
+msgid "Save All"
+msgstr "Сохранить всё"
+
+#: UiStrings.resx$SaveAllAsImages$Message
+msgid "Save All as Images"
+msgstr "Сохранить все как изображения"
+
+#: UiStrings.resx$SaveAllAsPdf$Message
+msgid "Save All as PDF"
+msgstr "Сохранить все как PDF"
+
+#: MiscResources.resx$SaveImages$Message
+#: UiStrings.resx$SaveImages$Message
+msgid "Save Images"
+msgstr "Сохранить изображения"
+
+#: MiscResources.resx$SaveImagesProgress$Message
+msgid "Save Images Progress"
+msgstr "Процесс сохранения изображений"
+
+#: MiscResources.resx$SavePdf$Message
+#: UiStrings.resx$SavePdf$Message
+msgid "Save PDF"
+msgstr "Сохранить PDF"
+
+#: MiscResources.resx$SavePdfProgress$Message
+msgid "Save PDF Progress"
+msgstr "Процесс сохранения в PDF"
+
+#: UiStrings.resx$SaveSelected$Message
+msgid "Save Selected"
+msgstr "Сохранить выбранные"
+
+#: UiStrings.resx$SaveSelectedAsImages$Message
+msgid "Save Selected as Images"
+msgstr "Сохранить выбранные как изображения"
+
+#: UiStrings.resx$SaveSelectedAsPdf$Message
+msgid "Save Selected as PDF"
+msgstr "Сохранить выбранные как PDF"
+
+#: UiStrings.resx$SaveToSingleFile$Message
+msgid "Save to a single file"
+msgstr "Сохранить в один файл"
+
+#: UiStrings.resx$SaveToMultipleFiles$Message
+msgid "Save to multiple files"
+msgstr "Сохранить как множество файлов"
+
+#: MiscResources.resx$BatchStatusSaving$Message
+msgid "Saving batch results..."
+msgstr "Сохранение результатов..."
+
+#: MiscResources.resx$SavingFormat$Message
+msgid "Saving {0}..."
+msgstr "Сохранение {0}..."
+
+#: UiStrings.resx$ScaleWithWindow$Message
+msgid "Scale With Window"
+msgstr "Масштабировать с окном"
+
+#: UiStrings.resx$ScaleLabel$Message
+msgid "Scale:"
+msgstr "Масштаб:"
+
+#: MiscResources.resx$Scan$Message
+#: UiStrings.resx$Scan$Message
+msgid "Scan"
+msgstr "Сканировать"
+
+#: UiStrings.resx$ScanConfig$Message
+msgid "Scan Configuration"
+msgstr "Настройка сканирования"
+
+#: MiscResources.resx$ScannedImage$Message
+msgid "Scanned Image"
+msgstr "Отсканированное изображение"
+
+#: MiscResources.resx$ScanPageProgress$Message
+msgid "Scanning page {0}"
+msgstr "Сканирование страницы {0}"
+
+#: MiscResources.resx$BatchStatusScanPage$Message
+msgid "Scanning page {0} (scan {1})..."
+msgstr "Сканирование страницы {0} (скан {1})..."
+
+#: MiscResources.resx$BatchStatusPage$Message
+#: MiscResources.resx$ScanProgressPage$Message
+msgid "Scanning page {0}..."
+msgstr "Сканирование страницы {0}..."
+
+#: UiStrings.resx$Second2Digit$Message
+msgid "Second (00-59)"
+msgstr "Секунда (00-59)"
+
+#: UiStrings.resx$Select$Message
+msgid "Select"
+msgstr "Выбрать"
+
+#: UiStrings.resx$SelectAll$Message
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: UiStrings.resx$SelectSource$Message
+msgid "Select Source"
+msgstr "Выбрать источник"
+
+#: MiscResources.resx$SelectProfileBeforeScan$Message
+msgid "Select a profile before clicking Scan."
+msgstr "Выберите профиль перед сканированием."
+
+#: UiStrings.resx$OcrSelectLanguageLabel$Message
+msgid "Select one or more languages:"
+msgstr "Выберите один или несколько языков:"
+
+#: MiscResources.resx$SelectedCount$Message
+msgid "Selected ({0})"
+msgstr "Выбранные ({0})"
+
+#: UiStrings.resx$SeparateByPatchT$Message
+msgid "Separate files by Patch-T"
+msgstr "Разделить файлы по Patch-T"
+
+#: UiStrings.resx$SetDefault$Message
+msgid "Set Default"
+msgstr "Установить по умолчанию"
+
+#: UiStrings.resx$Sharpen$Message
+msgid "Sharpen"
+msgstr "Резкость"
+
+#: UiStrings.resx$Show$Message
+msgid "Show"
+msgstr "Показать"
+
+#: UiStrings.resx$SinglePageFiles$Message
+msgid "Single page files"
+msgstr "Одностраничные файлы"
+
+#: UiStrings.resx$SingleScan$Message
+msgid "Single scan"
+msgstr "Одиночное сканирование"
+
+#: UiStrings.resx$SkipSavePrompt$Message
+msgid "Skip save prompt"
+msgstr "Пропустить запрос на сохранение"
+
+#: UiStrings.resx$Start$Message
+msgid "Start"
+msgstr "Запустить"
+
+#: UiStrings.resx$StretchToPageSize$Message
+msgid "Stretch to page size"
+msgstr "Растянуть до размера страницы"
+
+#: UiStrings.resx$SubjectLabel$Message
+msgid "Subject:"
+msgstr "Тема:"
+
+#: MiscResources.resx$FileTypeTiff$Message
+msgid "TIFF File (*.tiff, *.tif)"
+msgstr "Файл TIFF (*.tiff, *.tif)"
+
+#: UiStrings.resx$TwainDriver$Message
+msgid "TWAIN Driver"
+msgstr "Драйвер TWAIN"
+
+#: UiStrings.resx$TechnicalDetails$Message
+msgid "Technical Details"
+msgstr "Технические сведения"
+
+#: MiscResources.resx$TesseractNotAvailable$Message
+#: SdkResources.resx$TesseractNotAvailable$Message
+msgid "The OCR engine is not available. Make sure to install the required package:"
+msgstr "Инструменты распознавания текста (OCR) недоступны. Убедитесь, что необходимые пакеты установлены:"
+
+#: SdkResources.resx$OcrTimeout$Message
+msgid "The OCR operation timed out."
+msgstr "Время выполнения операции распознавания текста истекло."
+
+#: MiscResources.resx$SaneNotAvailable$Message
+#: SdkResources.resx$SaneNotAvailable$Message
+msgid "The SANE driver is not available. Make sure to install the required packages:"
+msgstr "Драйвер SANE недоступен. Убедитесь, что необходимые пакеты установлены:"
+
+#: MiscResources.resx$ImportErrorCouldNot$Message
+#: SdkResources.resx$ImportErrorCouldNot$Message
+msgid "The file '{0}' could not be imported."
+msgstr "Файл '{0}' не может быть импортирован."
+
+#: MiscResources.resx$ImportErrorNAPS2Pdf$Message
+msgid "The file '{0}' could not be imported. Only PDF files generated by NAPS2 can be imported."
+msgstr "Не удалось импортировать файл '{0}'. Можно импортировать только PDF-файлы, созданные NAPS2.."
+
+#: MiscResources.resx$FileInUse$Message
+msgid "The file could not be overwritten because it is currently in use."
+msgstr "Файл не может быть перезаписан, так как он используется."
+
+#: MiscResources.resx$ConfirmOverwriteFile$Message
+msgid "The file {0} already exists. Do you want to overwrite it?"
+msgstr "Файл {0} уже существует. Перезаписать его?"
+
+#: UiStrings.resx$EncryptedFilePrompt$Message
+msgid "The following file is encrypted and requires a password to open:"
+msgstr "Этот файл зашифрован, и для открытия требуется пароль:"
+
+#: MiscResources.resx$DevicePaperJam$Message
+#: SdkResources.resx$DevicePaperJam$Message
+msgid "The scanner has a paper jam."
+msgstr "В сканере застряла бумага."
+
+#: MiscResources.resx$DeviceWarmingUp$Message
+#: SdkResources.resx$DeviceWarmingUp$Message
+msgid "The scanner is warming up."
+msgstr "Разогрев сканера."
+
+#: MiscResources.resx$DeviceCoverOpen$Message
+#: SdkResources.resx$DeviceCoverOpen$Message
+msgid "The scanner's cover is open."
+msgstr "Крышка сканера открыта."
+
+#: MiscResources.resx$DriverNotSupported$Message
+#: SdkResources.resx$DriverNotSupported$Message
+msgid "The selected driver is not supported on this system."
+msgstr "Выбранный драйвер не поддерживается в этой системе."
+
+#: MiscResources.resx$DeviceNotFound$Message
+#: SdkResources.resx$DeviceNotFound$Message
+msgid "The selected scanner could not be found."
+msgstr "Не найден выбранный сканер."
+
+#: MiscResources.resx$NoFeederSupport$Message
+#: SdkResources.resx$NoFeederSupport$Message
+msgid "The selected scanner does not support using a feeder. If your scanner does have a feeder, try using a different driver."
+msgstr "Выбранный сканер не поддерживает использование автоподатчика. Если ваш сканер имеет АПД, попробуйте другой драйвер."
+
+#: MiscResources.resx$NoDuplexSupport$Message
+#: SdkResources.resx$NoDuplexSupport$Message
+msgid "The selected scanner does not support using duplex. If your scanner is supposed to support duplex, try using a different driver."
+msgstr "Выбранный сканер не поддерживает дуплекс. Если Ваш сканер поддерживает двустраничное сканирование, попробуйте использовать другой драйвер."
+
+#: MiscResources.resx$DeviceBusy$Message
+#: SdkResources.resx$DeviceBusy$Message
+msgid "The selected scanner is busy."
+msgstr "Выбранный сканер занят."
+
+#: MiscResources.resx$DeviceOffline$Message
+#: SdkResources.resx$DeviceOffline$Message
+msgid "The selected scanner is offline."
+msgstr "Выбранный сканер отключён."
+
+#: SettingsResources.resx$EmailProviderType_Thunderbird$Message
+msgid "Thunderbird"
+msgstr ""
+
+#: UiStrings.resx$TiffOptions$Message
+msgid "Tiff Options"
+msgstr "Настройки TIFF"
+
+#: UiStrings.resx$TimeBetweenScansLabel$Message
+msgid "Time between scans (seconds):"
+msgstr "Время между сканированием (в секундах):"
+
+#: UiStrings.resx$TitleLabel$Message
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: UiStrings.resx$Tools$Message
+msgid "Tools"
+msgstr "Инструменты"
+
+#: UiStrings.resx$TwainImplLabel$Message
+msgid "Twain Implementation:"
+msgstr "Реализация TWAIN:"
+
+#: SettingsResources.resx$PageSize_Legal$Message
+msgid "US Legal (8.5x14 in)"
+msgstr "US Legal (8.5x14 дюймов)"
+
+#: SettingsResources.resx$PageSize_Letter$Message
+msgid "US Letter (8.5x11 in)"
+msgstr "US Letter (8.5x11 дюймов)"
+
+#: MiscResources.resx$UnsavedChanges$Message
+msgid "Unsaved Changes"
+msgstr "Несохранённые изменения"
+
+#: MiscResources.resx$UpdateProgress$Message
+msgid "Update Progress"
+msgstr "Ход обновления"
+
+#: MiscResources.resx$UpdateCheckDisabled$Message
+msgid "Update checking is disabled."
+msgstr "Проверка обновлений отключена."
+
+#: MiscResources.resx$Updating$Message
+msgid "Updating..."
+msgstr "Обновление..."
+
+#: MiscResources.resx$UploadingEmail$Message
+msgid "Uploading email..."
+msgstr "Загрузка электронного сообщения..."
+
+#: UiStrings.resx$UseNativeUi$Message
+msgid "Use native UI"
+msgstr "Собственный интерфейс"
+
+#: UiStrings.resx$UsePredefinedSettings$Message
+msgid "Use predefined settings"
+msgstr "Предустановки"
+
+#: UiStrings.resx$UserPasswordLabel$Message
+msgid "User Password:"
+msgstr "Пароль пользователя:"
+
+#: UiStrings.resx$OcrDownloadSummaryText$Message
+msgid "Using OCR requires you to download each language you want to scan."
+msgstr "Для распознавания требуется загрузка соответствующих языковых файлов."
+
+#: MiscResources.resx$Version$Message
+#: SdkResources.resx$Version$Message
+msgid "Version {0}"
+msgstr "Версия {0}"
+
+#: UiStrings.resx$View$Message
+msgid "View"
+msgstr "Вид"
+
+#: UiStrings.resx$WiaDriver$Message
+msgid "WIA Driver"
+msgstr "Драйвер WIA"
+
+#: UiStrings.resx$WaitingForTwain$Message
+msgid "Waiting for TWAIN to complete..."
+msgstr "Ожидание завершения работы TWAIN..."
+
+#: UiStrings.resx$WaitingForAuthorization$Message
+msgid "Waiting for authorization..."
+msgstr "Ожидание авторизации..."
+
+#: MiscResources.resx$BatchStatusWaitingForScan$Message
+msgid "Waiting for scan {0}..."
+msgstr "Ожидание сканирования {0}..."
+
+#: UiStrings.resx$WhiteThreshold$Message
+msgid "White Threshold"
+msgstr "Порог белого"
+
+#: UiStrings.resx$WiaVersionLabel$Message
+msgid "Wia Version:"
+msgstr "Версия WIA:"
+
+#: UiStrings.resx$Year4Digit$Message
+msgid "Year"
+msgstr "Год"
+
+#: UiStrings.resx$Year2Digit$Message
+msgid "Year (00-99)"
+msgstr "Год (00-99)"
+
+#: MiscResources.resx$PdfNoPermissionToExtractContent$Message
+#: SdkResources.resx$PdfNoPermissionToExtractContent$Message
+msgid "You do not have permission to copy content from the file '{0}'."
+msgstr "У вас нет разрешения копировать содержимое из файла '{0}'."
+
+#: MiscResources.resx$DontHavePermission$Message
+msgid "You don't have permission to save files at this location."
+msgstr "У вас нет прав на запись в это место."
+
+#: MiscResources.resx$ExitWithUnsavedChanges$Message
+msgid "You have unsaved changes. Are you sure you want to exit and discard those changes?"
+msgstr "Есть несохранённые изменения. Вы уверены, что хотите выйти и отказаться от этих изменений?"
+
+#: UiStrings.resx$Zoom$Message
+msgid "Zoom"
+msgstr "Масштаб"
+
+#: UiStrings.resx$ZoomActual$Message
+msgid "Zoom Actual"
+msgstr "Исходный размер"
+
+#: UiStrings.resx$ZoomIn$Message
+msgid "Zoom In"
+msgstr "Увеличить"
+
+#: UiStrings.resx$ZoomOut$Message
+msgid "Zoom Out"
+msgstr "Уменьшить"
+
+#: SettingsResources.resx$PageSizeUnit_Centimetre$Message
+msgid "cm"
+msgstr "см"
+
+#: SettingsResources.resx$PageSizeUnit_Inch$Message
+msgid "in"
+msgstr "дюйм"
+
+#: SettingsResources.resx$PageSizeUnit_Millimetre$Message
+msgid "mm"
+msgstr "мм"
+
+#: MiscResources.resx$OfN$Message
+msgid "of {0}"
+msgstr "из {0}"
+
+#: SettingsResources.resx$TwainImpl_X64$Message
+msgid "x64"
+msgstr "x64"
+
+#: MiscResources.resx$NamedPageSizeFormat$Message
+msgid "{0} ({1}x{2} {3})"
+msgstr "{0} ({1}x{2} {3})"
+
+#: MiscResources.resx$ProgressFormat$Message
+msgid "{0} / {1}"
+msgstr "{0} / {1}"
+
+#: MiscResources.resx$SizeProgress$Message
+msgid "{0} / {1} MB"
+msgstr "{0} / {1} МБ"
+
+#: MiscResources.resx$FilesProgressFormat$Message
+msgid "{0} / {1} files"
+msgstr "{0} / {1} файлов"
+
+#: SettingsResources.resx$DpiFormat$Message
+msgid "{0} dpi"
+msgstr "{0} точек/дюйм"
+
+#: UiStrings.resx$RecoverPrompt$Message
+msgid "{0} image(s) scanned on {1} at {2} may not have been saved, and are recoverable. Do you want to recover them?"
+msgstr "Изображения ({0} шт.), сканированные {1} в {2}, возможно, не были сохранены и могут быть восстановлены. Хотите восстановить их?"
+
+#: MiscResources.resx$ImagesSaved$Message
+msgid "{0} images saved."
+msgstr "{0} изображений сохранено."
+
+#: MiscResources.resx$PdfStatus$Message
+#: UiStrings.resx$XOfY$Message
+msgid "{0} of {1}"
+msgstr "{0} из {1}"
+

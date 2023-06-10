@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net462;netstandard2.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>11</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Makaretu.Dns.Multicast" Version="0.27.0" />
+        <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    </ItemGroup>
+
+</Project>

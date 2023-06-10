@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6;net462</TargetFrameworks>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NAPS2.Portable</RootNamespace>
+    <AssemblyName>NAPS2.Portable</AssemblyName>
+
+    <Title>NAPS2 - Not Another PDF Scanner</Title>
+    <Product>NAPS2 - Not Another PDF Scanner</Product>
+  </PropertyGroup>
+  
+  <Import Project="..\NAPS2.Setup\targets\CommonTargets.targets" />
+  
+</Project>

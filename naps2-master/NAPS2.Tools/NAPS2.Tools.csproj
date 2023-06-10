@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7</TargetFramework>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NAPS2.Tools</RootNamespace>
+    <AssemblyName>n2</AssemblyName>
+    <Configurations>Debug</Configurations>
+    <LangVersion>11</LangVersion>
+    <EnablePreviewFeatures>true</EnablePreviewFeatures>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="Crowdin.Api" Version="2.10.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Octokit" Version="5.0.2" />
+    <PackageReference Include="System.Security.Principal.Windows" Version="5.0.0" />
+    <PackageReference Include="VirusTotalNet" Version="2.0.1" />
+  </ItemGroup>
+
+  <Import Project="..\NAPS2.Setup\targets\CommonTargets.targets" />
+  
+</Project>

@@ -1,0 +1,1578 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: naps2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-19 21:51+0000\n"
+"PO-Revision-Date: 2023-04-22 05:32\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Crowdin-Project: naps2\n"
+"X-Crowdin-Project-ID: 531762\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: templates.pot\n"
+"X-Crowdin-File-ID: 75\n"
+
+#: SettingsResources.resx$BitDepth_24Color$Message
+msgid "24-bit Color"
+msgstr "Color pe 24 biți"
+
+#: SettingsResources.resx$PageSize_A3$Message
+msgid "A3 (297x420 mm)"
+msgstr "A3 (297 x 420 mm)"
+
+#: SettingsResources.resx$PageSize_A4$Message
+msgid "A4 (210x297 mm)"
+msgstr "A4 (210 x 297 mm)"
+
+#: SettingsResources.resx$PageSize_A5$Message
+msgid "A5 (148x210 mm)"
+msgstr "A5 (148 x 210 mm)"
+
+#: UiStrings.resx$About$Message
+#: UiStrings.resx$AboutFormTitle$Message
+msgid "About"
+msgstr "Despre"
+
+#: MiscResources.resx$AcquiringData$Message
+msgid "Acquiring data..."
+msgstr "Colectează datele..."
+
+#: UiStrings.resx$Advanced$Message
+msgid "Advanced"
+msgstr "Avansat"
+
+#: UiStrings.resx$AdvancedProfileFormTitle$Message
+msgid "Advanced Profile Settings"
+msgstr "Setări avansate profil"
+
+#: MiscResources.resx$AllCount$Message
+msgid "All ({0})"
+msgstr "Toate ({0})"
+
+#: MiscResources.resx$FileTypeAllFiles$Message
+msgid "All Files"
+msgstr "Toate fișierele"
+
+#: UiStrings.resx$AllowAnnotations$Message
+msgid "Allow Annotations"
+msgstr "Permite note explicative"
+
+#: UiStrings.resx$AllowContentCopying$Message
+msgid "Allow Content Copying"
+msgstr "Permite copierea conținutului"
+
+#: UiStrings.resx$AllowContentCopyingForAccessibility$Message
+msgid "Allow Content Copying for Accessibility"
+msgstr "Permite copierea conținutului pentru Accesibilitate"
+
+#: UiStrings.resx$AllowDocumentAssembly$Message
+msgid "Allow Document Assembly"
+msgstr "Permite asamblarea documentului"
+
+#: UiStrings.resx$AllowDocumentModification$Message
+msgid "Allow Document Modification"
+msgstr "Permite modificarea documentului"
+
+#: UiStrings.resx$AllowFormFilling$Message
+msgid "Allow Form Filling"
+msgstr "Permite completarea formularului"
+
+#: UiStrings.resx$AllowFullQualityPrinting$Message
+msgid "Allow Full Quality Printing"
+msgstr "Permite printarea la calitate maxima"
+
+#: UiStrings.resx$AllowPrinting$Message
+msgid "Allow Printing"
+msgstr "Permite imprimarea"
+
+#: UiStrings.resx$AltDeinterleave$Message
+msgid "Alternate Deinterleave"
+msgstr "Deintercalare alternativă"
+
+#: UiStrings.resx$AltInterleave$Message
+msgid "Alternate Interleave"
+msgstr "Intercalare alternativă"
+
+#: MiscResources.resx$PdfImportComponentNeeded$Message
+msgid "An additional component is needed to import this PDF file. Would you like to download it now?"
+msgstr "Este necesară o nouă componentă pentru a putea importa acest fișier PDF. O adăugăm acum?"
+
+#: SdkResources.resx$OcrError$Message
+msgid "An error occurred running OCR."
+msgstr "A apărut o eroare la rularea OCR."
+
+#: MiscResources.resx$AuthError$Message
+msgid "An error occurred when trying to authorize."
+msgstr "A survenit o eroare la încercarea de autorizare."
+
+#: MiscResources.resx$AutoSaveError$Message
+msgid "An error occurred when trying to auto save."
+msgstr "A apărut o eroare în timpul salvării automate."
+
+#: MiscResources.resx$UpdateError$Message
+msgid "An error occurred when trying to install the update."
+msgstr "A intervenit o eroare la instalarea actualizării."
+
+#: MiscResources.resx$ErrorSaving$Message
+msgid "An error occurred when trying to save the file."
+msgstr "A apărut o eroare la salvarea fișierului."
+
+#: MiscResources.resx$ErrorEmailing$Message
+msgid "An error occurred when trying to send the email."
+msgstr "A survenit o eroare la încercarea de trimitere email."
+
+#: MiscResources.resx$EmailError$Message
+msgid "An error occurred while trying to send an email."
+msgstr "A intervenit o eroare la trimiterea email-ului.."
+
+#: MiscResources.resx$UnknownDriverError$Message
+#: SdkResources.resx$UnknownDriverError$Message
+msgid "An error occurred with the scanning driver."
+msgstr "A apărut o eroare la driver-ul de scanare.."
+
+#: MiscResources.resx$ExitWithActiveOperations$Message
+msgid "An operation is in progress. Are you sure you want to exit and cancel the operation?"
+msgstr "O operație este în curs. Sigur doriți să ieșiți și să anulați operația?"
+
+#: MiscResources.resx$BatchError$Message
+msgid "An unknown error occurred during the batch scan."
+msgstr "A apărut o eroare necunoscută în timpul scanării lotului."
+
+#: MiscResources.resx$UpdateAvailable$Message
+msgid "An update is available."
+msgstr "Este disponibilă o actualizare."
+
+#: MiscResources.resx$OcrUpdateAvailable$Message
+msgid "An update to OCR is available."
+msgstr "Este disponibilă o actualizare a componentei OCR."
+
+#: UiStrings.resx$AppleDriver$Message
+msgid "Apple Driver"
+msgstr "Driver Apple"
+
+#: SettingsResources.resx$EmailProviderType_AppleMail$Message
+msgid "Apple Mail"
+msgstr "Apple Mail"
+
+#: UiStrings.resx$BrightnessContrastAfterScan$Message
+msgid "Apply brightness/contrast after scan"
+msgstr "Aplică luminozitate/contrast după scanare"
+
+#: UiStrings.resx$ApplyToSelected$Message
+msgid "Apply to all {0} selected images"
+msgstr "Aplică la toate {0} imaginile selectate"
+
+#: MiscResources.resx$ConfirmCancelBatch$Message
+msgid "Are you sure you want to cancel the batch scan?"
+msgstr "Esti sigur că vrei să opreşti scanarea multiplă?"
+
+#: MiscResources.resx$ConfirmClearItems$Message
+msgid "Are you sure you want to clear {0} item(s)?"
+msgstr "Sigur doriți să ștergeți {0} element(e)?"
+
+#: MiscResources.resx$ConfirmDelete$Message
+msgid "Are you sure you want to delete \"{0}\"?"
+msgstr "Sigur doriți să ștergeți {0} elemente?"
+
+#: MiscResources.resx$ConfirmDeleteSingleProfile$Message
+msgid "Are you sure you want to delete the profile {0}?"
+msgstr "Sigur doriți să ștergeți profilul {0}?"
+
+#: MiscResources.resx$ConfirmDeleteItems$Message
+msgid "Are you sure you want to delete {0} item(s)?"
+msgstr "Sigur doriți să ștergeți {0} element(e)?"
+
+#: MiscResources.resx$ConfirmDeleteMultipleProfiles$Message
+msgid "Are you sure you want to delete {0} profiles?"
+msgstr "Sigur doriți să ștergeți {0} profile?"
+
+#: MiscResources.resx$ConfirmResetImages$Message
+msgid "Are you sure you want undo your changes to {0} image(s)?"
+msgstr "Sunteți sigur că vreți să anulați modificările pentru {0} imagini?"
+
+#: UiStrings.resx$AttachmentNameLabel$Message
+msgid "Attachment Name:"
+msgstr "Numele ataşamentului:"
+
+#: UiStrings.resx$AuthorLabel$Message
+msgid "Author:"
+msgstr "Autor:"
+
+#: UiStrings.resx$AuthorizeFormTitle$Message
+msgid "Authorize"
+msgstr "Autorizează"
+
+#: SettingsResources.resx$TiffComp_Auto$Message
+msgid "Auto"
+msgstr "Auto"
+
+#: UiStrings.resx$AutoSaveSettings$Message
+#: UiStrings.resx$AutoSaveSettingsFormTitle$Message
+msgid "Auto Save Settings"
+msgstr "Setări de salvare automată"
+
+#: UiStrings.resx$AutoIncrementing1Digit$Message
+msgid "Auto-incrementing number (1 digits)"
+msgstr "Număr cu incrementare automată (1 cifră)"
+
+#: UiStrings.resx$AutoIncrementing2Digit$Message
+msgid "Auto-incrementing number (2 digits)"
+msgstr "Incrementează automat numărul (două cifre)"
+
+#: UiStrings.resx$AutoIncrementing3Digit$Message
+msgid "Auto-incrementing number (3 digits)"
+msgstr "Incrementează automat numarul (trei cifre)"
+
+#: UiStrings.resx$AutoIncrementing4Digit$Message
+msgid "Auto-incrementing number (4 digits)"
+msgstr "Incrementează automat numărul (patru cifre)"
+
+#: UiStrings.resx$RunOcrAfterScanning$Message
+msgid "Automatically run OCR after scanning"
+msgstr "Rulează automat modulul OCR după scanare"
+
+#: SettingsResources.resx$PageSize_B4$Message
+msgid "B4 (250x353 mm)"
+msgstr "B4 (250 x 353 mm)"
+
+#: SettingsResources.resx$PageSize_B5$Message
+msgid "B5 (176x250 mm)"
+msgstr "B5 (176x250 mm)"
+
+#: UiStrings.resx$BatchScan$Message
+#: UiStrings.resx$BatchScanFormTitle$Message
+msgid "Batch Scan"
+msgstr "Scanare multiplă"
+
+#: MiscResources.resx$BatchStatusCancelled$Message
+msgid "Batch cancelled."
+msgstr "Scanare multiplă anulată."
+
+#: MiscResources.resx$BatchStatusComplete$Message
+msgid "Batch completed successfully."
+msgstr "Scanare multiplă terminată cu succes."
+
+#: MiscResources.resx$BatchStatusError$Message
+msgid "Batch scan stopped due to error."
+msgstr "Scanarea multiplă oprită din cauza unei erori."
+
+#: SettingsResources.resx$OcrMode_Best$Message
+msgid "Best"
+msgstr "Cel mai bun"
+
+#: UiStrings.resx$BitDepthLabel$Message
+msgid "Bit depth:"
+msgstr "Adâncime biți:"
+
+#: MiscResources.resx$FileTypeBmp$Message
+msgid "Bitmap Files (*.bmp)"
+msgstr "Fișiere bitmap (*.bmp)"
+
+#: SettingsResources.resx$BitDepth_1BlackAndWhite$Message
+#: UiStrings.resx$BlackAndWhite$Message
+msgid "Black and White"
+msgstr "Alb-negru"
+
+#: UiStrings.resx$BlankPages$Message
+msgid "Blank Pages"
+msgstr "Pagini goale"
+
+#: UiStrings.resx$BrightnessContrast$Message
+msgid "Brightness / Contrast"
+msgstr "Luminozitate - Contrast"
+
+#: UiStrings.resx$BrightnessLabel$Message
+msgid "Brightness:"
+msgstr "Luminozitate:"
+
+#: SettingsResources.resx$TiffComp_Ccitt4$Message
+msgid "CCITT4"
+msgstr "CCITT4"
+
+#: MiscResources.resx$Cancel$Message
+#: UiStrings.resx$Cancel$Message
+msgid "Cancel"
+msgstr "Renunță"
+
+#: MiscResources.resx$CancelBatch$Message
+msgid "Cancel Batch"
+msgstr "Anuleaza Batch-ul"
+
+#: MiscResources.resx$BatchStatusCancelling$Message
+msgid "Cancelling...."
+msgstr "Se anulează...."
+
+#: SettingsResources.resx$HorizontalAlign_Center$Message
+msgid "Center"
+msgstr "Centrează"
+
+#: UiStrings.resx$Change$Message
+msgid "Change"
+msgstr "Schimbă"
+
+#: UiStrings.resx$CheckForUpdates$Message
+msgid "Check for updates"
+msgstr "Verificare actualizări"
+
+#: MiscResources.resx$CheckingForUpdates$Message
+msgid "Checking..."
+msgstr "Verificare..."
+
+#: UiStrings.resx$EmailProviderFormTitle$Message
+msgid "Choose Email Provider"
+msgstr "Alege serviciul de email"
+
+#: MiscResources.resx$ChooseProfile$Message
+msgid "Choose Profile"
+msgstr "Alegeți profilul"
+
+#: UiStrings.resx$ChooseDevice$Message
+msgid "Choose device"
+msgstr "Alegeți dispozitivul"
+
+#: MiscResources.resx$Clear$Message
+#: UiStrings.resx$Clear$Message
+msgid "Clear"
+msgstr "Şterge"
+
+#: UiStrings.resx$ClearAll$Message
+msgid "Clear All"
+msgstr "Ștergere totală"
+
+#: UiStrings.resx$ClearAfterSaving$Message
+msgid "Clear images after saving"
+msgstr "Șterge imaginile după salvare"
+
+#: MiscResources.resx$Close$Message
+msgid "Close"
+msgstr "Închide"
+
+#: UiStrings.resx$Compatibility$Message
+msgid "Compatibility"
+msgstr "Compatibilitate"
+
+#: UiStrings.resx$CompressionLabel$Message
+msgid "Compression:"
+msgstr "Comprimare:"
+
+#: UiStrings.resx$ContrastLabel$Message
+msgid "Contrast:"
+msgstr "Contrast:"
+
+#: UiStrings.resx$Copy$Message
+msgid "Copy"
+msgstr "Copiază"
+
+#: MiscResources.resx$CopyProgress$Message
+msgid "Copy Progress"
+msgstr "Progres copiere"
+
+#: MiscResources.resx$Copying$Message
+msgid "Copying..."
+msgstr "Copiere..."
+
+#: UiStrings.resx$CopyrightFormat$Message
+msgid "Copyright {0} NAPS2 Contributors"
+msgstr "Drepturi de autor {0} Colaboratori NAPS2"
+
+#: UiStrings.resx$CoverageThreshold$Message
+msgid "Coverage Threshold"
+msgstr "Pragul de acoperire"
+
+#: UiStrings.resx$Crop$Message
+msgid "Crop"
+msgstr "Decupează"
+
+#: UiStrings.resx$CropToPageSize$Message
+msgid "Crop to page size"
+msgstr "Decupează la mărimea paginii"
+
+#: MiscResources.resx$CustomPageSizeFormat$Message
+msgid "Custom ({0}x{1} {2})"
+msgstr "Personalizat ({0}x{1} {2})"
+
+#: UiStrings.resx$PageSizeFormTitle$Message
+msgid "Custom Page Size"
+msgstr "Mărime personalizată a paginii"
+
+#: UiStrings.resx$CustomRotation$Message
+msgid "Custom Rotation"
+msgstr "Rotație personalizată"
+
+#: SettingsResources.resx$EmailProviderType_CustomSmtp$Message
+msgid "Custom SMTP"
+msgstr "Adresă server SMTP personalizată"
+
+#: SettingsResources.resx$PageSize_Custom$Message
+msgid "Custom..."
+msgstr "Personalizat..."
+
+#: UiStrings.resx$Day2Digit$Message
+msgid "Day (01-31)"
+msgstr "Ziua (01-31)"
+
+#: SettingsResources.resx$PdfCompat_Default$Message
+#: SettingsResources.resx$TwainImpl_Default$Message
+#: SettingsResources.resx$WiaVersion_Default$Message
+#: UiStrings.resx$Default$Message
+msgid "Default"
+msgstr "Implicit"
+
+#: UiStrings.resx$DefaultFilePathLabel$Message
+msgid "Default File Path:"
+msgstr "Cale implicită fișier:"
+
+#: UiStrings.resx$Deinterleave$Message
+msgid "Deinterleave"
+msgstr "Deîntrețesere"
+
+#: MiscResources.resx$Delete$Message
+#: UiStrings.resx$Delete$Message
+msgid "Delete"
+msgstr "Șterge"
+
+#: UiStrings.resx$Deskew$Message
+msgid "Deskew"
+msgstr "Îndreptare"
+
+#: MiscResources.resx$AutoDeskewProgress$Message
+msgid "Deskew Progress"
+msgstr "Progres îndreptare"
+
+#: UiStrings.resx$DeskewScannedPages$Message
+msgid "Deskew scanned pages"
+msgstr "Îndreaptă paginile scanate"
+
+#: MiscResources.resx$AutoDeskewing$Message
+msgid "Deskewing..."
+msgstr "Îndreptare..."
+
+#: UiStrings.resx$DeviceLabel$Message
+msgid "Device:"
+msgstr "Dispozitiv:"
+
+#: UiStrings.resx$Dimensions$Message
+msgid "Dimensions"
+msgstr "Dimensiuni"
+
+#: UiStrings.resx$DisplayNameLabel$Message
+msgid "Display name:"
+msgstr "Nume afișat:"
+
+#: UiStrings.resx$DocumentCorrection$Message
+msgid "Document Correction"
+msgstr "Corecție Document"
+
+#: MiscResources.resx$Donate$Message
+#: UiStrings.resx$Donate$Message
+msgid "Donate"
+msgstr "Donează"
+
+#: UiStrings.resx$Done$Message
+msgid "Done"
+msgstr "Finalizat"
+
+#: UiStrings.resx$Download$Message
+msgid "Download"
+msgstr "Descarcă"
+
+#: MiscResources.resx$DownloadError$Message
+msgid "Download Error"
+msgstr "Eroare la descărcare"
+
+#: MiscResources.resx$DownloadNeeded$Message
+msgid "Download Needed"
+msgstr "Descărcarea este necesară"
+
+#: UiStrings.resx$DownloadProgressFormTitle$Message
+msgid "Download Progress"
+msgstr "Progresul descărcării"
+
+#: SettingsResources.resx$Source_Duplex$Message
+msgid "Duplex"
+msgstr "Fată-verso"
+
+#: UiStrings.resx$EsclDriver$Message
+msgid "ESCL Driver"
+msgstr "Driver-ul ESCL"
+
+#: UiStrings.resx$EsclNetworkDriver$Message
+msgid "ESCL Network Driver"
+msgstr "Driver de rețea ESCL"
+
+#: UiStrings.resx$EsclUsbDriver$Message
+msgid "ESCL USB Driver"
+msgstr "Driver USB ESCL"
+
+#: UiStrings.resx$Edit$Message
+msgid "Edit"
+msgstr "Editare"
+
+#: UiStrings.resx$EmailAll$Message
+msgid "Email All"
+msgstr "Trimiteți prin e-mail tuturor"
+
+#: UiStrings.resx$EmailAllAsPdf$Message
+msgid "Email All as PDF"
+msgstr "Trimiteți prin e-mail tuturor ca PDF"
+
+#: MiscResources.resx$EmailPdf$Message
+#: UiStrings.resx$EmailPdf$Message
+msgid "Email PDF"
+msgstr "Trimite PDF prin email"
+
+#: MiscResources.resx$EmailPdfProgress$Message
+msgid "Email PDF Progress"
+msgstr "Progres trimitere PDF prin email"
+
+#: UiStrings.resx$EmailSelected$Message
+msgid "Email Selected"
+msgstr "Trimiteți prin e-mail partea selectată"
+
+#: UiStrings.resx$EmailSelectedAsPdf$Message
+msgid "Email Selected as PDF"
+msgstr "Trimiteți prin e-mail partea selectată ca PDF"
+
+#: UiStrings.resx$EmailSettings$Message
+#: UiStrings.resx$EmailSettingsFormTitle$Message
+msgid "Email Settings"
+msgstr "Configurări email"
+
+#: UiStrings.resx$EnableAutoSave$Message
+msgid "Enable Auto Save"
+msgstr "Activează salvarea automată"
+
+#: UiStrings.resx$EnableDebugLogging$Message
+msgid "Enable debug logging"
+msgstr ""
+
+#: UiStrings.resx$EncryptPdf$Message
+msgid "Encrypt PDF"
+msgstr "Criptează PDF"
+
+#: UiStrings.resx$Encryption$Message
+msgid "Encryption"
+msgstr "Criptare"
+
+#: MiscResources.resx$FileTypeEmf$Message
+msgid "Enhanced Windows MetaFile (*.emf)"
+msgstr "Enhanced Windows Metafile (*.emf)"
+
+#: MiscResources.resx$Error$Message
+#: UiStrings.resx$ErrorFormTitle$Message
+msgid "Error"
+msgstr "Eroare"
+
+#: MiscResources.resx$EstimatedDownloadSize$Message
+#: UiStrings.resx$EstimatedDownloadSize$Message
+msgid "Estimated download size: {0} MB"
+msgstr "Mărime estimată de download: {0} MB"
+
+#: MiscResources.resx$FileTypeExif$Message
+msgid "Exchangeable Image File (*.exif)"
+msgstr "Fișier imagine interschimbabil (*.exif)"
+
+#: UiStrings.resx$ExcludeBlankPages$Message
+msgid "Exclude blank pages"
+msgstr "Elimină paginile goale"
+
+#: SettingsResources.resx$OcrMode_Fast$Message
+msgid "Fast"
+msgstr "Rapid"
+
+#: SettingsResources.resx$Source_Feeder$Message
+msgid "Feeder"
+msgstr "Alimentator"
+
+#: UiStrings.resx$FileNameLabel$Message
+msgid "File Name:"
+msgstr "Nume fişier"
+
+#: UiStrings.resx$FilePathLabel$Message
+msgid "File Path:"
+msgstr "Cale fișier:"
+
+#: UiStrings.resx$Flip$Message
+msgid "Flip"
+msgstr "Întoarce"
+
+#: UiStrings.resx$FlipDuplexedPages$Message
+msgid "Flip duplexed pages"
+msgstr "Întoarce paginile de pe verso"
+
+#: UiStrings.resx$JpegQualityHelp$Message
+msgid "For high JPEG qualities (80+), also increase Image Quality in your profile for best results."
+msgstr "Pentru calități JPEG înalte (80+), creșteți calitatea imaginii în profilul dvs. pentru cele mai bune rezultate."
+
+#: MiscResources.resx$FileTypeGif$Message
+msgid "GIF File (*.gif)"
+msgstr "Fișier GIF (*.gif)"
+
+#: UiStrings.resx$GetMoreLanguages$Message
+msgid "Get more languages"
+msgstr "Instalează mai multe limbi"
+
+#: SettingsResources.resx$Source_Glass$Message
+msgid "Glass"
+msgstr "Sticlă"
+
+#: SettingsResources.resx$EmailProviderType_Gmail$Message
+msgid "Gmail"
+msgstr "Gmail"
+
+#: SettingsResources.resx$BitDepth_8Grayscale$Message
+msgid "Grayscale"
+msgstr "Tonuri de gri"
+
+#: UiStrings.resx$HorizontalAlignLabel$Message
+msgid "Horizontal align:"
+msgstr "Aliniere pe orizontală:"
+
+#: UiStrings.resx$Hour2Digit$Message
+msgid "Hour (0-23)"
+msgstr "Ora (0-23)"
+
+#: UiStrings.resx$HueSaturation$Message
+msgid "Hue / Saturation"
+msgstr "Nuanță / Saturație"
+
+#: UiStrings.resx$IconsFrom$Message
+msgid "Icons from:"
+msgstr "Icoane din:"
+
+#: UiStrings.resx$Image$Message
+msgid "Image"
+msgstr "Imagine"
+
+#: MiscResources.resx$FileTypeImageFiles$Message
+msgid "Image Files"
+msgstr "Fișiere Imagine"
+
+#: UiStrings.resx$ImageQuality$Message
+msgid "Image Quality"
+msgstr "Calitatea Imaginii"
+
+#: UiStrings.resx$ImageSettings$Message
+#: UiStrings.resx$ImageSettingsFormTitle$Message
+msgid "Image Settings"
+msgstr "Preferințe imagine"
+
+#: MiscResources.resx$ImageSaved$Message
+msgid "Image saved."
+msgstr "Imagine salvată."
+
+#: UiStrings.resx$Import$Message
+msgid "Import"
+msgstr "Importă"
+
+#: MiscResources.resx$ImportProgress$Message
+msgid "Import Progress"
+msgstr "Progres import"
+
+#: MiscResources.resx$ImportingFormat$Message
+msgid "Importing {0}..."
+msgstr "Importare {0}..."
+
+#: MiscResources.resx$Importing$Message
+msgid "Importing..."
+msgstr "Se importă..."
+
+#: MiscResources.resx$Install$Message
+msgid "Install {0}"
+msgstr "Instalează {0}"
+
+#: MiscResources.resx$InstallComplete$Message
+msgid "Installation Complete"
+msgstr "Instalare încheiată"
+
+#: MiscResources.resx$InstallFailedTitle$Message
+msgid "Installation Failed"
+msgstr "Instalarea a eșuat"
+
+#: MiscResources.resx$InstallCompletePromptRestart$Message
+msgid "Installation complete. Do you want to restart NAPS2 now?"
+msgstr "Instalare completă. Doriți să reporniți NAPS2 acum?"
+
+#: MiscResources.resx$InstallFailed$Message
+msgid "Installation failed."
+msgstr "Instalarea a eșuat."
+
+#: UiStrings.resx$Interleave$Message
+msgid "Interleave"
+msgstr "Întrețesere"
+
+#: MiscResources.resx$FileTypeJpeg$Message
+msgid "JPEG File (*.jpg, *.jpeg)"
+msgstr "Fișier JPEG (*.jpg, *.jpeg)"
+
+#: MiscResources.resx$FileTypeJp2$Message
+msgid "JPEG2000 File (*.jp2, *.jpx)"
+msgstr "Fișier JPEG2000 (*.jp2, *.jpx)"
+
+#: UiStrings.resx$JpegQuality$Message
+msgid "Jpeg Quality"
+msgstr "Calitate JPEG"
+
+#: UiStrings.resx$KeywordsLabel$Message
+msgid "Keywords:"
+msgstr "Cuvinte cheie:"
+
+#: SettingsResources.resx$TiffComp_Lzw$Message
+msgid "LZW"
+msgstr "LZW"
+
+#: UiStrings.resx$Language$Message
+msgid "Language"
+msgstr "Limbă"
+
+#: SettingsResources.resx$HorizontalAlign_Left$Message
+msgid "Left"
+msgstr "Stânga"
+
+#: SettingsResources.resx$TwainImpl_Legacy$Message
+msgid "Legacy (native UI only)"
+msgstr "Vechi (numai interfața de utilizare nativă)"
+
+#: UiStrings.resx$LoadIn$Message
+msgid "Load images into NAPS2"
+msgstr "Încarcă imagini în NAPS2"
+
+#: UiStrings.resx$MakePdfsSearchable$Message
+msgid "Make PDFs searchable using OCR"
+msgstr "Crează fișier PDF cu posibilitatea căutării în text"
+
+#: UiStrings.resx$MaximumQuality$Message
+msgid "Maximum quality (large files)"
+msgstr "Calitate maximă (fișiere mari)"
+
+#: SettingsResources.resx$TwainImpl_MemXfer$Message
+msgid "Memory Transfer"
+msgstr "Transfer de memorie"
+
+#: UiStrings.resx$Metadata$Message
+msgid "Metadata"
+msgstr "Metadate"
+
+#: UiStrings.resx$Minute2Digit$Message
+msgid "Minute (00-59)"
+msgstr "Minute (00-59)"
+
+#: UiStrings.resx$Month2Digit$Message
+msgid "Month (01-12)"
+msgstr "Luna (01-12)"
+
+#: UiStrings.resx$MoreInfo$Message
+msgid "More info"
+msgstr "Mai multe informații"
+
+#: UiStrings.resx$MoveDown$Message
+msgid "Move Down"
+msgstr "Mai jos"
+
+#: UiStrings.resx$MoveUp$Message
+msgid "Move Up"
+msgstr "Mai sus"
+
+#: UiStrings.resx$MultipleScansDelay$Message
+msgid "Multiple scans (fixed delay between scans)"
+msgstr "Scanare multiplă (cu o pauză între scanări)"
+
+#: UiStrings.resx$MultipleScansPrompt$Message
+msgid "Multiple scans (prompt between scans)"
+msgstr "Scanare multiplă (cu confirmare între scanări)"
+
+#: MiscResources.resx$NAPS2$Message
+#: SdkResources.resx$NAPS2$Message
+#: UiStrings.resx$Naps2$Message
+msgid "NAPS2"
+msgstr "NAPS2"
+
+#: UiStrings.resx$Naps2TitleFormat$Message
+msgid "NAPS2 - {0}"
+msgstr "NAPS2 - {0}"
+
+#: MiscResources.resx$DonatePrompt$Message
+msgid "NAPS2 is completely free. Consider making a donation."
+msgstr "NAPS2 este complet gratuit. Luați în considerare să faceți o donație."
+
+#: UiStrings.resx$NameOptional$Message
+msgid "Name (optional)"
+msgstr "Nume (opțional)"
+
+#: MiscResources.resx$NameMissing$Message
+msgid "Name missing."
+msgstr "Lipsește numele."
+
+#: SettingsResources.resx$TwainImpl_NativeXfer$Message
+msgid "Native Transfer"
+msgstr "Transfer nativ"
+
+#: UiStrings.resx$New$Message
+msgid "New"
+msgstr "Nou"
+
+#: UiStrings.resx$NewProfile$Message
+msgid "New Profile"
+msgstr "Profil Nou"
+
+#: UiStrings.resx$Next$Message
+msgid "Next"
+msgstr "Înainte"
+
+#: UiStrings.resx$BatchPromptFormTitle$Message
+msgid "Next Scan"
+msgstr "Următoarea scanare"
+
+#: MiscResources.resx$NoDeviceSelected$Message
+#: SdkResources.resx$NoDeviceSelected$Message
+msgid "No device selected."
+msgstr "Nici un dispozitiv selectat."
+
+#: MiscResources.resx$NoPagesInFeeder$Message
+#: SdkResources.resx$NoPagesInFeeder$Message
+msgid "No pages are in the feeder."
+msgstr "Nici o foaie in alimentator."
+
+#: SettingsResources.resx$EmailProvider_NotSelected$Message
+msgid "No provider selected."
+msgstr "Niciun furnizor selectat."
+
+#: MiscResources.resx$NoDevicesFound$Message
+#: SdkResources.resx$NoDevicesFound$Message
+msgid "No scanning device was found."
+msgstr "Nu a fost găsit nici un dispozitiv scaner."
+
+#: MiscResources.resx$NoUpdates$Message
+msgid "No updates available."
+msgstr "Nicio actualizare disponibilă."
+
+#: SettingsResources.resx$TiffComp_None$Message
+msgid "None"
+msgstr "Nimic"
+
+#: UiStrings.resx$Naps2FullName$Message
+msgid "Not Another PDF Scanner"
+msgstr "Nici alt scaner PDF"
+
+#: UiStrings.resx$NotNow$Message
+msgid "Not Now"
+msgstr "Nu acum"
+
+#: UiStrings.resx$NumberOfScansLabel$Message
+msgid "Number of scans:"
+msgstr "Numarul de scanări:"
+
+#: UiStrings.resx$Ocr$Message
+msgid "OCR"
+msgstr "OCR"
+
+#: UiStrings.resx$OcrDownloadFormTitle$Message
+msgid "OCR Download"
+msgstr "Descarcă OCR"
+
+#: MiscResources.resx$OcrProgress$Message
+msgid "OCR Progress"
+msgstr "OCR în lucru"
+
+#: UiStrings.resx$OcrSetupFormTitle$Message
+msgid "OCR Setup"
+msgstr "Configurează OCR"
+
+#: UiStrings.resx$OcrLanguageLabel$Message
+msgid "OCR language:"
+msgstr "Limba OCR:"
+
+#: UiStrings.resx$OcrModeLabel$Message
+msgid "OCR mode:"
+msgstr "Modul OCR:"
+
+#: UiStrings.resx$OK$Message
+msgid "OK"
+msgstr "Ok"
+
+#: UiStrings.resx$OffsetWidth$Message
+msgid "Offset width based on alignment (WIA)"
+msgstr "Offset bazat pe aliniere (WIA)"
+
+#: SettingsResources.resx$TwainImpl_OldDsm$Message
+msgid "Old DSM"
+msgstr "DSM vechi"
+
+#: UiStrings.resx$OneFilePerPage$Message
+msgid "One file per page"
+msgstr "Un fișier pe pagină"
+
+#: UiStrings.resx$OneFilePerScan$Message
+msgid "One file per scan"
+msgstr "Fișiere individuale per scanare"
+
+#: MiscResources.resx$FilesCouldNotBeDownloaded$Message
+msgid "One or more files could not be downloaded."
+msgstr "Unul sau mai multe fișiere nu s-au putut descărca."
+
+#: UiStrings.resx$OpenFolder$Message
+msgid "Open Folder"
+msgstr "Deschide folder-ul"
+
+#: MiscResources.resx$ActiveOperations$Message
+msgid "Operation in Progress"
+msgstr "Operaţiune în desfăşurare"
+
+#: SettingsResources.resx$EmailProviderType_OutlookWeb$Message
+msgid "Outlook Web Access"
+msgstr "Acces Outlook Web"
+
+#: UiStrings.resx$Output$Message
+msgid "Output"
+msgstr "Rezultat"
+
+#: MiscResources.resx$OverwriteFile$Message
+msgid "Overwrite File"
+msgstr "Suprascrie fișierul"
+
+#: UiStrings.resx$OwnerPasswordLabel$Message
+msgid "Owner Password:"
+msgstr "Parolă Autor:"
+
+#: MiscResources.resx$FileTypePdf$Message
+msgid "PDF Document (*.pdf)"
+msgstr "Document PDF (*.pdf)"
+
+#: UiStrings.resx$PdfSettings$Message
+#: UiStrings.resx$PdfSettingsFormTitle$Message
+msgid "PDF Settings"
+msgstr "Setări PDF"
+
+#: MiscResources.resx$PdfSaved$Message
+msgid "PDF saved."
+msgstr "PDF salvat."
+
+#: SettingsResources.resx$PdfCompat_PdfA1B$Message
+msgid "PDF/A-1b"
+msgstr "PDF/A-1b"
+
+#: SettingsResources.resx$PdfCompat_PdfA2B$Message
+msgid "PDF/A-2b"
+msgstr "PDF/A-2b"
+
+#: SettingsResources.resx$PdfCompat_PdfA3B$Message
+msgid "PDF/A-3b"
+msgstr "PDF/A-3b"
+
+#: SettingsResources.resx$PdfCompat_PdfA3U$Message
+msgid "PDF/A-3u"
+msgstr "PDF/A-3u"
+
+#: MiscResources.resx$FileTypePng$Message
+msgid "PNG File (*.png)"
+msgstr "Fișier PNG (*.png)"
+
+#: UiStrings.resx$PageSizeLabel$Message
+msgid "Page size:"
+msgstr "Dimensiune pagină:"
+
+#: UiStrings.resx$PaperSourceLabel$Message
+msgid "Paper source:"
+msgstr "Sursă hârtie:"
+
+#: UiStrings.resx$PdfPasswordFormTitle$Message
+msgid "Password"
+msgstr "Parolă"
+
+#: UiStrings.resx$Paste$Message
+msgid "Paste"
+msgstr "Lipire"
+
+#: UiStrings.resx$Placeholders$Message
+#: UiStrings.resx$PlaceholdersFormTitle$Message
+msgid "Placeholders"
+msgstr "Înlocuitori"
+
+#: UiStrings.resx$PostProcessing$Message
+msgid "Post-processing"
+msgstr "Postprocesare"
+
+#: UiStrings.resx$PressStartWhenReady$Message
+msgid "Press Start when ready."
+msgstr "Apasă Start când ești pregătit."
+
+#: UiStrings.resx$PreviewFormTitle$Message
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: UiStrings.resx$PreviewLabel$Message
+msgid "Preview:"
+msgstr "Previzualizare:"
+
+#: UiStrings.resx$Previous$Message
+msgid "Previous"
+msgstr "Precedent"
+
+#: MiscResources.resx$Print$Message
+#: UiStrings.resx$Print$Message
+msgid "Print"
+msgstr "Tipărire"
+
+#: UiStrings.resx$EditProfileFormTitle$Message
+msgid "Profile Settings"
+msgstr "Configurări profil"
+
+#: UiStrings.resx$ProfileLabel$Message
+msgid "Profile:"
+msgstr "Profil:"
+
+#: UiStrings.resx$Profiles$Message
+#: UiStrings.resx$ProfilesFormTitle$Message
+msgid "Profiles"
+msgstr "Profiluri"
+
+#: UiStrings.resx$PromptForFilePath$Message
+msgid "Prompt for file path"
+msgstr "Cere calea fișierului"
+
+#: UiStrings.resx$Provider$Message
+msgid "Provider"
+msgstr "Furnizor"
+
+#: UiStrings.resx$ReadyForScan$Message
+msgid "Ready for scan {0}."
+msgstr "Gata de scanare {0}."
+
+#: UiStrings.resx$Recover$Message
+msgid "Recover"
+msgstr "Recuperează"
+
+#: UiStrings.resx$RecoverFormTitle$Message
+msgid "Recover Scanned Images"
+msgstr "Recuperează imaginile scanate"
+
+#: MiscResources.resx$Recovering$Message
+msgid "Recovering..."
+msgstr "Recuperare..."
+
+#: MiscResources.resx$RecoveryProgress$Message
+msgid "Recovery Progress"
+msgstr "Progres recuperare"
+
+#: UiStrings.resx$RememberTheseSettings$Message
+msgid "Remember these settings"
+msgstr "Păstrează aceste setări"
+
+#: UiStrings.resx$Reorder$Message
+msgid "Reorder"
+msgstr "Reordonare"
+
+#: UiStrings.resx$Reset$Message
+msgid "Reset"
+msgstr "Resetare"
+
+#: MiscResources.resx$ResetImage$Message
+msgid "Reset Image"
+msgstr "Reinițializează imaginea"
+
+#: UiStrings.resx$ResolutionLabel$Message
+msgid "Resolution:"
+msgstr "Rezoluție:"
+
+#: UiStrings.resx$RestoreDefaults$Message
+msgid "Restore Defaults"
+msgstr "Restaurare valori implicite"
+
+#: UiStrings.resx$Reverse$Message
+msgid "Reverse"
+msgstr "Inversează"
+
+#: UiStrings.resx$ReverseAll$Message
+msgid "Reverse All"
+msgstr "Inversează Tot"
+
+#: UiStrings.resx$ReverseSelected$Message
+msgid "Reverse Selected"
+msgstr "Inversează ce este selectat"
+
+#: UiStrings.resx$Revert$Message
+msgid "Revert"
+msgstr "Revenire"
+
+#: SettingsResources.resx$HorizontalAlign_Right$Message
+msgid "Right"
+msgstr "Dreapta"
+
+#: UiStrings.resx$Rotate$Message
+msgid "Rotate"
+msgstr "Rotește"
+
+#: UiStrings.resx$RotateLeft$Message
+msgid "Rotate Left"
+msgstr "Rotește la stânga"
+
+#: UiStrings.resx$RotateRight$Message
+msgid "Rotate Right"
+msgstr "Rotește la dreapta"
+
+#: UiStrings.resx$RunInBackground$Message
+msgid "Run in Background"
+msgstr "Rulează în fundal"
+
+#: MiscResources.resx$RunningOcr$Message
+msgid "Running OCR..."
+msgstr "Se rulează OCR..."
+
+#: UiStrings.resx$SaneDriver$Message
+msgid "SANE Driver"
+msgstr "Driver SANE"
+
+#: UiStrings.resx$Save$Message
+msgid "Save"
+msgstr "Salvează"
+
+#: UiStrings.resx$SaveAll$Message
+msgid "Save All"
+msgstr "Salvează tot"
+
+#: UiStrings.resx$SaveAllAsImages$Message
+msgid "Save All as Images"
+msgstr "Salvează toate ca Imagini"
+
+#: UiStrings.resx$SaveAllAsPdf$Message
+msgid "Save All as PDF"
+msgstr "Salvează toate ca PDF"
+
+#: MiscResources.resx$SaveImages$Message
+#: UiStrings.resx$SaveImages$Message
+msgid "Save Images"
+msgstr "Salvează imaginile"
+
+#: MiscResources.resx$SaveImagesProgress$Message
+msgid "Save Images Progress"
+msgstr "Progres salvare imagini"
+
+#: MiscResources.resx$SavePdf$Message
+#: UiStrings.resx$SavePdf$Message
+msgid "Save PDF"
+msgstr "Salvează PDF"
+
+#: MiscResources.resx$SavePdfProgress$Message
+msgid "Save PDF Progress"
+msgstr "Progres salvare PDF"
+
+#: UiStrings.resx$SaveSelected$Message
+msgid "Save Selected"
+msgstr "Salvează selecția"
+
+#: UiStrings.resx$SaveSelectedAsImages$Message
+msgid "Save Selected as Images"
+msgstr "Salvați cele selectate ca imagini"
+
+#: UiStrings.resx$SaveSelectedAsPdf$Message
+msgid "Save Selected as PDF"
+msgstr "Salvați cele selectate ca PDF"
+
+#: UiStrings.resx$SaveToSingleFile$Message
+msgid "Save to a single file"
+msgstr "Salvează într-un singur fișier"
+
+#: UiStrings.resx$SaveToMultipleFiles$Message
+msgid "Save to multiple files"
+msgstr "Salvează în fișiere separate"
+
+#: MiscResources.resx$BatchStatusSaving$Message
+msgid "Saving batch results..."
+msgstr "Salvare rezultate procesare multiplă..."
+
+#: MiscResources.resx$SavingFormat$Message
+msgid "Saving {0}..."
+msgstr "Salvare {0}..."
+
+#: UiStrings.resx$ScaleWithWindow$Message
+msgid "Scale With Window"
+msgstr "Scalează odată cu fereastra"
+
+#: UiStrings.resx$ScaleLabel$Message
+msgid "Scale:"
+msgstr "Scalare:"
+
+#: MiscResources.resx$Scan$Message
+#: UiStrings.resx$Scan$Message
+msgid "Scan"
+msgstr "Scanează"
+
+#: UiStrings.resx$ScanConfig$Message
+msgid "Scan Configuration"
+msgstr "Configurare scanare"
+
+#: MiscResources.resx$ScannedImage$Message
+msgid "Scanned Image"
+msgstr "Imagine scanată"
+
+#: MiscResources.resx$ScanPageProgress$Message
+msgid "Scanning page {0}"
+msgstr "Scanare pagina {0}"
+
+#: MiscResources.resx$BatchStatusScanPage$Message
+msgid "Scanning page {0} (scan {1})..."
+msgstr "Scanare pagina {0} (scan {1})..."
+
+#: MiscResources.resx$BatchStatusPage$Message
+#: MiscResources.resx$ScanProgressPage$Message
+msgid "Scanning page {0}..."
+msgstr "Scanare pagina {0}..."
+
+#: UiStrings.resx$Second2Digit$Message
+msgid "Second (00-59)"
+msgstr "Secunde (00-59)"
+
+#: UiStrings.resx$Select$Message
+msgid "Select"
+msgstr "Selectează"
+
+#: UiStrings.resx$SelectAll$Message
+msgid "Select All"
+msgstr "Selectează tot"
+
+#: UiStrings.resx$SelectSource$Message
+msgid "Select Source"
+msgstr "Alegeți sursa"
+
+#: MiscResources.resx$SelectProfileBeforeScan$Message
+msgid "Select a profile before clicking Scan."
+msgstr "Selectați un profil înainte de a apăsa Scanare."
+
+#: UiStrings.resx$OcrSelectLanguageLabel$Message
+msgid "Select one or more languages:"
+msgstr "Alegeți una sau mai multe limbi:"
+
+#: MiscResources.resx$SelectedCount$Message
+msgid "Selected ({0})"
+msgstr "Selectate ({0})"
+
+#: UiStrings.resx$SeparateByPatchT$Message
+msgid "Separate files by Patch-T"
+msgstr "Separarea fișierelor pe baza codurilor Patch-T"
+
+#: UiStrings.resx$SetDefault$Message
+msgid "Set Default"
+msgstr "Stabilește ca implicit"
+
+#: UiStrings.resx$Sharpen$Message
+msgid "Sharpen"
+msgstr "Claritate"
+
+#: UiStrings.resx$Show$Message
+msgid "Show"
+msgstr "Arată"
+
+#: UiStrings.resx$SinglePageFiles$Message
+msgid "Single page files"
+msgstr "Fișier cu o singură pagină."
+
+#: UiStrings.resx$SingleScan$Message
+msgid "Single scan"
+msgstr "O singură scanare"
+
+#: UiStrings.resx$SkipSavePrompt$Message
+msgid "Skip save prompt"
+msgstr "Omite notificarea de salvare"
+
+#: UiStrings.resx$Start$Message
+msgid "Start"
+msgstr "Începe"
+
+#: UiStrings.resx$StretchToPageSize$Message
+msgid "Stretch to page size"
+msgstr "Redimensionează la mărimea paginii"
+
+#: UiStrings.resx$SubjectLabel$Message
+msgid "Subject:"
+msgstr "Subiect:"
+
+#: MiscResources.resx$FileTypeTiff$Message
+msgid "TIFF File (*.tiff, *.tif)"
+msgstr "Fișier TIFF (*.tiff, *.tif)"
+
+#: UiStrings.resx$TwainDriver$Message
+msgid "TWAIN Driver"
+msgstr "Driver TWAIN"
+
+#: UiStrings.resx$TechnicalDetails$Message
+msgid "Technical Details"
+msgstr "Detalii tehnice"
+
+#: MiscResources.resx$TesseractNotAvailable$Message
+#: SdkResources.resx$TesseractNotAvailable$Message
+msgid "The OCR engine is not available. Make sure to install the required package:"
+msgstr "Motorul OCR nu este disponibil. Asigură-te că ai instalat pachetul necesar.:"
+
+#: SdkResources.resx$OcrTimeout$Message
+msgid "The OCR operation timed out."
+msgstr "Operațiunea OCR a expirat."
+
+#: MiscResources.resx$SaneNotAvailable$Message
+#: SdkResources.resx$SaneNotAvailable$Message
+msgid "The SANE driver is not available. Make sure to install the required packages:"
+msgstr "Driverul SANE nu este disponibil. Asigurați-vă că instalați pachetele necesare:"
+
+#: MiscResources.resx$ImportErrorCouldNot$Message
+#: SdkResources.resx$ImportErrorCouldNot$Message
+msgid "The file '{0}' could not be imported."
+msgstr "Fișierul '{0}' nu a putut fi importat."
+
+#: MiscResources.resx$ImportErrorNAPS2Pdf$Message
+msgid "The file '{0}' could not be imported. Only PDF files generated by NAPS2 can be imported."
+msgstr "Fișierul '{0}' nu a putut fi importat. Doar fișierele PDF generate de NAPS2 pot fi importate."
+
+#: MiscResources.resx$FileInUse$Message
+msgid "The file could not be overwritten because it is currently in use."
+msgstr "Fișierul nu poate fi suprascris deoarece este în uz."
+
+#: MiscResources.resx$ConfirmOverwriteFile$Message
+msgid "The file {0} already exists. Do you want to overwrite it?"
+msgstr "Fișierul {0} deja există. Doriți să-l suprascrieți?"
+
+#: UiStrings.resx$EncryptedFilePrompt$Message
+msgid "The following file is encrypted and requires a password to open:"
+msgstr "Următorul fișier este criptat și necesită o parolă pentru a se deschide:"
+
+#: MiscResources.resx$DevicePaperJam$Message
+#: SdkResources.resx$DevicePaperJam$Message
+msgid "The scanner has a paper jam."
+msgstr "Scanerul are o foaie mototolită."
+
+#: MiscResources.resx$DeviceWarmingUp$Message
+#: SdkResources.resx$DeviceWarmingUp$Message
+msgid "The scanner is warming up."
+msgstr "Scanerul se inițializează."
+
+#: MiscResources.resx$DeviceCoverOpen$Message
+#: SdkResources.resx$DeviceCoverOpen$Message
+msgid "The scanner's cover is open."
+msgstr "Capacul scanerului este deschis."
+
+#: MiscResources.resx$DriverNotSupported$Message
+#: SdkResources.resx$DriverNotSupported$Message
+msgid "The selected driver is not supported on this system."
+msgstr "Driver-ul selectat nu este suportat de acest sistem.."
+
+#: MiscResources.resx$DeviceNotFound$Message
+#: SdkResources.resx$DeviceNotFound$Message
+msgid "The selected scanner could not be found."
+msgstr "Scanerul selectat nu a fost găsit."
+
+#: MiscResources.resx$NoFeederSupport$Message
+#: SdkResources.resx$NoFeederSupport$Message
+msgid "The selected scanner does not support using a feeder. If your scanner does have a feeder, try using a different driver."
+msgstr "Scanerul selectat nu suportă alimentarea automată. Dacă scanerul are totuși alimentare automată, atunci încercați alt driver."
+
+#: MiscResources.resx$NoDuplexSupport$Message
+#: SdkResources.resx$NoDuplexSupport$Message
+msgid "The selected scanner does not support using duplex. If your scanner is supposed to support duplex, try using a different driver."
+msgstr "Scanerul selectat nu suportă funcția duplex. Dacă scanerul are totuși duplex, atunci încercați alt driver."
+
+#: MiscResources.resx$DeviceBusy$Message
+#: SdkResources.resx$DeviceBusy$Message
+msgid "The selected scanner is busy."
+msgstr "Scanerul selectat este ocupat."
+
+#: MiscResources.resx$DeviceOffline$Message
+#: SdkResources.resx$DeviceOffline$Message
+msgid "The selected scanner is offline."
+msgstr "Scanerul selectat este deconectat."
+
+#: SettingsResources.resx$EmailProviderType_Thunderbird$Message
+msgid "Thunderbird"
+msgstr "Pasăre tunet"
+
+#: UiStrings.resx$TiffOptions$Message
+msgid "Tiff Options"
+msgstr "Opțiuni Tiff"
+
+#: UiStrings.resx$TimeBetweenScansLabel$Message
+msgid "Time between scans (seconds):"
+msgstr "Durată între scanări (secunde):"
+
+#: UiStrings.resx$TitleLabel$Message
+msgid "Title:"
+msgstr "Titlu:"
+
+#: UiStrings.resx$Tools$Message
+msgid "Tools"
+msgstr "Unelte"
+
+#: UiStrings.resx$TwainImplLabel$Message
+msgid "Twain Implementation:"
+msgstr "Implementare Twain:"
+
+#: SettingsResources.resx$PageSize_Legal$Message
+msgid "US Legal (8.5x14 in)"
+msgstr "US Legal (8.5x14 in)"
+
+#: SettingsResources.resx$PageSize_Letter$Message
+msgid "US Letter (8.5x11 in)"
+msgstr "US Letter (8.5x11 in)"
+
+#: MiscResources.resx$UnsavedChanges$Message
+msgid "Unsaved Changes"
+msgstr "Modificări nesalvate"
+
+#: MiscResources.resx$UpdateProgress$Message
+msgid "Update Progress"
+msgstr "Progres Actualizare"
+
+#: MiscResources.resx$UpdateCheckDisabled$Message
+msgid "Update checking is disabled."
+msgstr "Verificarea actualizării este dezactivată."
+
+#: MiscResources.resx$Updating$Message
+msgid "Updating..."
+msgstr "Se actualizează..."
+
+#: MiscResources.resx$UploadingEmail$Message
+msgid "Uploading email..."
+msgstr "Se încarcă e-mailul ..."
+
+#: UiStrings.resx$UseNativeUi$Message
+msgid "Use native UI"
+msgstr "Folosește interfața nativă"
+
+#: UiStrings.resx$UsePredefinedSettings$Message
+msgid "Use predefined settings"
+msgstr "Folosește configurările prestabilite"
+
+#: UiStrings.resx$UserPasswordLabel$Message
+msgid "User Password:"
+msgstr "Parolă utilizator:"
+
+#: UiStrings.resx$OcrDownloadSummaryText$Message
+msgid "Using OCR requires you to download each language you want to scan."
+msgstr "Folosirea funcției OCR necesită descărcarea fiecărei limbi pe care dorești să o folosești."
+
+#: MiscResources.resx$Version$Message
+#: SdkResources.resx$Version$Message
+msgid "Version {0}"
+msgstr "Versiune {0}"
+
+#: UiStrings.resx$View$Message
+msgid "View"
+msgstr "Vizualizare"
+
+#: UiStrings.resx$WiaDriver$Message
+msgid "WIA Driver"
+msgstr "Driver WIA"
+
+#: UiStrings.resx$WaitingForTwain$Message
+msgid "Waiting for TWAIN to complete..."
+msgstr "Se așteaptă ca scanerul TWAIN să termine..."
+
+#: UiStrings.resx$WaitingForAuthorization$Message
+msgid "Waiting for authorization..."
+msgstr "Se așteaptă autorizarea...."
+
+#: MiscResources.resx$BatchStatusWaitingForScan$Message
+msgid "Waiting for scan {0}..."
+msgstr "Așteptați scanarea {0}..."
+
+#: UiStrings.resx$WhiteThreshold$Message
+msgid "White Threshold"
+msgstr "Limita albă"
+
+#: UiStrings.resx$WiaVersionLabel$Message
+msgid "Wia Version:"
+msgstr "Versiunea Wia:"
+
+#: UiStrings.resx$Year4Digit$Message
+msgid "Year"
+msgstr "Anul"
+
+#: UiStrings.resx$Year2Digit$Message
+msgid "Year (00-99)"
+msgstr "Anul (00-99)"
+
+#: MiscResources.resx$PdfNoPermissionToExtractContent$Message
+#: SdkResources.resx$PdfNoPermissionToExtractContent$Message
+msgid "You do not have permission to copy content from the file '{0}'."
+msgstr "Nu aveţi permisiunea să copiaţi conţinut din fisierul '{0}'."
+
+#: MiscResources.resx$DontHavePermission$Message
+msgid "You don't have permission to save files at this location."
+msgstr "Nu aveţi permisiune de salvare în această locație."
+
+#: MiscResources.resx$ExitWithUnsavedChanges$Message
+msgid "You have unsaved changes. Are you sure you want to exit and discard those changes?"
+msgstr "Există modificări care nu sunt salvate. Sigur vreți să ieșiți și să renunțați la aceste modificări?"
+
+#: UiStrings.resx$Zoom$Message
+msgid "Zoom"
+msgstr "Zoom"
+
+#: UiStrings.resx$ZoomActual$Message
+msgid "Zoom Actual"
+msgstr "Zoom actual"
+
+#: UiStrings.resx$ZoomIn$Message
+msgid "Zoom In"
+msgstr "Mărește"
+
+#: UiStrings.resx$ZoomOut$Message
+msgid "Zoom Out"
+msgstr "Micșorează"
+
+#: SettingsResources.resx$PageSizeUnit_Centimetre$Message
+msgid "cm"
+msgstr "cm"
+
+#: SettingsResources.resx$PageSizeUnit_Inch$Message
+msgid "in"
+msgstr "in"
+
+#: SettingsResources.resx$PageSizeUnit_Millimetre$Message
+msgid "mm"
+msgstr "mm"
+
+#: MiscResources.resx$OfN$Message
+msgid "of {0}"
+msgstr "Din {0}"
+
+#: SettingsResources.resx$TwainImpl_X64$Message
+msgid "x64"
+msgstr "x64"
+
+#: MiscResources.resx$NamedPageSizeFormat$Message
+msgid "{0} ({1}x{2} {3})"
+msgstr "{0} ({1}x{2} {3})"
+
+#: MiscResources.resx$ProgressFormat$Message
+msgid "{0} / {1}"
+msgstr "{0} / {1}"
+
+#: MiscResources.resx$SizeProgress$Message
+msgid "{0} / {1} MB"
+msgstr "{0} / {1} MB"
+
+#: MiscResources.resx$FilesProgressFormat$Message
+msgid "{0} / {1} files"
+msgstr "{0} / {1} fișiere"
+
+#: SettingsResources.resx$DpiFormat$Message
+msgid "{0} dpi"
+msgstr "{0} dpi"
+
+#: UiStrings.resx$RecoverPrompt$Message
+msgid "{0} image(s) scanned on {1} at {2} may not have been saved, and are recoverable. Do you want to recover them?"
+msgstr "{0} imagini scanate în {1} la {2} nu au fost salvate și pot fi recuperate. Doriți să le recuperăm?"
+
+#: MiscResources.resx$ImagesSaved$Message
+msgid "{0} images saved."
+msgstr "{0} imagini salvate."
+
+#: MiscResources.resx$PdfStatus$Message
+#: UiStrings.resx$XOfY$Message
+msgid "{0} of {1}"
+msgstr "{0} din {1}"
+

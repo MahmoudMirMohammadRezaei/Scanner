@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6-windows;net462</TargetFrameworks>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <OutputType>WinExe</OutputType>
+    <LargeAddressAware>true</LargeAddressAware>
+    <RootNamespace>NAPS2.Worker</RootNamespace>
+    <AssemblyName>NAPS2.Worker</AssemblyName>
+
+    <PlatformTarget>x86</PlatformTarget>
+
+    <Title>NAPS2 - Not Another PDF Scanner</Title>
+    <Product>NAPS2 - Not Another PDF Scanner</Product>
+  </PropertyGroup>
+
+  <Import Project="..\NAPS2.Setup\targets\CommonTargets.targets" />
+  <Import Project="..\NAPS2.Setup\targets\SdkUsers.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\NAPS2.Lib.WinForms\NAPS2.Lib.WinForms.csproj" />
+    <ProjectReference Include="..\NAPS2.Sdk\NAPS2.Sdk.csproj" />
+    <PackageReference Include="LargeAddressAware" Version="1.0.3" />
+  </ItemGroup>
+</Project>

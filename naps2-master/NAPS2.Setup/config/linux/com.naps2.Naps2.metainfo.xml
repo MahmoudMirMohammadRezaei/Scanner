@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>com.naps2.Naps2</id>
+    <metadata_license>FSFAP</metadata_license>
+    <project_license>GPL-2.0-or-later</project_license>
+
+    <name>NAPS2 - Not Another PDF Scanner</name>
+    <summary>Scan documents to PDF and more, as simply as possible.</summary>
+    <description>
+        <p>
+            NAPS2 on Linux allows you to scan from USB (using SANE) and network scanners. Use your chosen settings, or
+            set up multiple profiles for different devices and configurations. Once you've finished scanning, you can
+            save, email, or print with only a couple clicks. Save to PDF, TIFF, JPEG, PNG, or other file types.
+        </p>
+        <p>
+            Easily rotate, crop, and rearrange scanned pages. Adjust brightness, contrast, and apply automatic document
+            corrections to make your scanned pages look great. Use OCR to add searchable text to your PDFs in any of
+            over 100 languages. Use batch scanning, advanced profile settings, and an optional CLI to automate tedious
+            tasks.
+        </p>
+        <p>
+            NAPS2 is available on Windows, Mac, and Linux. Share your scanners over the network so you can use them
+            across devices and operating systems.
+        </p>
+    </description>
+    <url type="homepage">https://www.naps2.com</url>
+    <url type="bugtracker">https://github.com/cyanfish/naps2/issues</url>
+    <url type="help">https://www.naps2.com/support</url>
+    <url type="contribute">https://www.naps2.com/contribute</url>
+    <url type="donation">https://www.naps2.com/donate</url>
+    <url type="translate">https://translate.naps2.com</url>
+    <developer_name>Ben Olden-Cooligan</developer_name>
+
+    <launchable type="desktop-id">com.naps2.Naps2.desktop</launchable>
+    <provides>
+        <binary>naps2</binary>
+    </provides>
+
+    <content_rating type="oars-1.1" />
+    <categories>
+        <category>Graphics</category>
+        <category>Office</category>
+    </categories>
+    <branding>
+        <color type="primary">#6688aa</color>
+    </branding>
+    <keywords>
+        <keyword translate="no">NAPS2</keyword>
+        <keyword translate="no">SANE</keyword>
+        <keyword translate="no">ESCL</keyword>
+        <keyword translate="no">PDF</keyword>
+        <keyword translate="no">TIFF</keyword>
+        <keyword>scan</keyword>
+        <keyword>scanning</keyword>
+        <keyword>scanner</keyword>
+        <keyword>duplex</keyword>
+        <keyword>ADF</keyword>
+        <keyword>OCR</keyword>
+    </keywords>
+
+    <requires>
+        <display_length compare="ge">medium</display_length>
+    </requires>
+    <recommends>
+        <display_length compare="ge">large</display_length>
+        <control>pointing</control>
+        <control>keyboard</control>
+        <control>console</control>
+        <control>tablet</control>
+        <control>touch</control>
+    </recommends>
+
+    <screenshots>
+        <screenshot type="default">
+            <image>https://www.naps2.com/images/naps2-gtk-screen-desktop-small.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://www.naps2.com/images/naps2-gtk-screen-desktop.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://www.naps2.com/images/naps2-gtk-screen-profile-settings.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://www.naps2.com/images/naps2-gtk-screen-ocr-setup.png</image>
+        </screenshot>
+    </screenshots>
+
+    <releases>
+        <release version="7.0b1" date="2022-10-25"/>
+    </releases>
+</component>

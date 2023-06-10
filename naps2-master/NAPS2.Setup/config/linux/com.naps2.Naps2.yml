@@ -1,0 +1,135 @@
+app-id: com.naps2.Naps2
+runtime: org.freedesktop.Platform
+runtime-version: '22.08'
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.dotnet6
+command: naps2
+copy-icon: true
+cleanup:
+  - /include
+  - /lib/*.a
+  - /lib/*.la
+  - /lib/cmake
+  - /lib/debug
+  - /lib/pkgconfig
+  - /share/doc
+  - /share/man
+modules:
+  # TODO: Used shared module for libusb
+  - name: libusb
+    buildsystem: autotools
+    sources:
+      - type: git
+        url: https://github.com/libusb/libusb
+        tag: v1.0.26
+        commit: 4239bc3a50014b8e6a5a2a59df1fff3b7469543b
+  - name: leptonica
+    buildsystem: cmake-ninja
+    builddir: true
+    sources:
+      - type: git
+        url: https://github.com/DanBloomberg/leptonica
+        tag: 1.82.0
+        commit: f4138265b390f1921b9891d6669674d3157887d8
+  - name: tesseract
+    buildsystem: cmake-ninja
+    builddir: true
+    cleanup:
+      - /app/share/tessdata
+    config-opts:
+      - -DDISABLED_LEGACY_ENGINE=ON
+      - -DBUILD_TRAINING_TOOLS=OFF
+      - -DENABLE_LTO=ON
+    sources:
+      - type: git
+        url: https://github.com/tesseract-ocr/tesseract
+        tag: 5.2.0
+        commit: 5ad5325a0aa8effc47ca033625b6a51682f82767
+  - name: avahi
+    buildsystem: autotools
+    config-opts:
+      - --with-distro=debian
+      - --disable-libevent
+      - --disable-qt4
+      - --disable-qt5
+      - --disable-libdaemon
+      - --disable-python
+      - --disable-mono
+      - --disable-manpages
+    sources:
+      - type: git
+        url: https://github.com/lathiat/avahi
+        tag: v0.8
+        commit: f060abee2807c943821d88839c013ce15db17b58
+  - name: sane
+    buildsystem: autotools
+    sources:
+      - type: git
+        url: https://gitlab.com/sane-project/backends
+        tag: 1.1.1
+        commit: 332edc8b7ce642bb06132cf204a8c2dd57720bce
+      - type: patch
+        path: sane-streamdevices.patch
+  - name: sane-airscan
+    buildsystem: meson
+    sources:
+      - type: git
+        url: https://github.com/alexpevzner/sane-airscan
+        tag: 0.99.27
+        commit: 053f5654cd4d16f077fe5cb40d32004aaa321462
+  - name: main
+    buildsystem: simple
+    build-options:
+      append-path: /usr/lib/sdk/dotnet6/bin
+      append-ld-library-path: /usr/lib/sdk/dotnet6/lib
+      env:
+        PKG_CONFIG_PATH: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/dotnet6/lib/pkgconfig
+        DOTNET_CLI_TELEMETRY_OPTOUT: 'true'
+        DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 'true'
+      arch:
+        aarch64:
+          env:
+            RUNTIME: linux-arm64
+        x86_64:
+          env:
+            RUNTIME: linux-x64
+    build-commands:
+      - mkdir -p /app/bin
+      - dotnet publish NAPS2.App.Gtk -c Release -r $RUNTIME --self-contained /p:DebugType=None /p:DebugSymbols=false --source ./nuget-sources
+      - cp -r --remove-destination /run/build/main/NAPS2.App.Gtk/bin/Release/net6/$RUNTIME/publish/. /app/bin/
+      - install -Dm644 com.naps2.Naps2.png /app/share/icons/hicolor/128x128/apps/com.naps2.Naps2.png
+      - install -Dm644 com.naps2.Naps2.metainfo.xml /app/share/metainfo/com.naps2.Naps2.metainfo.xml
+      - install -Dm644 com.naps2.Naps2.desktop /app/share/applications/com.naps2.Naps2.desktop
+    cleanup:
+      - /bin/_linuxarm/tesseract
+      - /bin/_linux/tesseract
+    sources:
+      - type: git
+        path: ../../../../../..
+      - nuget-sources.json
+      - type: file
+        path: com.naps2.Naps2.png
+      - type: file
+        path: com.naps2.Naps2.metainfo.xml
+      - type: file
+        path: com.naps2.Naps2.desktop
+finish-args:
+  # GUI
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --share=ipc
+  # USB scanning
+  - --device=all
+  # Network scanning
+  - --share=network
+  # We need /usr access to read host-installed SANE backends
+  # CLI/batch scanning might also need read/write access to arbitrary folders without being able to use a portal
+  - --filesystem=host
+  # App data
+  - --filesystem=xdg-config/naps2
+  # GVfs
+  - --filesystem=xdg-run/gvfsd
+  - --talk-name=org.gtk.vfs.*
+  # mDNS discovery for ESCL scanners
+  - --system-talk-name=org.freedesktop.Avahi
