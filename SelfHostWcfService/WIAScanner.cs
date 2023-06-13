@@ -87,7 +87,7 @@ namespace SelfHost
         /// <returns>Scanned images.</returns>
         public static List<Image> Scan(string scannerId, string logPath)
         {
-            int maxReTry = 5;
+            int maxReTry = 10;
 
             List<Image> images = new List<Image>();
             int tryMorePagesCounter = 0;
