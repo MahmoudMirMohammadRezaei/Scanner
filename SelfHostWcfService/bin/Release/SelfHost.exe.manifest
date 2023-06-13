@@ -48,8 +48,8 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>6bNqDeP4dK9DGq+QvI3lVjQesUw=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UhXPoDUZ+oYkTqr9wi/tGZM3gR/sA8lQ9aXaCBQ6mfw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -60,18 +60,18 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>jszjnfAfkoNLL2oyrs05JDcBCxc=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>I14CPNf2McwGIN3q9N5xCl1hOcz+ag8W3VPCviDMAv8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="SelfHost.exe.config" size="938">
+  <file name="SelfHost.exe.config" size="921">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>j4bI5Jjlv9yR3cqqkmQyyZWlXNQ=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>74LYUEz8z0Vi3p/G67q7RDgOguJ21bhBdQrg8kLFIXA=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
